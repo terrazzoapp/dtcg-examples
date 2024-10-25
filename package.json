@@ -1,0 +1,34 @@
+{
+  "name": "dtcg-examples",
+  "version": "0.0.1",
+  "description": "Open source design systems, expressed as DTCG JSON",
+  "keywords": [
+    "design tokens",
+    "design system",
+    "dtcg",
+    "w3c",
+    "css"
+  ],
+  "type": "module",
+  "author": {
+    "name": "Drew Powers",
+    "email": "drew@pow.rs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terrazzoapp/dtcg-examples"
+  },
+  "scripts": {
+    "lint": "pnpm run --parallel \"/^lint:/\"",
+    "lint:adobe": "tz check ./adobe/tokens.json",
+    "lint:apple": "tz check ./apple/tokens.json",
+    "lint:github": "tz check ./github/tokens.json",
+    "lint:ibm": "tz check ./ibm/tokens.json",
+    "lint:radix": "tz check ./radix/tokens.json",
+    "lint:salesforce": "tz check ./salesforce/tokens.json",
+    "lint:shopify": "tz check ./shopify/tokens.json"
+  },
+  "devDependencies": {
+    "@terrazzo/cli": "^0.1.0"
+  }
+}
