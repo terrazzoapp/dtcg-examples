@@ -1,6 +1,6 @@
 # DTCG Examples
 
-Examples of Open source design systems, expressed in the [DTCG design token Format](https://tr.designtokens.org/format/) (with [Terrazzo extensions](https://terrazzo.app)).
+Examples of open source design systems, expressed in the open standard [DTCG design token Format](https://tr.designtokens.org/format/) (with [Terrazzo extensions](https://terrazzo.app)). This is a community project, and not the official versions of the design systems.
 
 ## Design systems
 

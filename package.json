@@ -7,7 +7,12 @@
     "design system",
     "dtcg",
     "w3c",
-    "css"
+    "carbon",
+    "polaris",
+    "primer",
+    "radix",
+    "sds",
+    "spectrum"
   ],
   "type": "module",
   "license": "MIT",
@@ -23,6 +28,7 @@
     "lint": "pnpm run --parallel \"/^lint:/\"",
     "lint:adobe": "tz check ./adobe/tokens.json",
     "lint:apple": "tz check ./apple/tokens.json",
+    "lint:figma": "tz check ./figma/tokens.json",
     "lint:github": "tz check ./github/tokens.json",
     "lint:ibm": "tz check ./ibm/tokens.json",
     "lint:radix": "tz check ./radix/tokens.json",
