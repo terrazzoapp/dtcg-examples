@@ -10,6 +10,7 @@
     "css"
   ],
   "type": "module",
+  "license": "MIT",
   "author": {
     "name": "Drew Powers",
     "email": "drew@pow.rs"
