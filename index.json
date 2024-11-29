@@ -26,6 +26,11 @@
       "tokens": ["ibm-carbon.json"]
     },
     {
+      "name": "Fluent",
+      "author": "Microsoft",
+      "tokens": ["microsoft-fluent.json"]
+    },
+    {
       "name": "Radix",
       "author": "Radix",
       "tokens": ["radix.json"]
