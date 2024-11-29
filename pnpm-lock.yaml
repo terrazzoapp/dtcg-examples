@@ -9,24 +9,24 @@ importers:
   .:
     devDependencies:
       '@terrazzo/cli':
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.2.1
+        version: 0.2.1
 
 packages:
 
-  '@humanwhocodes/momoa@3.3.0':
-    resolution: {integrity: sha512-X7kFLCbAQqadYJl0K9LbCZk4XZbMpG+/7OyABi6fNpYOMKei434zEfLxS5HcZV0vy/0gTDwDRFc4PzjSRsPg0w==}
+  '@humanwhocodes/momoa@3.3.3':
+    resolution: {integrity: sha512-5EKzSg1FH5wpg0HXBsglgC5u9U4qFgvZX7u8oVDP6XH6Mh9kmz4iQZV9/88xMdQ/UGQNxckf5njK65gU9jjS0w==}
     engines: {node: '>=18'}
 
-  '@terrazzo/cli@0.1.0':
-    resolution: {integrity: sha512-hVhKWo2/3bKn5Fqp3Qnyj4Y6hOT0ri1q3pINdJ/5JHWHMQfiiMZdILNRqNpmKzci+0aKougY3ZuwTASgLijh8w==}
+  '@terrazzo/cli@0.2.1':
+    resolution: {integrity: sha512-4S4FKycJeLRRZPZTl6pX19lYjMh8fxII3RD7Qx5DCQkFUUve+nfVOSbmIi1vChowSdGC3OKszsomWjPUs6AyXw==}
     hasBin: true
 
-  '@terrazzo/parser@0.1.0':
-    resolution: {integrity: sha512-p4Uj9gTBq+TeVw8CTy6tcmU3/vqNAaO+Pp0xFZcW9nfoQ62kRKhLPIV6YB5RHfDrLyForQ2a1h5Nr4jhNklPxA==}
+  '@terrazzo/parser@0.2.1':
+    resolution: {integrity: sha512-sHGAm+llP7ypSRqcJGz9CfW722ruYnpRQxNajHLKHzUe8rbA8jAz9IXWfySFZbeW+QeUvFhEYbzUW4Ls0YEvOw==}
 
-  '@terrazzo/token-tools@0.1.0':
-    resolution: {integrity: sha512-L1L8lWMNDkkBBeugbJaTn3NBcy1VEKB3Ph1ebpPkklovmGWm+f+N707Jf/eRC+hwVwVNcEh5paUcGHJBL3Oo1A==}
+  '@terrazzo/token-tools@0.2.1':
+    resolution: {integrity: sha512-9eufdZoX69xHrhupT5PIF+yzMoGl1nzC0yCW5Vg7MLN1+atuHLVh0dNiHQoaqT2MiMR6pDGyDLIs/oBLNQ0G7g==}
 
   '@types/babel__code-frame@7.0.6':
     resolution: {integrity: sha512-Anitqkl3+KrzcW2k77lRlg/GfLZLWXBuNgbEcIOU6M92yw42vsd3xV/Z/yAHEj8m+KUjL6bWOVOFqX8PFPJ4LA==}
@@ -120,49 +120,45 @@ packages:
   wildcard-match@5.1.3:
     resolution: {integrity: sha512-a95hPUk+BNzSGLntNXYxsjz2Hooi5oL7xOfJR6CKwSsSALh7vUNuTlzsrZowtYy38JNduYFRVhFv19ocqNOZlg==}
 
-  yaml-to-momoa@0.0.1:
-    resolution: {integrity: sha512-veT3zMQSdVv/YRCEOBFtoxTcI7Y5OtC78i6rUiaFXHxTNemyMq5ARf8UJkfdkdf77DrMdSyUPfCvVW0Qk49PZQ==}
+  yaml-to-momoa@0.0.3:
+    resolution: {integrity: sha512-8zEu6HkZO+upPrmEg9kqugEoPC8A11f7zveWv4qwMHJ1+21FYU2bqf2TleMm2IlwRNcdvDLx0yWJUxGlHJm3qA==}
 
-  yaml@2.6.0:
-    resolution: {integrity: sha512-a6ae//JvKDEra2kdi1qzCyrJW/WZCgFi8ydDV+eXExl95t+5R+ijnqHJbz9tmMh8FUjx3iv2fCQ4dclAQlO2UQ==}
+  yaml@2.6.1:
+    resolution: {integrity: sha512-7r0XPzioN/Q9kXBro/XPnA6kznR73DHq+GXh5ON7ZozRO6aMjbmiBuKste2wslTFkC5d1dw0GooOCepZXJ2SAg==}
     engines: {node: '>= 14'}
     hasBin: true
 
-  yargs-parser@21.1.1:
-    resolution: {integrity: sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==}
-    engines: {node: '>=12'}
-
 snapshots:
 
-  '@humanwhocodes/momoa@3.3.0': {}
+  '@humanwhocodes/momoa@3.3.3': {}
 
-  '@terrazzo/cli@0.1.0':
+  '@terrazzo/cli@0.2.1':
     dependencies:
-      '@terrazzo/parser': 0.1.0
-      '@terrazzo/token-tools': 0.1.0
+      '@terrazzo/parser': 0.2.1
+      '@terrazzo/token-tools': 0.2.1
       chokidar: 3.6.0
       dotenv: 16.4.5
       merge-anything: 5.1.7
       picocolors: 1.1.1
-      yaml-to-momoa: 0.0.1
-      yargs-parser: 21.1.1
+      yaml-to-momoa: 0.0.3
 
-  '@terrazzo/parser@0.1.0':
+  '@terrazzo/parser@0.2.1':
     dependencies:
-      '@humanwhocodes/momoa': 3.3.0
-      '@terrazzo/token-tools': 0.1.0
+      '@humanwhocodes/momoa': 3.3.3
+      '@terrazzo/token-tools': 0.2.1
       '@types/babel__code-frame': 7.0.6
       '@types/culori': 2.1.1
       culori: 4.0.1
       is-what: 4.1.16
       merge-anything: 5.1.7
       picocolors: 1.1.1
+      scule: 1.3.0
       wildcard-match: 5.1.3
-      yaml: 2.6.0
+      yaml: 2.6.1
 
-  '@terrazzo/token-tools@0.1.0':
+  '@terrazzo/token-tools@0.2.1':
     dependencies:
-      '@humanwhocodes/momoa': 3.3.0
+      '@humanwhocodes/momoa': 3.3.3
       culori: 4.0.1
       scule: 1.3.0
       wildcard-match: 5.1.3
@@ -245,11 +241,9 @@ snapshots:
 
   wildcard-match@5.1.3: {}
 
-  yaml-to-momoa@0.0.1:
+  yaml-to-momoa@0.0.3:
     dependencies:
-      '@humanwhocodes/momoa': 3.3.0
-      yaml: 2.6.0
+      '@humanwhocodes/momoa': 3.3.3
+      yaml: 2.6.1
 
-  yaml@2.6.0: {}
-
-  yargs-parser@21.1.1: {}
+  yaml@2.6.1: {}
