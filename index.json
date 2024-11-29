@@ -1,0 +1,44 @@
+{
+  "design-systems": [
+    {
+      "name": "Spectrum",
+      "author": "Adobe",
+      "tokens": ["adobe-spectrum.json"]
+    },
+    {
+      "name": "Human Interface Guidelines",
+      "author": "Apple",
+      "tokens": ["apple-hig.json"]
+    },
+    {
+      "name": "Simple Design System",
+      "author": "Figma",
+      "tokens": ["figma-sds.json"]
+    },
+    {
+      "name": "Primer",
+      "author": "GitHub",
+      "tokens": ["github-primer.json"]
+    },
+    {
+      "name": "Carbon",
+      "author": "IBM",
+      "tokens": ["ibm-carbon.json"]
+    },
+    {
+      "name": "Radix",
+      "author": "Radix",
+      "tokens": ["radix.json"]
+    },
+    {
+      "name": "Lightning",
+      "author": "Salesforce",
+      "tokens": ["salesforce-lightning.json"]
+    },
+    {
+      "name": "Polaris",
+      "author": "Shopify",
+      "tokens": ["shopify-polaris.json"]
+    }
+  ]
+}

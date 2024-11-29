@@ -26,16 +26,16 @@
   },
   "scripts": {
     "lint": "pnpm run --parallel \"/^lint:/\"",
-    "lint:adobe": "tz check ./adobe/tokens.json",
-    "lint:apple": "tz check ./apple/tokens.json",
-    "lint:figma": "tz check ./figma/tokens.json",
-    "lint:github": "tz check ./github/tokens.json",
-    "lint:ibm": "tz check ./ibm/tokens.json",
-    "lint:radix": "tz check ./radix/tokens.json",
-    "lint:salesforce": "tz check ./salesforce/tokens.json",
-    "lint:shopify": "tz check ./shopify/tokens.json"
+    "lint:adobe": "tz check adobe-spectrum.json",
+    "lint:apple": "tz check apple-hig.json",
+    "lint:figma": "tz check figma-sds.json",
+    "lint:github": "tz check github-primer.json",
+    "lint:ibm": "tz check ibm-carbon.json",
+    "lint:radix": "tz check radix.json",
+    "lint:salesforce": "tz check salesforce-lightning.json",
+    "lint:shopify": "tz check shopify-polaris.json"
   },
   "devDependencies": {
-    "@terrazzo/cli": "^0.1.0"
+    "@terrazzo/cli": "^0.2.1"
   }
 }
