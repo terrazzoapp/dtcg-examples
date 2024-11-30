@@ -31,11 +31,12 @@
     "lint:figma": "tz check figma-sds.json",
     "lint:github": "tz check github-primer.json",
     "lint:ibm": "tz check ibm-carbon.json",
+    "lint:ms": "tz check microsoft-fluent.json",
     "lint:radix": "tz check radix.json",
     "lint:salesforce": "tz check salesforce-lightning.json",
     "lint:shopify": "tz check shopify-polaris.json"
   },
   "devDependencies": {
-    "@terrazzo/cli": "^0.2.1"
+    "@terrazzo/cli": "^0.2.4"
   }
 }
