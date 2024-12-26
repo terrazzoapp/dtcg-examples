@@ -9,30 +9,30 @@ importers:
   .:
     devDependencies:
       '@terrazzo/cli':
-        specifier: ^0.2.4
-        version: 0.2.4
+        specifier: ^0.3.3
+        version: 0.3.3
 
 packages:
 
-  '@clack/core@0.3.5':
-    resolution: {integrity: sha512-5cfhQNH+1VQ2xLQlmzXMqUoiaH0lRBq9/CLW9lTyMbuKLC3+xEK01tHVvyut++mLOn5urSHmkm6I0Lg9MaJSTQ==}
+  '@clack/core@0.4.0':
+    resolution: {integrity: sha512-YJCYBsyJfNDaTbvDUVSJ3SgSuPrcujarRgkJ5NLjexDZKvaOiVVJvAQYx8lIgG0qRT8ff0fPgqyBCVivanIZ+A==}
 
-  '@clack/prompts@0.8.2':
-    resolution: {integrity: sha512-6b9Ab2UiZwJYA9iMyboYyW9yJvAO9V753ZhS+DHKEjZRKAxPPOb7MXXu84lsPFG+vZt6FRFniZ8rXi+zCIw4yQ==}
+  '@clack/prompts@0.9.0':
+    resolution: {integrity: sha512-nGsytiExgUr4FL0pR/LeqxA28nz3E0cW7eLTSh3Iod9TGrbBt8Y7BHbV3mmkNC4G0evdYyQ3ZsbiBkk7ektArA==}
 
-  '@humanwhocodes/momoa@3.3.3':
-    resolution: {integrity: sha512-5EKzSg1FH5wpg0HXBsglgC5u9U4qFgvZX7u8oVDP6XH6Mh9kmz4iQZV9/88xMdQ/UGQNxckf5njK65gU9jjS0w==}
+  '@humanwhocodes/momoa@3.3.5':
+    resolution: {integrity: sha512-NI9codbQNjw9g4SS/cOizi8JDZ93B3oGVko8M3y0XF3gITaGDSQqea35V8fswWehnRQBLxPfZY5TJnuNhNCEzA==}
     engines: {node: '>=18'}
 
-  '@terrazzo/cli@0.2.4':
-    resolution: {integrity: sha512-WHvsLyJKFgtwp5eXjNhmY69OuB5XABTrGow7YIBtjlekJPAeBoZx04HRUMpQSjPGMOOWhXKuS5R8UEP+M+cQ8w==}
+  '@terrazzo/cli@0.3.3':
+    resolution: {integrity: sha512-nPFTbzV06cXCoJQgmrO8dalEHjVRhC3dxoodJpSHFhIVasI+ctEBQwH43RJtabpBCH/7uoVQ1HXJI6Qxo4fN+g==}
     hasBin: true
 
-  '@terrazzo/parser@0.2.4':
-    resolution: {integrity: sha512-YevUNgoa3jYvxmrMykLcD+8yJO9Wu02BaPAaTTG53OlGsy5moXTeIqnEEc5XHG/LTA4KtgByOuIvx5nOPIGuIg==}
+  '@terrazzo/parser@0.3.3':
+    resolution: {integrity: sha512-gifnKbN7wl46fXcVZUD4c62CBdtnCizRaFI2Cem0FVcDKSUuwXxllvmdYZ0qkRYYWeAtaufpml6wMNCT8Zj+Gw==}
 
-  '@terrazzo/token-tools@0.2.4':
-    resolution: {integrity: sha512-tf1B+eSJqxl4mkXO/4YDUx3Fh5x+tADoDZh5Luhn7NmFMaxDtMZiIm9fkUVYqm+DWnXLLrEpL0R83xE7xt9Ssg==}
+  '@terrazzo/token-tools@0.3.3':
+    resolution: {integrity: sha512-0iVpBqPUh9/kGMK87HR5iU0XtiMZVyinKLil/3GTMcNMbWcnu7HMjeisfi8xUkWEHkfntw4ekjqm1o+UEbj0uA==}
 
   '@types/babel__code-frame@7.0.6':
     resolution: {integrity: sha512-Anitqkl3+KrzcW2k77lRlg/GfLZLWXBuNgbEcIOU6M92yw42vsd3xV/Z/yAHEj8m+KUjL6bWOVOFqX8PFPJ4LA==}
@@ -71,8 +71,8 @@ packages:
     resolution: {integrity: sha512-8JFjJHutStYrfWwzfretQoyNGoZVW1Fsrp4JO9spa7h/fBfwgTMEIy4/LBzRDGsxwVPHU0q+T9YvwLDJoOApLQ==}
     engines: {node: '>=12'}
 
-  dotenv@16.4.5:
-    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
+  dotenv@16.4.7:
+    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
     engines: {node: '>=12'}
 
   escodegen@2.1.0:
@@ -221,8 +221,8 @@ packages:
     engines: {node: '>= 8'}
     hasBin: true
 
-  wildcard-match@5.1.3:
-    resolution: {integrity: sha512-a95hPUk+BNzSGLntNXYxsjz2Hooi5oL7xOfJR6CKwSsSALh7vUNuTlzsrZowtYy38JNduYFRVhFv19ocqNOZlg==}
+  wildcard-match@5.1.4:
+    resolution: {integrity: sha512-wldeCaczs8XXq7hj+5d/F38JE2r7EXgb6WQDM84RVwxy81T/sxB5e9+uZLK9Q9oNz1mlvjut+QtvgaOQFPVq/g==}
 
   yaml-to-momoa@0.0.3:
     resolution: {integrity: sha512-8zEu6HkZO+upPrmEg9kqugEoPC8A11f7zveWv4qwMHJ1+21FYU2bqf2TleMm2IlwRNcdvDLx0yWJUxGlHJm3qA==}
@@ -234,38 +234,39 @@ packages:
 
 snapshots:
 
-  '@clack/core@0.3.5':
+  '@clack/core@0.4.0':
     dependencies:
       picocolors: 1.1.1
       sisteransi: 1.0.5
 
-  '@clack/prompts@0.8.2':
+  '@clack/prompts@0.9.0':
     dependencies:
-      '@clack/core': 0.3.5
+      '@clack/core': 0.4.0
       picocolors: 1.1.1
       sisteransi: 1.0.5
 
-  '@humanwhocodes/momoa@3.3.3': {}
+  '@humanwhocodes/momoa@3.3.5': {}
 
-  '@terrazzo/cli@0.2.4':
+  '@terrazzo/cli@0.3.3':
     dependencies:
-      '@clack/prompts': 0.8.2
-      '@terrazzo/parser': 0.2.4
-      '@terrazzo/token-tools': 0.2.4
+      '@clack/prompts': 0.9.0
+      '@humanwhocodes/momoa': 3.3.5
+      '@terrazzo/parser': 0.3.3
+      '@terrazzo/token-tools': 0.3.3
       '@types/escodegen': 0.0.10
       chokidar: 3.6.0
       detect-package-manager: 3.0.2
-      dotenv: 16.4.5
+      dotenv: 16.4.7
       escodegen: 2.1.0
       merge-anything: 5.1.7
       meriyah: 6.0.3
       picocolors: 1.1.1
       yaml-to-momoa: 0.0.3
 
-  '@terrazzo/parser@0.2.4':
+  '@terrazzo/parser@0.3.3':
     dependencies:
-      '@humanwhocodes/momoa': 3.3.3
-      '@terrazzo/token-tools': 0.2.4
+      '@humanwhocodes/momoa': 3.3.5
+      '@terrazzo/token-tools': 0.3.3
       '@types/babel__code-frame': 7.0.6
       '@types/culori': 2.1.1
       culori: 4.0.1
@@ -273,15 +274,14 @@ snapshots:
       merge-anything: 5.1.7
       picocolors: 1.1.1
       scule: 1.3.0
-      wildcard-match: 5.1.3
+      wildcard-match: 5.1.4
       yaml: 2.6.1
 
-  '@terrazzo/token-tools@0.2.4':
+  '@terrazzo/token-tools@0.3.3':
     dependencies:
-      '@humanwhocodes/momoa': 3.3.3
+      '@humanwhocodes/momoa': 3.3.5
       culori: 4.0.1
-      scule: 1.3.0
-      wildcard-match: 5.1.3
+      wildcard-match: 5.1.4
 
   '@types/babel__code-frame@7.0.6': {}
 
@@ -324,7 +324,7 @@ snapshots:
     dependencies:
       execa: 5.1.1
 
-  dotenv@16.4.5: {}
+  dotenv@16.4.7: {}
 
   escodegen@2.1.0:
     dependencies:
@@ -440,11 +440,11 @@ snapshots:
     dependencies:
       isexe: 2.0.0
 
-  wildcard-match@5.1.3: {}
+  wildcard-match@5.1.4: {}
 
   yaml-to-momoa@0.0.3:
     dependencies:
-      '@humanwhocodes/momoa': 3.3.3
+      '@humanwhocodes/momoa': 3.3.5
       yaml: 2.6.1
 
   yaml@2.6.1: {}
