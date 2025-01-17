@@ -29,19 +29,19 @@
         }
       },
       "transparent": {
-        "$value": "ffffff",
+        "$value": "#ffffff",
         "$extensions": {
           "mode": {
-            "light": "ffffff",
+            "light": "#ffffff",
             "light-high-contrast": "#ffffff"
           }
         }
       },
       "white": {
-        "$value": "ffffff",
+        "$value": "#ffffff",
         "$extensions": {
           "mode": {
-            "light": "ffffff",
+            "light": "#ffffff",
             "light-colorblind": "#ffffff",
             "light-high-contrast": "#ffffff",
             "dark": "#ffffff",
