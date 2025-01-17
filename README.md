@@ -6,13 +6,14 @@ Examples of open source design systems, expressed in the open standard [DTCG des
 
 _Disclaimer: this project is not affiliated with any of the following design systems or design teams. All design systems are © copyright their respective owners, and are only redistributed here under fair use._
 
-- [Adobe Spectrum](./adobe/tokens.json)
-- [Apple Human Interface Guidelines](./apple/tokens.json)
-- [Figma Simple Design System](./figma/tokens.json)
-- [GitHub Primer](./github/tokens.json)
-- [IBM Carbon](./ibm/tokens.json)
-- [Radix UI](./radix/tokens.json)
-- [Salesforce Lightning](./salesforce/tokens.json)
-- [Shopify Polaris](./shopify/tokens.json)
+- [Adobe Spectrum](./adobe-spectrum.json)
+- [Apple Human Interface Guidelines](./apple-hig.json)
+- [Figma Simple Design System](./figma-sds.json)
+- [GitHub Primer](./github-primer.json)
+- [IBM Carbon](./ibm-carbon.json)
+- [Microsoft Fluent](./microsoft-fluent.json)
+- [Radix UI](./radix.json)
+- [Salesforce Lightning](./salesforce-lightning.json)
+- [Shopify Polaris](./shopify-polaris.json)
 
 Have one you want to add? [Open a PR](https://github.com/terrazzoapp/dtcg-examples/pulls)!
