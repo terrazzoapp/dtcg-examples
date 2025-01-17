@@ -1372,7 +1372,9 @@
       "bookmark-fill-24": { "$value": "/icon/bookmark-fill-24.svg" },
       "bookmark-slash-16": { "$value": "/icon/bookmark-slash-16.svg" },
       "bookmark-slash-24": { "$value": "/icon/bookmark-slash-24.svg" },
-      "bookmark-slash-fill-24": { "$value": "/icon/bookmark-slash-fill-24.svg" },
+      "bookmark-slash-fill-24": {
+        "$value": "/icon/bookmark-slash-fill-24.svg"
+      },
       "briefcase-16": { "$value": "/icon/briefcase-16.svg" },
       "briefcase-24": { "$value": "/icon/briefcase-24.svg" },
       "broadcast-16": { "$value": "/icon/broadcast-16.svg" },
@@ -1446,8 +1448,12 @@
       "desktop-download-16": { "$value": "/icon/desktop-download-16.svg" },
       "desktop-download-24": { "$value": "/icon/desktop-download-24.svg" },
       "device-camera-16": { "$value": "/icon/device-camera-16.svg" },
-      "device-camera-video-16": { "$value": "/icon/device-camera-video-16.svg" },
-      "device-camera-video-24": { "$value": "/icon/device-camera-video-24.svg" },
+      "device-camera-video-16": {
+        "$value": "/icon/device-camera-video-16.svg"
+      },
+      "device-camera-video-24": {
+        "$value": "/icon/device-camera-video-24.svg"
+      },
       "device-desktop-16": { "$value": "/icon/device-desktop-16.svg" },
       "device-desktop-24": { "$value": "/icon/device-desktop-24.svg" },
       "device-mobile-16": { "$value": "/icon/device-mobile-16.svg" },
@@ -1485,7 +1491,9 @@
       "file-diff-24": { "$value": "/icon/file-diff-24.svg" },
       "file-directory-16": { "$value": "/icon/file-directory-16.svg" },
       "file-directory-24": { "$value": "/icon/file-directory-24.svg" },
-      "file-directory-fill-24": { "$value": "/icon/file-directory-fill-24.svg" },
+      "file-directory-fill-24": {
+        "$value": "/icon/file-directory-fill-24.svg"
+      },
       "file-media-24": { "$value": "/icon/file-media-24.svg" },
       "file-submodule-16": { "$value": "/icon/file-submodule-16.svg" },
       "file-submodule-24": { "$value": "/icon/file-submodule-24.svg" },
@@ -1517,10 +1525,18 @@
       "git-merge-24": { "$value": "/icon/git-merge-24.svg" },
       "git-pull-request-16": { "$value": "/icon/git-pull-request-16.svg" },
       "git-pull-request-24": { "$value": "/icon/git-pull-request-24.svg" },
-      "git-pull-request-closed-16": { "$value": "/icon/git-pull-request-closed-16.svg" },
-      "git-pull-request-closed-24": { "$value": "/icon/git-pull-request-closed-24.svg" },
-      "git-pull-request-draft-16": { "$value": "/icon/git-pull-request-draft-16.svg" },
-      "git-pull-request-draft-24": { "$value": "/icon/git-pull-request-draft-24.svg" },
+      "git-pull-request-closed-16": {
+        "$value": "/icon/git-pull-request-closed-16.svg"
+      },
+      "git-pull-request-closed-24": {
+        "$value": "/icon/git-pull-request-closed-24.svg"
+      },
+      "git-pull-request-draft-16": {
+        "$value": "/icon/git-pull-request-draft-16.svg"
+      },
+      "git-pull-request-draft-24": {
+        "$value": "/icon/git-pull-request-draft-24.svg"
+      },
       "globe-16": { "$value": "/icon/globe-16.svg" },
       "globe-24": { "$value": "/icon/globe-24.svg" },
       "grabber-16": { "$value": "/icon/grabber-16.svg" },
@@ -1623,8 +1639,12 @@
       "organization-24": { "$value": "/icon/organization-24.svg" },
       "package-16": { "$value": "/icon/package-16.svg" },
       "package-24": { "$value": "/icon/package-24.svg" },
-      "package-dependencies-16": { "$value": "/icon/package-dependencies-16.svg" },
-      "package-dependencies-24": { "$value": "/icon/package-dependencies-24.svg" },
+      "package-dependencies-16": {
+        "$value": "/icon/package-dependencies-16.svg"
+      },
+      "package-dependencies-24": {
+        "$value": "/icon/package-dependencies-24.svg"
+      },
       "package-dependents-16": { "$value": "/icon/package-dependents-16.svg" },
       "package-dependents-24": { "$value": "/icon/package-dependents-24.svg" },
       "paintbrush-16": { "$value": "/icon/paintbrush-16.svg" },
@@ -1914,15 +1934,43 @@
   },
   "fontStack": {
     "system": {
-      "$value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+      "$value": [
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Noto Sans",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji"
+      ],
       "$type": "fontFamily"
     },
     "sansSerif": {
-      "$value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+      "$value": [
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Noto Sans",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji"
+      ],
       "$type": "fontFamily"
     },
     "monospace": {
-      "$value": "ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace",
+      "$value": [
+        "ui-monospace",
+        "SFMono-Regular",
+        "SF Mono",
+        "Menlo",
+        "Consolas",
+        "Liberation Mono",
+        "monospace"
+      ],
       "$type": "fontFamily"
     }
   },

@@ -1,6 +1,6 @@
 {
   "name": "dtcg-examples",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Open source design systems, expressed as DTCG JSON",
   "keywords": [
     "design tokens",
@@ -37,6 +37,6 @@
     "lint:shopify": "tz check shopify-polaris.json"
   },
   "devDependencies": {
-    "@terrazzo/cli": "^0.3.3"
+    "@terrazzo/cli": "^0.4.0"
   }
 }
