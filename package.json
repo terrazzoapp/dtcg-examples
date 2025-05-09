@@ -37,6 +37,6 @@
     "lint:shopify": "tz check shopify-polaris.json"
   },
   "devDependencies": {
-    "@terrazzo/cli": "^0.4.0"
+    "@terrazzo/cli": "^0.7.0"
   }
 }
