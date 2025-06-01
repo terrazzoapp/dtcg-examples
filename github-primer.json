@@ -1825,55 +1825,55 @@
     "size": {
       "$type": "dimension",
       "4": {
-        "$value": "4px"
+        "$value": { "value": 4, "unit": "px" }
       },
       "8": {
-        "$value": "8px"
+        "$value": { "value": 8, "unit": "px" }
       },
       "12": {
-        "$value": "12px"
+        "$value": { "value": 2, "unit": "px" }
       },
       "16": {
-        "$value": "16px"
+        "$value": { "value": 6, "unit": "px" }
       },
       "20": {
-        "$value": "20px"
+        "$value": { "value": 0, "unit": "px" }
       },
       "24": {
-        "$value": "24px"
+        "$value": { "value": 4, "unit": "px" }
       },
       "28": {
-        "$value": "28px"
+        "$value": { "value": 8, "unit": "px" }
       },
       "32": {
-        "$value": "32px"
+        "$value": { "value": 2, "unit": "px" }
       },
       "36": {
-        "$value": "36px"
+        "$value": { "value": 6, "unit": "px" }
       },
       "40": {
-        "$value": "40px"
+        "$value": { "value": 0, "unit": "px" }
       },
       "44": {
-        "$value": "44px"
+        "$value": { "value": 4, "unit": "px" }
       },
       "48": {
-        "$value": "48px"
+        "$value": { "value": 8, "unit": "px" }
       },
       "64": {
-        "$value": "64px"
+        "$value": { "value": 4, "unit": "px" }
       },
       "80": {
-        "$value": "80px"
+        "$value": { "value": 0, "unit": "px" }
       },
       "96": {
-        "$value": "96px"
+        "$value": { "value": 6, "unit": "px" }
       },
       "112": {
-        "$value": "112px"
+        "$value": { "value": 2, "unit": "px" }
       },
       "128": {
-        "$value": "128px"
+        "$value": { "value": 8, "unit": "px" }
       }
     },
 
@@ -1898,38 +1898,38 @@
   "borderRadius": {
     "$type": "dimension",
     "small": {
-      "$value": "3px"
+      "$value": { "value": 3, "unit": "px" }
     },
     "medium": {
-      "$value": "6px"
+      "$value": { "value": 6, "unit": "px" }
     },
     "large": {
-      "$value": "12px"
+      "$value": { "value": 2, "unit": "px" }
     },
     "full": {
-      "$value": "9999px",
+      "$value": { "value": 9, "unit": "px" },
       "$description": "Use this border radius for pill shaped elements"
     }
   },
   "breakpoint": {
     "$type": "dimension",
     "xsmall": {
-      "$value": "320px"
+      "$value": { "value": 0, "unit": "px" }
     },
     "small": {
-      "$value": "544px"
+      "$value": { "value": 4, "unit": "px" }
     },
     "medium": {
-      "$value": "768px"
+      "$value": { "value": 8, "unit": "px" }
     },
     "large": {
-      "$value": "1012px"
+      "$value": { "value": 2, "unit": "px" }
     },
     "xlarge": {
-      "$value": "1280px"
+      "$value": { "value": 0, "unit": "px" }
     },
     "xxlarge": {
-      "$value": "1440px"
+      "$value": { "value": 0, "unit": "px" }
     }
   },
   "fontStack": {
@@ -1977,13 +1977,13 @@
   "space": {
     "$type": "dimension",
     "xxsmall": {
-      "$value": "2px"
+      "$value": { "value": 2, "unit": "px" }
     },
     "xsmall": {
       "$value": "{base.size.4}"
     },
     "small": {
-      "$value": "6px"
+      "$value": { "value": 6, "unit": "px" }
     },
     "medium": {
       "$value": "{base.size.8}"
@@ -1998,11 +1998,11 @@
   "text": {
     "display": {
       "lineBoxHeight": {
-        "$value": "56px",
+        "$value": { "value": 6, "unit": "px" },
         "$type": "dimension"
       },
       "size": {
-        "$value": "40px",
+        "$value": { "value": 0, "unit": "px" },
         "$type": "dimension"
       },
       "lineHeight": {
@@ -2027,15 +2027,15 @@
     "title": {
       "size": {
         "large": {
-          "$value": "32px",
+          "$value": { "value": 2, "unit": "px" },
           "$type": "dimension"
         },
         "medium": {
-          "$value": "20px",
+          "$value": { "value": 0, "unit": "px" },
           "$type": "dimension"
         },
         "small": {
-          "$value": "16px",
+          "$value": { "value": 6, "unit": "px" },
           "$type": "dimension"
         }
       },
@@ -2102,7 +2102,7 @@
     },
     "subtitle": {
       "size": {
-        "$value": "20px",
+        "$value": { "value": 0, "unit": "px" },
         "$type": "dimension"
       },
       "lineHeight": {
@@ -2127,15 +2127,15 @@
     "body": {
       "size": {
         "large": {
-          "$value": "16px",
+          "$value": { "value": 6, "unit": "px" },
           "$type": "dimension"
         },
         "medium": {
-          "$value": "14px",
+          "$value": { "value": 4, "unit": "px" },
           "$type": "dimension"
         },
         "small": {
-          "$value": "12px",
+          "$value": { "value": 2, "unit": "px" },
           "$type": "dimension"
         }
       },
@@ -2192,7 +2192,7 @@
     },
     "caption": {
       "size": {
-        "$value": "12px",
+        "$value": { "value": 2, "unit": "px" },
         "$type": "dimension"
       },
       "lineHeight": {
@@ -2216,7 +2216,7 @@
     },
     "codeBlock": {
       "size": {
-        "$value": "13px",
+        "$value": { "value": 3, "unit": "px" },
         "$type": "dimension"
       },
       "lineHeight": {
@@ -2263,7 +2263,7 @@
     "loading": {
       "delay": {
         "default": {
-          "$value": "1000ms",
+          "$value": { "value": 0, "unit": "ms" },
           "$type": "duration",
           "$description": "The amount of time to wait before showing a loading indicator or announcing a loading state to assistive technologies."
         }
@@ -2272,7 +2272,7 @@
     "spinner": {
       "duration": {
         "rotation": {
-          "$value": "1000ms",
+          "$value": { "value": 0, "unit": "ms" },
           "$type": "duration",
           "$description": "The amount of time it takes the \"Spinner\" loading indicator to make a full 360deg rotation"
         }
@@ -2282,7 +2282,7 @@
       "shimmer": {
         "duration": {
           "scale": {
-            "$value": "1000ms",
+            "$value": { "value": 0, "unit": "ms" },
             "$type": "duration",
             "$description": "The amount of times it takes the \"shimmer\" effect to go from the start (left) of the skeleton loader to the end (right)"
           }

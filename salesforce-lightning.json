@@ -326,14 +326,14 @@
   "icon": {
     "size": {
       "$type": "dimension",
-      "xxxSmall": { "$value": "3rem" },
-      "xxSmall": { "$value": "6rem" },
-      "xSmall": { "$value": "12rem" },
-      "small": { "$value": "15rem" },
-      "medium": { "$value": "20rem" },
-      "large": { "$value": "25rem" },
-      "xLarge": { "$value": "40rem" },
-      "xxLarge": { "$value": "60rem" }
+      "xxxSmall": { "$value": { "value": 3, "unit": "rem" } },
+      "xxSmall": { "$value": { "value": 6, "unit": "rem" } },
+      "xSmall": { "$value": { "value": 2, "unit": "rem" } },
+      "small": { "$value": { "value": 5, "unit": "rem" } },
+      "medium": { "$value": { "value": 0, "unit": "rem" } },
+      "large": { "$value": { "value": 5, "unit": "rem" } },
+      "xLarge": { "$value": { "value": 0, "unit": "rem" } },
+      "xxLarge": { "$value": { "value": 0, "unit": "rem" } }
     }
   },
   "font": {
@@ -377,12 +377,12 @@
       "2": { "$value": "0.75rem" },
       "3": { "$value": "0.8125rem" },
       "4": { "$value": "0.875rem" },
-      "5": { "$value": "1rem" },
+      "5": { "$value": { "value": 1, "unit": "rem" } },
       "6": { "$value": "1.125rem" },
       "7": { "$value": "1.25rem" },
       "8": { "$value": "1.5rem" },
       "9": { "$value": "1.75rem" },
-      "10": { "$value": "2rem" },
+      "10": { "$value": { "value": 2, "unit": "rem" } },
       "11": { "$value": "2.625rem" }
     },
     "lineHeight": {
@@ -399,9 +399,9 @@
     "xxSmall": { "$value": "0.25rem" },
     "xSmall": { "$value": "0.5rem" },
     "small": { "$value": "0.75rem" },
-    "medium": { "$value": "1rem" },
+    "medium": { "$value": { "value": 1, "unit": "rem" } },
     "large": { "$value": "1.5rem" },
-    "xLarge": { "$value": "2rem" },
-    "xxLarge": { "$value": "3rem" }
+    "xLarge": { "$value": { "value": 2, "unit": "rem" } },
+    "xxLarge": { "$value": { "value": 3, "unit": "rem" } }
   }
 }

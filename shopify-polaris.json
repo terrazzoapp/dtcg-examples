@@ -82,11 +82,11 @@
   "space": {
     "$type": "dimension",
     "none": { "$value": 0 },
-    "extraTight": { "$value": "4px" },
-    "tight": { "$value": "8px" },
-    "baseTight": { "$value": "12px" },
-    "base": { "$value": "16px" },
-    "loose": { "$value": "20px" },
-    "extraLoose": { "$value": "32px" }
+    "extraTight": { "$value": { "value": 4, "unit": "px" } },
+    "tight": { "$value": { "value": 8, "unit": "px" } },
+    "baseTight": { "$value": { "value": 2, "unit": "px" } },
+    "base": { "$value": { "value": 6, "unit": "px" } },
+    "loose": { "$value": { "value": 0, "unit": "px" } },
+    "extraLoose": { "$value": { "value": 2, "unit": "px" } }
   }
 }
