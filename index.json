@@ -15,26 +15,14 @@
       "author": "Figma",
       "tokens": ["figma-sds.json"]
     },
-    {
-      "name": "Primer",
-      "author": "GitHub",
-      "tokens": ["github-primer.json"]
-    },
-    {
-      "name": "Carbon",
-      "author": "IBM",
-      "tokens": ["ibm-carbon.json"]
-    },
+    { "name": "Primer", "author": "GitHub", "tokens": ["github-primer.json"] },
+    { "name": "Carbon", "author": "IBM", "tokens": ["ibm-carbon.json"] },
     {
       "name": "Fluent",
       "author": "Microsoft",
       "tokens": ["microsoft-fluent.json"]
     },
-    {
-      "name": "Radix",
-      "author": "Radix",
-      "tokens": ["radix.json"]
-    },
+    { "name": "Radix", "author": "Radix", "tokens": ["radix.json"] },
     {
       "name": "Lightning",
       "author": "Salesforce",
