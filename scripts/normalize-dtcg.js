@@ -32,9 +32,12 @@ async function main() {
         }
         node = node[segment];
       }
+      if (typeof node.$value === 'string' && node.$value[0] === '{') {
+        continue;
+      }
       node.$value = token.$value;
       for (const [modeName, modeValue] of Object.entries(token.mode)) {
-        if (modeName === ".") {
+        if (modeName === "." || (typeof modeValue.$value === 'string' && modeValue.$value[0] === '{')) {
           continue;
         }
         node.$extensions.mode[modeName] = modeValue.$value;
