@@ -3,7 +3,6 @@
     "color": {
       "$type": "color",
       "opacity": {
-        "$type": "number",
         "0": { "$value": 0 },
         "4": { "$value": 0.04 },
         "5": { "$value": 0.05 },
@@ -23,799 +22,2981 @@
         "70": { "$value": 0.7 },
         "80": { "$value": 0.8 },
         "90": { "$value": 0.9 },
-        "100": { "$value": 1 }
+        "100": { "$value": 1 },
+        "$type": "number"
       },
       "celery": {
         "400": {
-          "$value": "rgb(39, 187, 54)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.15294117647058825, 0.7333333333333333, 0.21176470588235294
+            ],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(34, 184, 51)",
-              "darkest": "rgb(13, 171, 37)",
-              "light": "rgb(39, 187, 54)",
-              "lightest": "rgb(48, 193, 61)",
-              "middark": "rgb(45, 190, 58)",
-              "midlight": "rgb(7, 167, 33)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [0.13333333333333333, 0.7215686274509804, 0.2],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.050980392156862744, 0.6705882352941176, 0.1450980392156863
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.15294117647058825, 0.7333333333333333, 0.21176470588235294
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.18823529411764706, 0.7568627450980392, 0.23921568627450981
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.17647058823529413, 0.7450980392156863, 0.22745098039215686
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.027450980392156862, 0.6549019607843137, 0.12941176470588237
+                ],
+                "alpha": 1
+              }
             }
           }
         },
         "500": {
-          "$value": "rgb(7, 167, 33)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.027450980392156862, 0.6549019607843137, 0.12941176470588237
+            ],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(68, 202, 73)",
-              "darkest": "rgb(45, 191, 58)",
-              "light": "rgb(7, 167, 33)",
-              "lightest": "rgb(15, 172, 38)",
-              "middark": "rgb(78, 207, 80)",
-              "midlight": "rgb(0, 148, 19)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.26666666666666666, 0.792156862745098, 0.28627450980392155
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.17647058823529413, 0.7490196078431373, 0.22745098039215686
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.027450980392156862, 0.6549019607843137, 0.12941176470588237
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.058823529411764705, 0.6745098039215687, 0.14901960784313725
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.3058823529411765, 0.8117647058823529, 0.3137254901960784
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0, 0.5803921568627451, 0.07450980392156863],
+                "alpha": 1
+              }
             }
           }
         },
         "600": {
-          "$value": "rgb(0, 145, 18)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0, 0.5686274509803921, 0.07058823529411765],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(105, 220, 99)",
-              "darkest": "rgb(80, 208, 82)",
-              "light": "rgb(0, 145, 18)",
-              "lightest": "rgb(0, 150, 20)",
-              "middark": "rgb(112, 223, 104)",
-              "midlight": "rgb(0, 127, 15)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.4117647058823529, 0.8627450980392157, 0.38823529411764707
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.3137254901960784, 0.8156862745098039, 0.3215686274509804
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0, 0.5686274509803921, 0.07058823529411765],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0, 0.5882352941176471, 0.0784313725490196],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.4392156862745098, 0.8745098039215686, 0.40784313725490196
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0, 0.4980392156862745, 0.058823529411764705],
+                "alpha": 1
+              }
             }
           }
         },
         "700": {
-          "$value": "rgb(0, 124, 15)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0, 0.48627450980392156, 0.058823529411764705],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(142, 235, 127)",
-              "darkest": "rgb(115, 224, 107)",
-              "light": "rgb(0, 124, 15)",
-              "lightest": "rgb(0, 128, 15)",
-              "middark": "rgb(146, 237, 130)",
-              "midlight": "rgb(0, 107, 15)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5568627450980392, 0.9215686274509803, 0.4980392156862745
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.45098039215686275, 0.8784313725490196, 0.4196078431372549
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0, 0.48627450980392156, 0.058823529411764705],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0, 0.5019607843137255, 0.058823529411764705],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5725490196078431, 0.9294117647058824, 0.5098039215686274
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0, 0.4196078431372549, 0.058823529411764705],
+                "alpha": 1
+              }
             }
           }
         }
       },
       "chartreuse": {
         "400": {
-          "$value": "rgb(152, 197, 10)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.596078431372549, 0.7725490196078432, 0.0392156862745098
+            ],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(148, 192, 8)",
-              "darkest": "rgb(138, 180, 3)",
-              "light": "rgb(152, 197, 10)",
-              "lightest": "rgb(157, 203, 13)",
-              "middark": "rgb(153, 197, 10)",
-              "midlight": "rgb(134, 175, 2)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5803921568627451, 0.7529411764705882, 0.03137254901960784
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5411764705882353, 0.7058823529411765, 0.011764705882352941
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.596078431372549, 0.7725490196078432, 0.0392156862745098
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.615686274509804, 0.796078431372549, 0.050980392156862744
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [0.6, 0.7725490196078432, 0.0392156862745098],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5254901960784314, 0.6862745098039216, 0.00784313725490196
+                ],
+                "alpha": 1
+              }
             }
           }
         },
         "500": {
-          "$value": "rgb(135, 177, 3)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.5294117647058824, 0.6941176470588235, 0.011764705882352941
+            ],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(166, 211, 18)",
-              "darkest": "rgb(154, 198, 11)",
-              "light": "rgb(135, 177, 3)",
-              "lightest": "rgb(139, 182, 4)",
-              "middark": "rgb(169, 215, 21)",
-              "midlight": "rgb(119, 157, 0)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.6509803921568628, 0.8274509803921568, 0.07058823529411765
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.6039215686274509, 0.7764705882352941, 0.043137254901960784
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5294117647058824, 0.6941176470588235, 0.011764705882352941
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5450980392156862, 0.7137254901960784, 0.01568627450980392
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.6627450980392157, 0.8431372549019608, 0.08235294117647059
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.4666666666666667, 0.615686274509804, 0],
+                "alpha": 1
+              }
             }
           }
         },
         "600": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(184, 229, 37)",
-              "darkest": "rgb(170, 216, 22)",
-              "light": "rgb(118, 156, 0)",
-              "lightest": "rgb(122, 162, 0)",
-              "middark": "rgb(186, 232, 40)",
-              "midlight": "rgb(104, 138, 0)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7215686274509804, 0.8980392156862745, 0.1450980392156863
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.6666666666666666, 0.8470588235294118, 0.08627450980392157
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0.4627450980392157, 0.611764705882353, 0],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0.47843137254901963, 0.6352941176470588, 0],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7294117647058823, 0.9098039215686274, 0.1568627450980392
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.40784313725490196, 0.5411764705882353, 0],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(118, 156, 0)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0.4627450980392157, 0.611764705882353, 0],
+            "alpha": 1
+          }
         },
         "700": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(205, 245, 71)",
-              "darkest": "rgb(187, 232, 41)",
-              "light": "rgb(103, 136, 0)",
-              "lightest": "rgb(106, 141, 0)",
-              "middark": "rgb(206, 246, 75)",
-              "midlight": "rgb(90, 119, 0)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.803921568627451, 0.9607843137254902, 0.2784313725490196
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7333333333333333, 0.9098039215686274, 0.1607843137254902
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0.403921568627451, 0.5333333333333333, 0],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0.41568627450980394, 0.5529411764705883, 0],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.807843137254902, 0.9647058823529412, 0.29411764705882354
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.35294117647058826, 0.4666666666666667, 0],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(103, 136, 0)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0.403921568627451, 0.5333333333333333, 0],
+            "alpha": 1
+          }
         }
       },
       "yellow": {
         "400": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(228, 194, 0)",
-              "darkest": "rgb(216, 181, 0)",
-              "light": "rgb(232, 198, 0)",
-              "lightest": "rgb(238, 205, 0)",
-              "middark": "rgb(232, 197, 0)",
-              "midlight": "rgb(211, 175, 0)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [0.8941176470588236, 0.7607843137254902, 0],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [0.8470588235294118, 0.7098039215686275, 0],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0.9098039215686274, 0.7764705882352941, 0],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0.9333333333333333, 0.803921568627451, 0],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [0.9098039215686274, 0.7725490196078432, 0],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.8274509803921568, 0.6862745098039216, 0],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(232, 198, 0)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0.9098039215686274, 0.7764705882352941, 0],
+            "alpha": 1
+          }
         },
         "500": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(244, 213, 0)",
-              "darkest": "rgb(233, 199, 0)",
-              "light": "rgb(215, 179, 0)",
-              "lightest": "rgb(221, 185, 0)",
-              "middark": "rgb(246, 215, 2)",
-              "midlight": "rgb(194, 157, 0)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [0.9568627450980393, 0.8352941176470589, 0],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [0.9137254901960784, 0.7803921568627451, 0],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0.8431372549019608, 0.7019607843137254, 0],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0.8666666666666667, 0.7254901960784313, 0],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9647058823529412, 0.8431372549019608, 0.00784313725490196
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.7607843137254902, 0.615686274509804, 0],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(215, 179, 0)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0.8431372549019608, 0.7019607843137254, 0],
+            "alpha": 1
+          }
         },
         "600": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(249, 232, 92)",
-              "darkest": "rgb(247, 216, 4)",
-              "light": "rgb(196, 159, 0)",
-              "lightest": "rgb(201, 164, 0)",
-              "middark": "rgb(249, 234, 99)",
-              "midlight": "rgb(176, 140, 0)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9764705882352941, 0.9098039215686274, 0.3607843137254902
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9686274509803922, 0.8470588235294118, 0.01568627450980392
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0.7686274509803922, 0.6235294117647059, 0],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0.788235294117647, 0.6431372549019608, 0],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9764705882352941, 0.9176470588235294, 0.38823529411764707
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.6901960784313725, 0.5490196078431373, 0],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(196, 159, 0)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0.7686274509803922, 0.6235294117647059, 0],
+            "alpha": 1
+          }
         },
         "700": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(252, 246, 187)",
-              "darkest": "rgb(249, 233, 97)",
-              "light": "rgb(176, 140, 0)",
-              "lightest": "rgb(181, 144, 0)",
-              "middark": "rgb(253, 246, 191)",
-              "midlight": "rgb(157, 122, 0)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9882352941176471, 0.9647058823529412, 0.7333333333333333
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9764705882352941, 0.9137254901960784, 0.3803921568627451
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0.6901960784313725, 0.5490196078431373, 0],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0.7098039215686275, 0.5647058823529412, 0],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9921568627450981, 0.9647058823529412, 0.7490196078431373
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.615686274509804, 0.47843137254901963, 0],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(176, 140, 0)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0.6901960784313725, 0.5490196078431373, 0],
+            "alpha": 1
+          }
         }
       },
       "magenta": {
         "400": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(222, 61, 130)",
-              "darkest": "rgb(209, 43, 114)",
-              "light": "rgb(222, 61, 130)",
-              "lightest": "rgb(226, 68, 135)",
-              "middark": "rgb(231, 75, 141)",
-              "midlight": "rgb(204, 39, 110)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8705882352941177, 0.23921568627450981, 0.5098039215686274
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8196078431372549, 0.16862745098039217, 0.4470588235294118
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8705882352941177, 0.23921568627450981, 0.5098039215686274
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8862745098039215, 0.26666666666666666, 0.5294117647058824
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9058823529411765, 0.29411764705882354, 0.5529411764705883
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.8, 0.15294117647058825, 0.43137254901960786],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(222, 61, 130)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8705882352941177, 0.23921568627450981, 0.5098039215686274
+            ],
+            "alpha": 1
+          }
         },
         "500": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(237, 87, 149)",
-              "darkest": "rgb(227, 69, 137)",
-              "light": "rgb(200, 34, 105)",
-              "lightest": "rgb(205, 40, 111)",
-              "middark": "rgb(242, 99, 157)",
-              "midlight": "rgb(179, 15, 88)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9294117647058824, 0.3411764705882353, 0.5843137254901961
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8901960784313725, 0.27058823529411763, 0.5372549019607843
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7843137254901961, 0.13333333333333333, 0.4117647058823529
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.803921568627451, 0.1568627450980392, 0.43529411764705883
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9490196078431372, 0.38823529411764707, 0.615686274509804
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7019607843137254, 0.058823529411764705, 0.34509803921568627
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(200, 34, 105)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7843137254901961, 0.13333333333333333, 0.4117647058823529
+            ],
+            "alpha": 1
+          }
         },
         "600": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(249, 114, 167)",
-              "darkest": "rgb(241, 97, 156)",
-              "light": "rgb(173, 9, 85)",
-              "lightest": "rgb(179, 15, 89)",
-              "middark": "rgb(252, 123, 173)",
-              "midlight": "rgb(149, 0, 72)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9764705882352941, 0.4470588235294118, 0.6549019607843137
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9450980392156862, 0.3803921568627451, 0.611764705882353
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.6784313725490196, 0.03529411764705882, 0.3333333333333333
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7019607843137254, 0.058823529411764705, 0.34901960784313724
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9882352941176471, 0.4823529411764706, 0.6784313725490196
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.5843137254901961, 0, 0.2823529411764706],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(173, 9, 85)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.6784313725490196, 0.03529411764705882, 0.3333333333333333
+            ],
+            "alpha": 1
+          }
         },
         "700": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(255, 143, 185)",
-              "darkest": "rgb(252, 124, 173)",
-              "light": "rgb(142, 0, 69)",
-              "lightest": "rgb(149, 0, 72)",
-              "middark": "rgb(255, 150, 189)",
-              "midlight": "rgb(116, 0, 57)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [1, 0.5607843137254902, 0.7254901960784313],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9882352941176471, 0.48627450980392156, 0.6784313725490196
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0.5568627450980392, 0, 0.27058823529411763],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0.5843137254901961, 0, 0.2823529411764706],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [1, 0.5882352941176471, 0.7411764705882353],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.4549019607843137, 0, 0.2235294117647059],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(142, 0, 69)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0.5568627450980392, 0, 0.27058823529411763],
+            "alpha": 1
+          }
         }
       },
       "fuchsia": {
         "400": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(205, 57, 206)",
-              "darkest": "rgb(191, 43, 191)",
-              "light": "rgb(205, 58, 206)",
-              "lightest": "rgb(211, 63, 212)",
-              "middark": "rgb(216, 70, 217)",
-              "midlight": "rgb(186, 38, 186)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.803921568627451, 0.2235294117647059, 0.807843137254902
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7490196078431373, 0.16862745098039217, 0.7490196078431373
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.803921568627451, 0.22745098039215686, 0.807843137254902
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8274509803921568, 0.24705882352941178, 0.8313725490196079
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8470588235294118, 0.27450980392156865, 0.8509803921568627
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7294117647058823, 0.14901960784313725, 0.7294117647058823
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(205, 58, 206)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.803921568627451, 0.22745098039215686, 0.807843137254902
+            ],
+            "alpha": 1
+          }
         },
         "500": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(223, 81, 224)",
-              "darkest": "rgb(211, 65, 213)",
-              "light": "rgb(182, 34, 183)",
-              "lightest": "rgb(188, 39, 187)",
-              "middark": "rgb(229, 93, 230)",
-              "midlight": "rgb(163, 9, 163)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8745098039215686, 0.3176470588235294, 0.8784313725490196
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8274509803921568, 0.2549019607843137, 0.8352941176470589
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7137254901960784, 0.13333333333333333, 0.7176470588235294
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7372549019607844, 0.15294117647058825, 0.7333333333333333
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8980392156862745, 0.36470588235294116, 0.9019607843137255
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.6392156862745098, 0.03529411764705882, 0.6392156862745098
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(182, 34, 183)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7137254901960784, 0.13333333333333333, 0.7176470588235294
+            ],
+            "alpha": 1
+          }
         },
         "600": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(235, 110, 236)",
-              "darkest": "rgb(228, 91, 229)",
-              "light": "rgb(157, 3, 158)",
-              "lightest": "rgb(163, 10, 163)",
-              "middark": "rgb(239, 120, 238)",
-              "midlight": "rgb(134, 0, 135)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9215686274509803, 0.43137254901960786, 0.9254901960784314
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8941176470588236, 0.3568627450980392, 0.8980392156862745
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.615686274509804, 0.011764705882352941, 0.6196078431372549
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.6392156862745098, 0.0392156862745098, 0.6392156862745098
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9372549019607843, 0.47058823529411764, 0.9333333333333333
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.5254901960784314, 0, 0.5294117647058824],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(157, 3, 158)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.615686274509804, 0.011764705882352941, 0.6196078431372549
+            ],
+            "alpha": 1
+          }
         },
         "700": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(244, 140, 242)",
-              "darkest": "rgb(239, 120, 238)",
-              "light": "rgb(128, 0, 129)",
-              "lightest": "rgb(135, 0, 136)",
-              "middark": "rgb(246, 147, 243)",
-              "midlight": "rgb(104, 4, 104)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9568627450980393, 0.5490196078431373, 0.9490196078431372
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9372549019607843, 0.47058823529411764, 0.9333333333333333
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0.5019607843137255, 0, 0.5058823529411764],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0.5294117647058824, 0, 0.5333333333333333],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9647058823529412, 0.5764705882352941, 0.9529411764705882
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.40784313725490196, 0.01568627450980392, 0.40784313725490196
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(128, 0, 129)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0.5019607843137255, 0, 0.5058823529411764],
+            "alpha": 1
+          }
         }
       },
       "purple": {
         "400": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(157, 87, 243)",
-              "darkest": "rgb(145, 70, 236)",
-              "light": "rgb(157, 87, 244)",
-              "lightest": "rgb(161, 93, 246)",
-              "middark": "rgb(166, 100, 247)",
-              "midlight": "rgb(141, 66, 233)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.615686274509804, 0.3411764705882353, 0.9529411764705882
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5686274509803921, 0.27450980392156865, 0.9254901960784314
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.615686274509804, 0.3411764705882353, 0.9568627450980393
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.6313725490196078, 0.36470588235294116, 0.9647058823529412
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.6509803921568628, 0.39215686274509803, 0.9686274509803922
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5529411764705883, 0.25882352941176473, 0.9137254901960784
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(157, 87, 244)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.615686274509804, 0.3411764705882353, 0.9568627450980393
+            ],
+            "alpha": 1
+          }
         },
         "500": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(172, 111, 249)",
-              "darkest": "rgb(162, 94, 246)",
-              "light": "rgb(137, 61, 231)",
-              "lightest": "rgb(142, 67, 234)",
-              "middark": "rgb(179, 121, 250)",
-              "midlight": "rgb(120, 42, 216)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.6745098039215687, 0.43529411764705883, 0.9764705882352941
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.6352941176470588, 0.3686274509803922, 0.9647058823529412
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5372549019607843, 0.23921568627450981, 0.9058823529411765
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5568627450980392, 0.2627450980392157, 0.9176470588235294
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7019607843137254, 0.4745098039215686, 0.9803921568627451
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.47058823529411764, 0.16470588235294117, 0.8470588235294118
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(137, 61, 231)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.5372549019607843, 0.23921568627450981, 0.9058823529411765
+            ],
+            "alpha": 1
+          }
         },
         "600": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(187, 135, 251)",
-              "darkest": "rgb(178, 119, 250)",
-              "light": "rgb(115, 38, 211)",
-              "lightest": "rgb(120, 43, 216)",
-              "middark": "rgb(192, 143, 252)",
-              "midlight": "rgb(97, 22, 190)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7333333333333333, 0.5294117647058824, 0.984313725490196
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.6980392156862745, 0.4666666666666667, 0.9803921568627451
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.45098039215686275, 0.14901960784313725, 0.8274509803921568
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.47058823529411764, 0.16862745098039217, 0.8470588235294118
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7529411764705882, 0.5607843137254902, 0.9882352941176471
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.3803921568627451, 0.08627450980392157, 0.7450980392156863
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(115, 38, 211)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.45098039215686275, 0.14901960784313725, 0.8274509803921568
+            ],
+            "alpha": 1
+          }
         },
         "700": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(202, 159, 252)",
-              "darkest": "rgb(192, 143, 252)",
-              "light": "rgb(93, 19, 183)",
-              "lightest": "rgb(98, 23, 190)",
-              "middark": "rgb(205, 165, 253)",
-              "midlight": "rgb(74, 12, 153)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.792156862745098, 0.6235294117647059, 0.9882352941176471
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7529411764705882, 0.5607843137254902, 0.9882352941176471
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.36470588235294116, 0.07450980392156863, 0.7176470588235294
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.3843137254901961, 0.09019607843137255, 0.7450980392156863
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.803921568627451, 0.6470588235294118, 0.9921568627450981
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.2901960784313726, 0.047058823529411764, 0.6],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(93, 19, 183)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.36470588235294116, 0.07450980392156863, 0.7176470588235294
+            ],
+            "alpha": 1
+          }
         }
       },
       "indigo": {
         "400": {
-          "$value": "rgb(104, 109, 244)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.40784313725490196, 0.42745098039215684, 0.9568627450980393
+            ],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(104, 109, 244)",
-              "darkest": "rgb(90, 96, 235)",
-              "light": "rgb(104, 109, 244)",
-              "lightest": "rgb(109, 115, 246)",
-              "middark": "rgb(115, 120, 248)",
-              "midlight": "rgb(86, 92, 231)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.40784313725490196, 0.42745098039215684, 0.9568627450980393
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.35294117647058826, 0.3764705882352941, 0.9215686274509803
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.40784313725490196, 0.42745098039215684, 0.9568627450980393
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.42745098039215684, 0.45098039215686275, 0.9647058823529412
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.45098039215686275, 0.47058823529411764, 0.9725490196078431
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.33725490196078434, 0.3607843137254902, 0.9058823529411765
+                ],
+                "alpha": 1
+              }
             }
           }
         },
         "500": {
-          "$value": "rgb(82, 88, 228)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.3215686274509804, 0.34509803921568627, 0.8941176470588236
+            ],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(124, 129, 251)",
-              "darkest": "rgb(110, 115, 246)",
-              "light": "rgb(82, 88, 228)",
-              "lightest": "rgb(87, 93, 232)",
-              "middark": "rgb(133, 138, 253)",
-              "midlight": "rgb(68, 73, 208)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.48627450980392156, 0.5058823529411764, 0.984313725490196
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.43137254901960786, 0.45098039215686275, 0.9647058823529412
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.3215686274509804, 0.34509803921568627, 0.8941176470588236
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.3411764705882353, 0.36470588235294116, 0.9098039215686274
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5215686274509804, 0.5411764705882353, 0.9921568627450981
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.26666666666666666, 0.28627450980392155, 0.8156862745098039
+                ],
+                "alpha": 1
+              }
             }
           }
         },
         "600": {
-          "$value": "rgb(64, 70, 202)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.25098039215686274, 0.27450980392156865, 0.792156862745098
+            ],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(145, 149, 255)",
-              "darkest": "rgb(132, 136, 253)",
-              "light": "rgb(64, 70, 202)",
-              "lightest": "rgb(68, 74, 208)",
-              "middark": "rgb(152, 157, 255)",
-              "midlight": "rgb(52, 57, 176)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [0.5686274509803921, 0.5843137254901961, 1],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5176470588235295, 0.5333333333333333, 0.9921568627450981
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.25098039215686274, 0.27450980392156865, 0.792156862745098
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.26666666666666666, 0.2901960784313726, 0.8156862745098039
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [0.596078431372549, 0.615686274509804, 1],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.20392156862745098, 0.2235294117647059, 0.6901960784313725
+                ],
+                "alpha": 1
+              }
             }
           }
         },
         "700": {
-          "$value": "rgb(50, 54, 168)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.19607843137254902, 0.21176470588235294, 0.6588235294117647
+            ],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(167, 170, 255)",
-              "darkest": "rgb(153, 157, 255)",
-              "light": "rgb(50, 54, 168)",
-              "lightest": "rgb(53, 58, 176)",
-              "middark": "rgb(172, 176, 255)",
-              "midlight": "rgb(39, 43, 139)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [0.6549019607843137, 0.6666666666666666, 1],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [0.6, 0.615686274509804, 1],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.19607843137254902, 0.21176470588235294, 0.6588235294117647
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.20784313725490197, 0.22745098039215686, 0.6901960784313725
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [0.6745098039215687, 0.6901960784313725, 1],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.15294117647058825, 0.16862745098039217, 0.5450980392156862
+                ],
+                "alpha": 1
+              }
             }
           }
         }
       },
       "seafoam": {
         "400": {
-          "$value": "rgb(0, 161, 154)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0, 0.6313725490196078, 0.6039215686274509],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(0, 158, 152)",
-              "darkest": "rgb(0, 146, 140)",
-              "light": "rgb(0, 161, 154)",
-              "lightest": "rgb(0, 166, 160)",
-              "middark": "rgb(0, 167, 160)",
-              "midlight": "rgb(0, 142, 136)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [0, 0.6196078431372549, 0.596078431372549],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [0, 0.5725490196078431, 0.5490196078431373],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0, 0.6313725490196078, 0.6039215686274509],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0, 0.6509803921568628, 0.6274509803921569],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [0, 0.6549019607843137, 0.6274509803921569],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0, 0.5568627450980392, 0.5333333333333333],
+                "alpha": 1
+              }
             }
           }
         },
         "500": {
-          "$value": "rgb(0, 140, 135)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0, 0.5490196078431373, 0.5294117647058824],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(3, 178, 171)",
-              "darkest": "rgb(0, 165, 159)",
-              "light": "rgb(0, 140, 135)",
-              "lightest": "rgb(0, 145, 139)",
-              "middark": "rgb(25, 184, 177)",
-              "midlight": "rgb(0, 122, 117)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.011764705882352941, 0.6980392156862745, 0.6705882352941176
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [0, 0.6470588235294118, 0.6235294117647059],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0, 0.5490196078431373, 0.5294117647058824],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0, 0.5686274509803921, 0.5450980392156862],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.09803921568627451, 0.7215686274509804, 0.6941176470588235
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0, 0.47843137254901963, 0.4588235294117647],
+                "alpha": 1
+              }
             }
           }
         },
         "600": {
-          "$value": "rgb(0, 119, 114)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0, 0.4666666666666667, 0.4470588235294118],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(54, 197, 189)",
-              "darkest": "rgb(26, 185, 178)",
-              "light": "rgb(0, 119, 114)",
-              "lightest": "rgb(0, 124, 118)",
-              "middark": "rgb(64, 201, 194)",
-              "midlight": "rgb(0, 103, 99)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.21176470588235294, 0.7725490196078432, 0.7411764705882353
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.10196078431372549, 0.7254901960784313, 0.6980392156862745
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0, 0.4666666666666667, 0.4470588235294118],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0, 0.48627450980392156, 0.4627450980392157],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.25098039215686274, 0.788235294117647, 0.7607843137254902
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0, 0.403921568627451, 0.38823529411764707],
+                "alpha": 1
+              }
             }
           }
         },
         "700": {
-          "$value": "rgb(0, 99, 95)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0, 0.38823529411764707, 0.37254901960784315],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(93, 214, 207)",
-              "darkest": "rgb(66, 202, 195)",
-              "light": "rgb(0, 99, 95)",
-              "lightest": "rgb(0, 103, 99)",
-              "middark": "rgb(100, 217, 210)",
-              "midlight": "rgb(10, 83, 80)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.36470588235294116, 0.8392156862745098, 0.8117647058823529
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.25882352941176473, 0.792156862745098, 0.7647058823529411
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0, 0.38823529411764707, 0.37254901960784315],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0, 0.403921568627451, 0.38823529411764707],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.39215686274509803, 0.8509803921568627, 0.8235294117647058
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.0392156862745098, 0.3254901960784314, 0.3137254901960784
+                ],
+                "alpha": 1
+              }
             }
           }
         }
       },
       "red": {
         "400": {
-          "$value": "rgb(234, 56, 41)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9176470588235294, 0.2196078431372549, 0.1607843137254902
+            ],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(234, 56, 41)",
-              "darkest": "rgb(221, 33, 24)",
-              "light": "rgb(234, 56, 41)",
-              "lightest": "rgb(237, 64, 48)",
-              "middark": "rgb(241, 74, 55)",
-              "midlight": "rgb(216, 26, 19)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9176470588235294, 0.2196078431372549, 0.1607843137254902
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8666666666666667, 0.12941176470588237, 0.09411764705882353
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9176470588235294, 0.2196078431372549, 0.1607843137254902
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9294117647058824, 0.25098039215686274, 0.18823529411764706
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9450980392156862, 0.2901960784313726, 0.21568627450980393
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8470588235294118, 0.10196078431372549, 0.07450980392156863
+                ],
+                "alpha": 1
+              }
             }
           }
         },
         "500": {
-          "$value": "rgb(211, 21, 16)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8274509803921568, 0.08235294117647059, 0.06274509803921569
+            ],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(246, 88, 67)",
-              "darkest": "rgb(238, 67, 49)",
-              "light": "rgb(211, 21, 16)",
-              "lightest": "rgb(217, 28, 21)",
-              "middark": "rgb(250, 101, 79)",
-              "midlight": "rgb(187, 2, 2)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9647058823529412, 0.34509803921568627, 0.2627450980392157
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9333333333333333, 0.2627450980392157, 0.19215686274509805
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8274509803921568, 0.08235294117647059, 0.06274509803921569
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8509803921568627, 0.10980392156862745, 0.08235294117647059
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9803921568627451, 0.396078431372549, 0.30980392156862746
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7333333333333333, 0.00784313725490196, 0.00784313725490196
+                ],
+                "alpha": 1
+              }
             }
           }
         },
         "600": {
-          "$value": "rgb(180, 0, 0)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0.7058823529411765, 0, 0],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(255, 117, 94)",
-              "darkest": "rgb(249, 99, 76)",
-              "light": "rgb(180, 0, 0)",
-              "lightest": "rgb(187, 2, 2)",
-              "middark": "rgb(255, 129, 107)",
-              "midlight": "rgb(153, 0, 0)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [1, 0.4588235294117647, 0.3686274509803922],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9764705882352941, 0.38823529411764707, 0.2980392156862745
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0.7058823529411765, 0, 0],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7333333333333333, 0.00784313725490196, 0.00784313725490196
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [1, 0.5058823529411764, 0.4196078431372549],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.6, 0, 0],
+                "alpha": 1
+              }
             }
           }
         },
         "700": {
-          "$value": "rgb(147, 0, 0)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0.5764705882352941, 0, 0],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(255, 149, 129)",
-              "darkest": "rgb(255, 129, 107)",
-              "light": "rgb(147, 0, 0)",
-              "lightest": "rgb(154, 0, 0)",
-              "middark": "rgb(255, 156, 137)",
-              "midlight": "rgb(120, 0, 0)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [1, 0.5843137254901961, 0.5058823529411764],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [1, 0.5058823529411764, 0.4196078431372549],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0.5764705882352941, 0, 0],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0.6039215686274509, 0, 0],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [1, 0.611764705882353, 0.5372549019607843],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.47058823529411764, 0, 0],
+                "alpha": 1
+              }
             }
           }
         }
       },
       "orange": {
         "400": {
-          "$value": "rgb(246, 133, 17)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9647058823529412, 0.5215686274509804, 0.06666666666666667
+            ],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(244, 129, 12)",
-              "darkest": "rgb(232, 116, 0)",
-              "light": "rgb(246, 133, 17)",
-              "lightest": "rgb(250, 139, 26)",
-              "middark": "rgb(248, 137, 22)",
-              "midlight": "rgb(228, 111, 0)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9568627450980393, 0.5058823529411764, 0.047058823529411764
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [0.9098039215686274, 0.4549019607843137, 0],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9647058823529412, 0.5215686274509804, 0.06666666666666667
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9803921568627451, 0.5450980392156862, 0.10196078431372549
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9725490196078431, 0.5372549019607843, 0.08627450980392157
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.8941176470588236, 0.43529411764705883, 0],
+                "alpha": 1
+              }
             }
           }
         },
         "500": {
-          "$value": "rgb(228, 111, 0)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0.8941176470588236, 0.43529411764705883, 0],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(254, 154, 46)",
-              "darkest": "rgb(249, 137, 23)",
-              "light": "rgb(228, 111, 0)",
-              "lightest": "rgb(233, 117, 0)",
-              "middark": "rgb(255, 161, 57)",
-              "midlight": "rgb(205, 95, 0)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.996078431372549, 0.6039215686274509, 0.1803921568627451
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9764705882352941, 0.5372549019607843, 0.09019607843137255
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0.8941176470588236, 0.43529411764705883, 0],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0.9137254901960784, 0.4588235294117647, 0],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [1, 0.6313725490196078, 0.2235294117647059],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.803921568627451, 0.37254901960784315, 0],
+                "alpha": 1
+              }
             }
           }
         },
         "600": {
-          "$value": "rgb(203, 93, 0)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0.796078431372549, 0.36470588235294116, 0],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(255, 181, 88)",
-              "darkest": "rgb(255, 162, 59)",
-              "light": "rgb(203, 93, 0)",
-              "lightest": "rgb(209, 97, 0)",
-              "middark": "rgb(255, 186, 97)",
-              "midlight": "rgb(181, 79, 0)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [1, 0.7098039215686275, 0.34509803921568627],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [1, 0.6352941176470588, 0.23137254901960785],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0.796078431372549, 0.36470588235294116, 0],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0.8196078431372549, 0.3803921568627451, 0],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [1, 0.7294117647058823, 0.3803921568627451],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.7098039215686275, 0.30980392156862746, 0],
+                "alpha": 1
+              }
             }
           }
         },
         "700": {
-          "$value": "rgb(177, 76, 0)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0.6941176470588235, 0.2980392156862745, 0],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(253, 206, 136)",
-              "darkest": "rgb(255, 188, 102)",
-              "light": "rgb(177, 76, 0)",
-              "lightest": "rgb(182, 80, 0)",
-              "middark": "rgb(253, 208, 142)",
-              "midlight": "rgb(155, 64, 0)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9921568627450981, 0.807843137254902, 0.5333333333333333
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [1, 0.7372549019607844, 0.4],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0.6941176470588235, 0.2980392156862745, 0],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0.7137254901960784, 0.3137254901960784, 0],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9921568627450981, 0.8156862745098039, 0.5568627450980392
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0.6078431372549019, 0.25098039215686274, 0],
+                "alpha": 1
+              }
             }
           }
         }
       },
       "green": {
         "400": {
-          "$value": "rgb(0, 143, 93)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0, 0.5607843137254902, 0.36470588235294116],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(18, 162, 108)",
-              "darkest": "rgb(0, 149, 98)",
-              "light": "rgb(0, 143, 93)",
-              "lightest": "rgb(0, 148, 97)",
-              "middark": "rgb(30, 170, 116)",
-              "midlight": "rgb(0, 125, 79)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.07058823529411765, 0.6352941176470588, 0.4235294117647059
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [0, 0.5843137254901961, 0.3843137254901961],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0, 0.5607843137254902, 0.36470588235294116],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0, 0.5803921568627451, 0.3803921568627451],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.11764705882352941, 0.6666666666666666, 0.4549019607843137
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0, 0.49019607843137253, 0.30980392156862746],
+                "alpha": 1
+              }
             }
           }
         },
         "500": {
-          "$value": "rgb(0, 122, 77)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0, 0.47843137254901963, 0.30196078431372547],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(43, 180, 125)",
-              "darkest": "rgb(28, 168, 114)",
-              "light": "rgb(0, 122, 77)",
-              "lightest": "rgb(0, 126, 80)",
-              "middark": "rgb(51, 187, 131)",
-              "midlight": "rgb(0, 105, 65)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.16862745098039217, 0.7058823529411765, 0.49019607843137253
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.10980392156862745, 0.6588235294117647, 0.4470588235294118
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0, 0.47843137254901963, 0.30196078431372547],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0, 0.49411764705882355, 0.3137254901960784],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [0.2, 0.7333333333333333, 0.5137254901960784],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0, 0.4117647058823529, 0.2549019607843137],
+                "alpha": 1
+              }
             }
           }
         },
         "600": {
-          "$value": "rgb(0, 101, 62)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0, 0.396078431372549, 0.24313725490196078],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(67, 199, 143)",
-              "darkest": "rgb(52, 187, 132)",
-              "light": "rgb(0, 101, 62)",
-              "lightest": "rgb(0, 105, 65)",
-              "middark": "rgb(74, 204, 148)",
-              "midlight": "rgb(0, 85, 52)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.2627450980392157, 0.7803921568627451, 0.5607843137254902
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.20392156862745098, 0.7333333333333333, 0.5176470588235295
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0, 0.396078431372549, 0.24313725490196078],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0, 0.4117647058823529, 0.2549019607843137],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [0.2901960784313726, 0.8, 0.5803921568627451],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0, 0.3333333333333333, 0.20392156862745098],
+                "alpha": 1
+              }
             }
           }
         },
         "700": {
-          "$value": "rgb(0, 81, 50)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0, 0.3176470588235294, 0.19607843137254902],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(94, 217, 162)",
-              "darkest": "rgb(75, 205, 149)",
-              "light": "rgb(0, 81, 50)",
-              "lightest": "rgb(0, 86, 53)",
-              "middark": "rgb(101, 221, 167)",
-              "midlight": "rgb(5, 65, 40)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.3686274509803922, 0.8509803921568627, 0.6352941176470588
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.29411764705882354, 0.803921568627451, 0.5843137254901961
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0, 0.3176470588235294, 0.19607843137254902],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0, 0.33725490196078434, 0.20784313725490197],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.396078431372549, 0.8666666666666667, 0.6549019607843137
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.0196078431372549, 0.2549019607843137, 0.1568627450980392
+                ],
+                "alpha": 1
+              }
             }
           }
         }
       },
       "blue": {
         "400": {
-          "$value": "rgb(20, 122, 243)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0784313725490196, 0.47843137254901963, 0.9529411764705882
+            ],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(52, 143, 244)",
-              "darkest": "rgb(29, 128, 245)",
-              "light": "rgb(20, 122, 243)",
-              "lightest": "rgb(27, 127, 245)",
-              "middark": "rgb(66, 152, 244)",
-              "midlight": "rgb(4, 104, 225)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.20392156862745098, 0.5607843137254902, 0.9568627450980393
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.11372549019607843, 0.5019607843137255, 0.9607843137254902
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.0784313725490196, 0.47843137254901963, 0.9529411764705882
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.10588235294117647, 0.4980392156862745, 0.9607843137254902
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.25882352941176473, 0.596078431372549, 0.9568627450980393
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.01568627450980392, 0.40784313725490196, 0.8823529411764706
+                ],
+                "alpha": 1
+              }
             }
           }
         },
         "500": {
-          "$value": "rgb(2, 101, 220)",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.00784313725490196, 0.396078431372549, 0.8627450980392157
+            ],
+            "alpha": 1
+          },
           "$extensions": {
             "mode": {
-              "dark": "rgb(84, 163, 246)",
-              "darkest": "rgb(64, 150, 243)",
-              "light": "rgb(2, 101, 220)",
-              "lightest": "rgb(4, 105, 227)",
-              "middark": "rgb(94, 170, 247)",
-              "midlight": "rgb(0, 87, 190)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.32941176470588235, 0.6392156862745098, 0.9647058823529412
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.25098039215686274, 0.5882352941176471, 0.9529411764705882
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.00784313725490196, 0.396078431372549, 0.8627450980392157
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.01568627450980392, 0.4117647058823529, 0.8901960784313725
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.3686274509803922, 0.6666666666666666, 0.9686274509803922
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0, 0.3411764705882353, 0.7450980392156863],
+                "alpha": 1
+              }
             }
           }
         },
         "600": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(114, 183, 249)",
-              "darkest": "rgb(94, 170, 247)",
-              "light": "rgb(0, 84, 182)",
-              "lightest": "rgb(0, 87, 190)",
-              "middark": "rgb(122, 188, 250)",
-              "midlight": "rgb(0, 71, 152)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.4470588235294118, 0.7176470588235294, 0.9764705882352941
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.3686274509803922, 0.6666666666666666, 0.9686274509803922
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0, 0.32941176470588235, 0.7137254901960784],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0, 0.3411764705882353, 0.7450980392156863],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.47843137254901963, 0.7372549019607844, 0.9803921568627451
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0, 0.2784313725490196, 0.596078431372549],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(0, 84, 182)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0, 0.32941176470588235, 0.7137254901960784],
+            "alpha": 1
+          }
         },
         "700": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(143, 202, 252)",
-              "darkest": "rgb(124, 189, 250)",
-              "light": "rgb(0, 68, 145)",
-              "lightest": "rgb(0, 72, 153)",
-              "middark": "rgb(149, 205, 252)",
-              "midlight": "rgb(0, 55, 118)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5607843137254902, 0.792156862745098, 0.9882352941176471
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.48627450980392156, 0.7411764705882353, 0.9803921568627451
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0, 0.26666666666666666, 0.5686274509803921],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0, 0.2823529411764706, 0.6],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5843137254901961, 0.803921568627451, 0.9882352941176471
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0, 0.21568627450980393, 0.4627450980392157],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(0, 68, 145)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0, 0.26666666666666666, 0.5686274509803921],
+            "alpha": 1
+          }
         }
       },
       "gray": {
         "50": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(29, 29, 29)",
-              "darkest": "rgb(0, 0, 0)",
-              "light": "rgb(255, 255, 255)",
-              "lightest": "rgb(255, 255, 255)",
-              "middark": "rgb(57, 57, 57)",
-              "midlight": "rgb(250, 250, 250)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.11372549019607843, 0.11372549019607843, 0.11372549019607843
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [0, 0, 0],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [1, 1, 1],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [1, 1, 1],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.2235294117647059, 0.2235294117647059, 0.2235294117647059
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9803921568627451, 0.9803921568627451, 0.9803921568627451
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(255, 255, 255)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 1
+          }
         },
         "75": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(38, 38, 38)",
-              "darkest": "rgb(14, 14, 14)",
-              "light": "rgb(253, 253, 253)",
-              "lightest": "rgb(255, 255, 255)",
-              "middark": "rgb(65, 65, 65)",
-              "midlight": "rgb(239, 239, 239)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.14901960784313725, 0.14901960784313725, 0.14901960784313725
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.054901960784313725, 0.054901960784313725,
+                  0.054901960784313725
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9921568627450981, 0.9921568627450981, 0.9921568627450981
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [1, 1, 1],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.2549019607843137, 0.2549019607843137, 0.2549019607843137
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9372549019607843, 0.9372549019607843, 0.9372549019607843
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(253, 253, 253)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9921568627450981, 0.9921568627450981, 0.9921568627450981
+            ],
+            "alpha": 1
+          }
         },
         "100": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(50, 50, 50)",
-              "darkest": "rgb(29, 29, 29)",
-              "light": "rgb(248, 248, 248)",
-              "lightest": "rgb(255, 255, 255)",
-              "middark": "rgb(75, 75, 75)",
-              "midlight": "rgb(219, 219, 219)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.19607843137254902, 0.19607843137254902, 0.19607843137254902
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.11372549019607843, 0.11372549019607843, 0.11372549019607843
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [1, 1, 1],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.29411764705882354, 0.29411764705882354, 0.29411764705882354
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8588235294117647, 0.8588235294117647, 0.8588235294117647
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(248, 248, 248)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+            ],
+            "alpha": 1
+          }
         },
         "200": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(63, 63, 63)",
-              "darkest": "rgb(48, 48, 48)",
-              "light": "rgb(230, 230, 230)",
-              "lightest": "rgb(235, 235, 235)",
-              "middark": "rgb(83, 83, 83)",
-              "midlight": "rgb(207, 207, 207)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.24705882352941178, 0.24705882352941178, 0.24705882352941178
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.18823529411764706, 0.18823529411764706, 0.18823529411764706
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9019607843137255, 0.9019607843137255, 0.9019607843137255
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9215686274509803, 0.9215686274509803, 0.9215686274509803
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.3254901960784314, 0.3254901960784314, 0.3254901960784314
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8117647058823529, 0.8117647058823529, 0.8117647058823529
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(230, 230, 230)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9019607843137255, 0.9019607843137255, 0.9019607843137255
+            ],
+            "alpha": 1
+          }
         },
         "300": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(84, 84, 84)",
-              "darkest": "rgb(75, 75, 75)",
-              "light": "rgb(213, 213, 213)",
-              "lightest": "rgb(217, 217, 217)",
-              "middark": "rgb(99, 99, 99)",
-              "midlight": "rgb(195, 195, 195)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.32941176470588235, 0.32941176470588235, 0.32941176470588235
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.29411764705882354, 0.29411764705882354, 0.29411764705882354
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8352941176470589, 0.8352941176470589, 0.8352941176470589
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8509803921568627, 0.8509803921568627, 0.8509803921568627
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.38823529411764707, 0.38823529411764707, 0.38823529411764707
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7647058823529411, 0.7647058823529411, 0.7647058823529411
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(213, 213, 213)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8352941176470589, 0.8352941176470589, 0.8352941176470589
+            ],
+            "alpha": 1
+          }
         },
         "400": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(112, 112, 112)",
-              "darkest": "rgb(106, 106, 106)",
-              "light": "rgb(177, 177, 177)",
-              "lightest": "rgb(179, 179, 179)",
-              "middark": "rgb(122, 122, 122)",
-              "midlight": "rgb(166, 166, 166)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.4392156862745098, 0.4392156862745098, 0.4392156862745098
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.41568627450980394, 0.41568627450980394, 0.41568627450980394
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.6941176470588235, 0.6941176470588235, 0.6941176470588235
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7019607843137254, 0.7019607843137254, 0.7019607843137254
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.47843137254901963, 0.47843137254901963, 0.47843137254901963
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.6509803921568628, 0.6509803921568628, 0.6509803921568628
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(177, 177, 177)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.6941176470588235, 0.6941176470588235, 0.6941176470588235
+            ],
+            "alpha": 1
+          }
         },
         "500": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(144, 144, 144)",
-              "darkest": "rgb(141, 141, 141)",
-              "light": "rgb(144, 144, 144)",
-              "lightest": "rgb(146, 146, 146)",
-              "middark": "rgb(151, 151, 151)",
-              "midlight": "rgb(138, 138, 138)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5647058823529412, 0.5647058823529412, 0.5647058823529412
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5529411764705883, 0.5529411764705883, 0.5529411764705883
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5647058823529412, 0.5647058823529412, 0.5647058823529412
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5725490196078431, 0.5725490196078431, 0.5725490196078431
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.592156862745098, 0.592156862745098, 0.592156862745098
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.5411764705882353, 0.5411764705882353, 0.5411764705882353
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(144, 144, 144)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.5647058823529412, 0.5647058823529412, 0.5647058823529412
+            ],
+            "alpha": 1
+          }
         },
         "600": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(178, 178, 178)",
-              "darkest": "rgb(176, 176, 176)",
-              "light": "rgb(109, 109, 109)",
-              "lightest": "rgb(110, 110, 110)",
-              "middark": "rgb(182, 182, 182)",
-              "midlight": "rgb(106, 106, 106)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.6980392156862745, 0.6980392156862745, 0.6980392156862745
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.6901960784313725, 0.6901960784313725, 0.6901960784313725
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.42745098039215684, 0.42745098039215684, 0.42745098039215684
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.43137254901960786, 0.43137254901960786, 0.43137254901960786
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.7137254901960784, 0.7137254901960784, 0.7137254901960784
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.41568627450980394, 0.41568627450980394, 0.41568627450980394
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(109, 109, 109)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.42745098039215684, 0.42745098039215684, 0.42745098039215684
+            ],
+            "alpha": 1
+          }
         },
         "700": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(209, 209, 209)",
-              "darkest": "rgb(208, 208, 208)",
-              "light": "rgb(70, 70, 70)",
-              "lightest": "rgb(71, 71, 71)",
-              "middark": "rgb(212, 212, 212)",
-              "midlight": "rgb(69, 69, 69)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8196078431372549, 0.8196078431372549, 0.8196078431372549
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8156862745098039, 0.8156862745098039, 0.8156862745098039
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.27450980392156865, 0.27450980392156865, 0.27450980392156865
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.2784313725490196, 0.2784313725490196, 0.2784313725490196
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.8313725490196079, 0.8313725490196079, 0.8313725490196079
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.27058823529411763, 0.27058823529411763, 0.27058823529411763
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(70, 70, 70)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.27450980392156865, 0.27450980392156865, 0.27450980392156865
+            ],
+            "alpha": 1
+          }
         },
         "800": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(235, 235, 235)",
-              "darkest": "rgb(235, 235, 235)",
-              "light": "rgb(34, 34, 34)",
-              "lightest": "rgb(34, 34, 34)",
-              "middark": "rgb(236, 236, 236)",
-              "midlight": "rgb(33, 33, 33)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9215686274509803, 0.9215686274509803, 0.9215686274509803
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9215686274509803, 0.9215686274509803, 0.9215686274509803
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.13333333333333333, 0.13333333333333333, 0.13333333333333333
+                ],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.13333333333333333, 0.13333333333333333, 0.13333333333333333
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9254901960784314, 0.9254901960784314, 0.9254901960784314
+                ],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.12941176470588237, 0.12941176470588237, 0.12941176470588237
+                ],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(34, 34, 34)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.13333333333333333, 0.13333333333333333, 0.13333333333333333
+            ],
+            "alpha": 1
+          }
         },
         "900": {
           "$extensions": {
             "mode": {
-              "dark": "rgb(255, 255, 255)",
-              "darkest": "rgb(255, 255, 255)",
-              "light": "rgb(0, 0, 0)",
-              "lightest": "rgb(0, 0, 0)",
-              "middark": "rgb(255, 255, 255)",
-              "midlight": "rgb(0, 0, 0)"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [1, 1, 1],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [1, 1, 1],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [0, 0, 0],
+                "alpha": 1
+              },
+              "lightest": {
+                "colorSpace": "srgb",
+                "components": [0, 0, 0],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [1, 1, 1],
+                "alpha": 1
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0, 0, 0],
+                "alpha": 1
+              }
             }
           },
-          "$value": "rgb(0, 0, 0)"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 1
+          }
         }
       }
     }
@@ -823,29 +3004,101 @@
   "alias": {
     "background-color-primary": {
       "$type": "color",
-      "$value": "{global.color.gray.50}",
+      "$value": { "colorSpace": "srgb", "components": [1, 1, 1], "alpha": 1 },
       "$extensions": {
         "mode": {
-          "dark": "{global.color.gray.100}",
-          "darkest": "{global.color.gray.100}",
-          "light": "{global.color.gray.50}",
-          "lightest": "{global.color.gray.50}",
-          "middark": "{global.color.gray.100}",
-          "midlight": "{global.color.gray.50}"
+          "dark": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+            ],
+            "alpha": 1
+          },
+          "darkest": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+            ],
+            "alpha": 1
+          },
+          "light": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 1
+          },
+          "lightest": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 1
+          },
+          "middark": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+            ],
+            "alpha": 1
+          },
+          "midlight": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 1
+          }
         }
       }
     },
     "background-color-secondary": {
       "$type": "color",
-      "$value": "{global.color.gray.100}",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+        ],
+        "alpha": 1
+      },
       "$extensions": {
         "mode": {
-          "dark": "{global.color.gray.75}",
-          "darkest": "{global.color.gray.75}",
-          "light": "{global.color.gray.100}",
-          "lightest": "{global.color.gray.100}",
-          "middark": "{global.color.gray.75}",
-          "midlight": "{global.color.gray.100}"
+          "dark": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9921568627450981, 0.9921568627450981, 0.9921568627450981
+            ],
+            "alpha": 1
+          },
+          "darkest": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9921568627450981, 0.9921568627450981, 0.9921568627450981
+            ],
+            "alpha": 1
+          },
+          "light": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+            ],
+            "alpha": 1
+          },
+          "lightest": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+            ],
+            "alpha": 1
+          },
+          "middark": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9921568627450981, 0.9921568627450981, 0.9921568627450981
+            ],
+            "alpha": 1
+          },
+          "midlight": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+            ],
+            "alpha": 1
+          }
         }
       }
     },
@@ -865,127 +3118,419 @@
     },
     "background-color-modal-overlay": {
       "$type": "color",
-      "$value": "rgba(0, 0, 0, 0.4)",
+      "$value": { "colorSpace": "srgb", "components": [0, 0, 0], "alpha": 0.4 },
       "$extensions": {
         "mode": {
-          "dark": "rgba(0, 0, 0, 0.5)",
-          "darkest": "rgba(0, 0, 0, 0.6)",
-          "light": "rgba(0, 0, 0, 0.4)",
-          "lightest": "rgba(0, 0, 0, 0.4)",
-          "middark": "rgba(0, 0, 0, 0.4)",
-          "midlight": "rgba(0, 0, 0, 0.4)"
+          "dark": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.5
+          },
+          "darkest": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.6
+          },
+          "light": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.4
+          },
+          "lightest": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.4
+          },
+          "middark": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.4
+          },
+          "midlight": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.4
+          }
         }
       }
     },
     "background-color-hover-overly": {
       "$type": "color",
-      "$value": "rgba(0, 0, 0, 0.04)",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [0, 0, 0],
+        "alpha": 0.04
+      },
       "$extensions": {
         "mode": {
-          "dark": "rgba(255, 255, 255, 0.06)",
-          "darkest": "rgba(255, 255, 255, 0.08)",
-          "light": "rgba(0, 0, 0, 0.04)",
-          "lightest": "rgba(0, 0, 0, 0.04)",
-          "middark": "rgba(255, 255, 255, 0.05)",
-          "midlight": "rgba(0, 0, 0, 0.04)"
+          "dark": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 0.06
+          },
+          "darkest": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 0.08
+          },
+          "light": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.04
+          },
+          "lightest": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.04
+          },
+          "middark": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 0.05
+          },
+          "midlight": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.04
+          }
         }
       }
     },
     "background-color-quickactions": {
       "$type": "color",
-      "$value": "rgba(248, 248, 248, 0.9)",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+        ],
+        "alpha": 0.9
+      },
       "$extensions": {
         "mode": {
-          "dark": "rgba(50, 50, 50, 0.9)",
-          "darkest": "rgba(29, 29, 29, 0.9)",
-          "light": "rgba(248, 248, 248, 0.9)",
-          "lightest": "rgba(255, 255, 255, 0.9)",
-          "middark": "rgba(75, 75, 75, 0.9)",
-          "midlight": "rgba(219, 219, 219, 0.9)"
+          "dark": {
+            "colorSpace": "srgb",
+            "components": [
+              0.19607843137254902, 0.19607843137254902, 0.19607843137254902
+            ],
+            "alpha": 0.9
+          },
+          "darkest": {
+            "colorSpace": "srgb",
+            "components": [
+              0.11372549019607843, 0.11372549019607843, 0.11372549019607843
+            ],
+            "alpha": 0.9
+          },
+          "light": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+            ],
+            "alpha": 0.9
+          },
+          "lightest": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 0.9
+          },
+          "middark": {
+            "colorSpace": "srgb",
+            "components": [
+              0.29411764705882354, 0.29411764705882354, 0.29411764705882354
+            ],
+            "alpha": 0.9
+          },
+          "midlight": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8588235294117647, 0.8588235294117647, 0.8588235294117647
+            ],
+            "alpha": 0.9
+          }
         }
       }
     },
     "dropshadow-color": {
-      "$value": "rgba(0, 0, 0, 0.15)",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [0, 0, 0],
+        "alpha": 0.15
+      },
       "$type": "color",
       "$extensions": {
         "mode": {
-          "dark": "rgba(0, 0, 0, 0.5)",
-          "darkest": "rgba(0, 0, 0, 0.8)",
-          "light": "rgba(0, 0, 0, 0.15)",
-          "lightest": "rgba(0, 0, 0, 0.15)",
-          "middark": "rgba(0, 0, 0, 0.3)",
-          "midlight": "rgba(0, 0, 0, 0.15)"
+          "dark": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.5
+          },
+          "darkest": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.8
+          },
+          "light": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.15
+          },
+          "lightest": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.15
+          },
+          "middark": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.3
+          },
+          "midlight": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.15
+          }
         }
       }
     },
     "highlight-hover": {
       "$type": "color",
-      "$value": "rgba(0, 0, 0, 0.06)",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [0, 0, 0],
+        "alpha": 0.06
+      },
       "$extensions": {
         "mode": {
-          "dark": "rgba(255, 255, 255, 0.07)",
-          "darkest": "rgba(255, 255, 255, 0.08)",
-          "light": "rgba(0, 0, 0, 0.06)",
-          "lightest": "rgba(0, 0, 0, 0.06)",
-          "middark": "rgba(255, 255, 255, 0.06)",
-          "midlight": "rgba(0, 0, 0, 0.06)"
+          "dark": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 0.07
+          },
+          "darkest": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 0.08
+          },
+          "light": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.06
+          },
+          "lightest": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.06
+          },
+          "middark": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 0.06
+          },
+          "midlight": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.06
+          }
         }
       }
     },
     "highlight-down": {
       "$type": "color",
-      "$value": "rgba(0, 0, 0, 0.1)",
+      "$value": { "colorSpace": "srgb", "components": [0, 0, 0], "alpha": 0.1 },
       "$extensions": {
         "mode": {
-          "dark": "rgba(255, 255, 255, 0.1)",
-          "darkest": "rgba(255, 255, 255, 0.15)",
-          "light": "rgba(0, 0, 0, 0.1)",
-          "lightest": "rgba(0, 0, 0, 0.1)",
-          "middark": "rgba(255, 255, 255, 0.1)",
-          "midlight": "rgba(0, 0, 0, 0.1)"
+          "dark": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 0.1
+          },
+          "darkest": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 0.15
+          },
+          "light": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.1
+          },
+          "lightest": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.1
+          },
+          "middark": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 0.1
+          },
+          "midlight": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.1
+          }
         }
       }
     },
     "highlight-selected": {
       "$type": "color",
-      "$value": "rgba(2, 101, 220, 0.1)",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.00784313725490196, 0.396078431372549, 0.8627450980392157
+        ],
+        "alpha": 0.1
+      },
       "$extensions": {
         "mode": {
-          "dark": "rgba(84, 163, 246, 0.15)",
-          "darkest": "rgba(64, 150, 243, 0.2)",
-          "light": "rgba(2, 101, 220, 0.1)",
-          "lightest": "rgba(4, 105, 227, 0.1)",
-          "middark": "rgba(94, 170, 247, 0.1)",
-          "midlight": "rgba(0, 87, 190, 0.1)"
+          "dark": {
+            "colorSpace": "srgb",
+            "components": [
+              0.32941176470588235, 0.6392156862745098, 0.9647058823529412
+            ],
+            "alpha": 0.15
+          },
+          "darkest": {
+            "colorSpace": "srgb",
+            "components": [
+              0.25098039215686274, 0.5882352941176471, 0.9529411764705882
+            ],
+            "alpha": 0.2
+          },
+          "light": {
+            "colorSpace": "srgb",
+            "components": [
+              0.00784313725490196, 0.396078431372549, 0.8627450980392157
+            ],
+            "alpha": 0.1
+          },
+          "lightest": {
+            "colorSpace": "srgb",
+            "components": [
+              0.01568627450980392, 0.4117647058823529, 0.8901960784313725
+            ],
+            "alpha": 0.1
+          },
+          "middark": {
+            "colorSpace": "srgb",
+            "components": [
+              0.3686274509803922, 0.6666666666666666, 0.9686274509803922
+            ],
+            "alpha": 0.1
+          },
+          "midlight": {
+            "colorSpace": "srgb",
+            "components": [0, 0.3411764705882353, 0.7450980392156863],
+            "alpha": 0.1
+          }
         }
       }
     },
     "highlight-selected-hover": {
       "$type": "color",
-      "$value": "rgba(2, 101, 220, 0.2)",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.00784313725490196, 0.396078431372549, 0.8627450980392157
+        ],
+        "alpha": 0.2
+      },
       "$extensions": {
         "mode": {
-          "dark": "rgba(84, 163, 246, 0.25)",
-          "darkest": "rgba(64, 150, 243, 0.3)",
-          "light": "rgba(2, 101, 220, 0.2)",
-          "lightest": "rgba(4, 105, 227, 0.2)",
-          "middark": "rgba(94, 170, 247, 0.2)",
-          "midlight": "rgba(0, 87, 190, 0.2)"
+          "dark": {
+            "colorSpace": "srgb",
+            "components": [
+              0.32941176470588235, 0.6392156862745098, 0.9647058823529412
+            ],
+            "alpha": 0.25
+          },
+          "darkest": {
+            "colorSpace": "srgb",
+            "components": [
+              0.25098039215686274, 0.5882352941176471, 0.9529411764705882
+            ],
+            "alpha": 0.3
+          },
+          "light": {
+            "colorSpace": "srgb",
+            "components": [
+              0.00784313725490196, 0.396078431372549, 0.8627450980392157
+            ],
+            "alpha": 0.2
+          },
+          "lightest": {
+            "colorSpace": "srgb",
+            "components": [
+              0.01568627450980392, 0.4117647058823529, 0.8901960784313725
+            ],
+            "alpha": 0.2
+          },
+          "middark": {
+            "colorSpace": "srgb",
+            "components": [
+              0.3686274509803922, 0.6666666666666666, 0.9686274509803922
+            ],
+            "alpha": 0.2
+          },
+          "midlight": {
+            "colorSpace": "srgb",
+            "components": [0, 0.3411764705882353, 0.7450980392156863],
+            "alpha": 0.2
+          }
         }
       }
     },
     "text-highlight-color": {
       "$type": "color",
-      "$value": "rgba(2, 101, 220, 0.2)",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.00784313725490196, 0.396078431372549, 0.8627450980392157
+        ],
+        "alpha": 0.2
+      },
       "$extensions": {
         "mode": {
-          "dark": "rgba(84, 163, 246, 0.25)",
-          "darkest": "rgba(64, 150, 243, 0.3)",
-          "light": "rgba(2, 101, 220, 0.2)",
-          "lightest": "rgba(4, 105, 227, 0.2)",
-          "middark": "rgba(94, 170, 247, 0.2)",
-          "midlight": "rgba(0, 87, 190, 0.2)"
+          "dark": {
+            "colorSpace": "srgb",
+            "components": [
+              0.32941176470588235, 0.6392156862745098, 0.9647058823529412
+            ],
+            "alpha": 0.25
+          },
+          "darkest": {
+            "colorSpace": "srgb",
+            "components": [
+              0.25098039215686274, 0.5882352941176471, 0.9529411764705882
+            ],
+            "alpha": 0.3
+          },
+          "light": {
+            "colorSpace": "srgb",
+            "components": [
+              0.00784313725490196, 0.396078431372549, 0.8627450980392157
+            ],
+            "alpha": 0.2
+          },
+          "lightest": {
+            "colorSpace": "srgb",
+            "components": [
+              0.01568627450980392, 0.4117647058823529, 0.8901960784313725
+            ],
+            "alpha": 0.2
+          },
+          "middark": {
+            "colorSpace": "srgb",
+            "components": [
+              0.3686274509803922, 0.6666666666666666, 0.9686274509803922
+            ],
+            "alpha": 0.2
+          },
+          "midlight": {
+            "colorSpace": "srgb",
+            "components": [0, 0.3411764705882353, 0.7450980392156863],
+            "alpha": 0.2
+          }
         }
       }
     },
@@ -1004,21 +3549,51 @@
     },
     "border-color-translucent": {
       "$type": "color",
-      "$value": "rgba(0, 0, 0, 0.1)",
+      "$value": { "colorSpace": "srgb", "components": [0, 0, 0], "alpha": 0.1 },
       "$extensions": {
         "mode": {
-          "dark": "rgba(255, 255, 255, 0.1)",
-          "darkest": "rgba(255, 255, 255, 0.1)",
-          "light": "rgba(0, 0, 0, 0.1)",
-          "lightest": "rgba(0, 0, 0, 0.1)",
-          "middark": "rgba(255, 255, 255, 0.1)",
-          "midlight": "rgba(0, 0, 0, 0.1)"
+          "dark": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 0.1
+          },
+          "darkest": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 0.1
+          },
+          "light": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.1
+          },
+          "lightest": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.1
+          },
+          "middark": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 0.1
+          },
+          "midlight": {
+            "colorSpace": "srgb",
+            "components": [0, 0, 0],
+            "alpha": 0.1
+          }
         }
       }
     },
     "radial-reaction-color": {
       "$type": "color",
-      "$value": "rgba(34, 34, 34, 0.6)",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.13333333333333333, 0.13333333333333333, 0.13333333333333333
+        ],
+        "alpha": 0.6
+      },
       "default": {
         "$extensions": {
           "mode": {
@@ -1034,44 +3609,148 @@
     },
     "pasteboard-background-color": {
       "$type": "color",
-      "$value": "{global.color.gray.300}",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8352941176470589, 0.8352941176470589, 0.8352941176470589
+        ],
+        "alpha": 1
+      },
       "$extensions": {
         "mode": {
-          "dark": "{global.color.gray.50}",
-          "darkest": "{global.color.gray.50}",
-          "light": "{global.color.gray.300}",
-          "lightest": "{global.color.gray.300}",
-          "middark": "{global.color.gray.50}",
-          "midlight": "{global.color.gray.300}"
+          "dark": { "colorSpace": "srgb", "components": [1, 1, 1], "alpha": 1 },
+          "darkest": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 1
+          },
+          "light": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8352941176470589, 0.8352941176470589, 0.8352941176470589
+            ],
+            "alpha": 1
+          },
+          "lightest": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8352941176470589, 0.8352941176470589, 0.8352941176470589
+            ],
+            "alpha": 1
+          },
+          "middark": {
+            "colorSpace": "srgb",
+            "components": [1, 1, 1],
+            "alpha": 1
+          },
+          "midlight": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8352941176470589, 0.8352941176470589, 0.8352941176470589
+            ],
+            "alpha": 1
+          }
         }
       }
     },
     "appframe": {
       "border-color": {
         "$type": "color",
-        "$value": "{global.color.gray.300}",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8352941176470589, 0.8352941176470589, 0.8352941176470589
+          ],
+          "alpha": 1
+        },
         "$extensions": {
           "mode": {
-            "dark": "{global.color.gray.50}",
-            "darkest": "{global.color.gray.50}",
-            "light": "{global.color.gray.300}",
-            "lightest": "{global.color.gray.300}",
-            "middark": "{global.color.gray.50}",
-            "midlight": "{global.color.gray.300}"
+            "dark": {
+              "colorSpace": "srgb",
+              "components": [1, 1, 1],
+              "alpha": 1
+            },
+            "darkest": {
+              "colorSpace": "srgb",
+              "components": [1, 1, 1],
+              "alpha": 1
+            },
+            "light": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8352941176470589, 0.8352941176470589, 0.8352941176470589
+              ],
+              "alpha": 1
+            },
+            "lightest": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8352941176470589, 0.8352941176470589, 0.8352941176470589
+              ],
+              "alpha": 1
+            },
+            "middark": {
+              "colorSpace": "srgb",
+              "components": [1, 1, 1],
+              "alpha": 1
+            },
+            "midlight": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8352941176470589, 0.8352941176470589, 0.8352941176470589
+              ],
+              "alpha": 1
+            }
           }
         }
       },
       "separator-color": {
         "$type": "color",
-        "$value": "{global.color.gray.300}",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8352941176470589, 0.8352941176470589, 0.8352941176470589
+          ],
+          "alpha": 1
+        },
         "$extensions": {
           "mode": {
-            "dark": "{global.color.gray.50}",
-            "darkest": "{global.color.gray.50}",
-            "light": "{global.color.gray.300}",
-            "lightest": "{global.color.gray.300}",
-            "middark": "{global.color.gray.50}",
-            "midlight": "{global.color.gray.300}"
+            "dark": {
+              "colorSpace": "srgb",
+              "components": [1, 1, 1],
+              "alpha": 1
+            },
+            "darkest": {
+              "colorSpace": "srgb",
+              "components": [1, 1, 1],
+              "alpha": 1
+            },
+            "light": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8352941176470589, 0.8352941176470589, 0.8352941176470589
+              ],
+              "alpha": 1
+            },
+            "lightest": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8352941176470589, 0.8352941176470589, 0.8352941176470589
+              ],
+              "alpha": 1
+            },
+            "middark": {
+              "colorSpace": "srgb",
+              "components": [1, 1, 1],
+              "alpha": 1
+            },
+            "midlight": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8352941176470589, 0.8352941176470589, 0.8352941176470589
+              ],
+              "alpha": 1
+            }
           }
         }
       }
@@ -1084,14 +3763,46 @@
           "$type": "color",
           "$extensions": {
             "mode": {
-              "dark": "{global.color.gray.100}",
-              "darkest": "{global.color.gray.100}",
-              "light": "{global.color.gray.75}",
-              "middark": "transparent",
-              "midlight": "transparent"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9921568627450981, 0.9921568627450981, 0.9921568627450981
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [0, 0, 0],
+                "alpha": 0
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0, 0, 0],
+                "alpha": 0
+              }
             }
           },
-          "$value": "{global.color.gray.75}"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9921568627450981, 0.9921568627450981, 0.9921568627450981
+            ],
+            "alpha": 1
+          }
         }
       },
       "m": {
@@ -1099,14 +3810,46 @@
           "$type": "color",
           "$extensions": {
             "mode": {
-              "dark": "{global.color.gray.100}",
-              "darkest": "{global.color.gray.100}",
-              "light": "{global.color.gray.75}",
-              "middark": "transparent",
-              "midlight": "transparent"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9921568627450981, 0.9921568627450981, 0.9921568627450981
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [0, 0, 0],
+                "alpha": 0
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0, 0, 0],
+                "alpha": 0
+              }
             }
           },
-          "$value": "{global.color.gray.75}"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9921568627450981, 0.9921568627450981, 0.9921568627450981
+            ],
+            "alpha": 1
+          }
         }
       },
       "l": {
@@ -1114,14 +3857,46 @@
           "$type": "color",
           "$extensions": {
             "mode": {
-              "dark": "{global.color.gray.100}",
-              "darkest": "{global.color.gray.100}",
-              "light": "{global.color.gray.75}",
-              "middark": "transparent",
-              "midlight": "transparent"
+              "dark": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+                ],
+                "alpha": 1
+              },
+              "darkest": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9725490196078431, 0.9725490196078431, 0.9725490196078431
+                ],
+                "alpha": 1
+              },
+              "light": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9921568627450981, 0.9921568627450981, 0.9921568627450981
+                ],
+                "alpha": 1
+              },
+              "middark": {
+                "colorSpace": "srgb",
+                "components": [0, 0, 0],
+                "alpha": 0
+              },
+              "midlight": {
+                "colorSpace": "srgb",
+                "components": [0, 0, 0],
+                "alpha": 0
+              }
             }
           },
-          "$value": "{global.color.gray.75}"
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9921568627450981, 0.9921568627450981, 0.9921568627450981
+            ],
+            "alpha": 1
+          }
         }
       }
     }
@@ -1131,14 +3906,50 @@
       "$type": "color",
       "$extensions": {
         "mode": {
-          "dark": "rgba(235, 235, 235, 0.02)",
-          "darkest": "rgba(235, 235, 235, 0.02)",
-          "light": "rgba(34, 34, 34, 0.02)",
-          "middark": "rgba(236, 236, 236, 0.02)",
-          "midlight": "rgba(33, 33, 33, 0.02)"
+          "dark": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9215686274509803, 0.9215686274509803, 0.9215686274509803
+            ],
+            "alpha": 0.02
+          },
+          "darkest": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9215686274509803, 0.9215686274509803, 0.9215686274509803
+            ],
+            "alpha": 0.02
+          },
+          "light": {
+            "colorSpace": "srgb",
+            "components": [
+              0.13333333333333333, 0.13333333333333333, 0.13333333333333333
+            ],
+            "alpha": 0.02
+          },
+          "middark": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9254901960784314, 0.9254901960784314, 0.9254901960784314
+            ],
+            "alpha": 0.02
+          },
+          "midlight": {
+            "colorSpace": "srgb",
+            "components": [
+              0.12941176470588237, 0.12941176470588237, 0.12941176470588237
+            ],
+            "alpha": 0.02
+          }
         }
       },
-      "$value": "rgba(34, 34, 34, 0.02)"
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.13333333333333333, 0.13333333333333333, 0.13333333333333333
+        ],
+        "alpha": 0.02
+      }
     },
     "border-color": {
       "$type": "color",
@@ -1153,21 +3964,12 @@
   "font": {
     "family": {
       "$type": "fontFamily",
-      "clean": {
-        "$value": "Adobe Clean"
-      },
-      "cleanSerif": {
-        "$value": "Adobe Clean Serif"
-      },
-      "cleanHan": {
-        "$value": "Adobe Clean Han"
-      },
-      "sourceCode": {
-        "$value": "Source Code Pro"
-      }
+      "clean": { "$value": ["Adobe Clean"] },
+      "cleanSerif": { "$value": ["Adobe Clean Serif"] },
+      "cleanHan": { "$value": ["Adobe Clean Han"] },
+      "sourceCode": { "$value": ["Source Code Pro"] }
     },
     "size": {
-      "$type": "dimension",
       "50": {
         "$value": { "value": 1, "unit": "px" },
         "$extensions": {
@@ -1303,9 +4105,8 @@
           }
         }
       },
-      "$extensions": {
-        "requiredModes": ["desktop", "mobile"]
-      }
+      "$type": "dimension",
+      "$extensions": { "requiredModes": ["desktop", "mobile"] }
     }
   }
 }

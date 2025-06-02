@@ -9,14 +9,14 @@ importers:
   .:
     devDependencies:
       '@terrazzo/cli':
-        specifier: ^0.7.3
-        version: 0.7.3(hono@4.7.9)
-      '@types/culori':
-        specifier: ^4.0.0
-        version: 4.0.0
-      culori:
-        specifier: ^4.0.1
-        version: 4.0.1
+        specifier: ^0.8.0
+        version: 0.8.0(hono@4.7.9)
+      '@terrazzo/parser':
+        specifier: ^0.8.0
+        version: 0.8.0
+      '@types/node':
+        specifier: ^22.15.29
+        version: 22.15.29
 
 packages:
 
@@ -36,15 +36,15 @@ packages:
     resolution: {integrity: sha512-/3PZzor2imi/RLLcnHztkwA79txiVvW145Ve2cp5dxRcH5qOUNJPToasqLFHniTfw4B4lT7jGDdBOPXbXYlIMQ==}
     engines: {node: '>=18'}
 
-  '@terrazzo/cli@0.7.3':
-    resolution: {integrity: sha512-3LwFAd6J5qIQ2flTQeTYfbn8oU88LxB7kobe34n2Izjbi6/VBW2hCo0EDIurPgnZZHNpz4oicc0gjM8KQ6QeWA==}
+  '@terrazzo/cli@0.8.0':
+    resolution: {integrity: sha512-SkbrTECNZXQGav1wT7wTFO6Gki2uoxVYQaw2c8BORtYdwkHvaZ/b+UlUIWZn2I4blej4Xh2KS2HoZ45NatiLwQ==}
     hasBin: true
 
-  '@terrazzo/parser@0.7.2':
-    resolution: {integrity: sha512-c7rsNPz0K9lDckZH8E8gcGisszK3eXyY9WlHI8OXSS6h81raowYvq0rZxhKA8HcIyGle7kvTrXiNRuXv1wZPrg==}
+  '@terrazzo/parser@0.8.0':
+    resolution: {integrity: sha512-Bpz+FYLVzQSppeJlnh8hB6DYmluWdQstwfZuAZsqWKgj/x5UhLdr1H9MJpOpdwwC+d2WKS+QqXxueMRcq4Ludw==}
 
-  '@terrazzo/token-tools@0.7.3':
-    resolution: {integrity: sha512-IWsCU0yjNQNAmPkh5XXIF4+kX8w3Ai1uJmBWRH/DnhkeHbOizPJD3miI4BAV0L+ZrKVhjUzSqY2I9mX5RItYYg==}
+  '@terrazzo/token-tools@0.8.0':
+    resolution: {integrity: sha512-LwCcRoLp59/L9XPyJI/toHDFwxoeyWGqwEfQwAZ/lfZMazlTFS8os8Za0eKZP7Gd5N0bA9raf+zmq8L7A414GA==}
 
   '@types/babel__code-frame@7.0.6':
     resolution: {integrity: sha512-Anitqkl3+KrzcW2k77lRlg/GfLZLWXBuNgbEcIOU6M92yw42vsd3xV/Z/yAHEj8m+KUjL6bWOVOFqX8PFPJ4LA==}
@@ -54,6 +54,9 @@ packages:
 
   '@types/escodegen@0.0.10':
     resolution: {integrity: sha512-IVvcNLEFbiL17qiGRGzyfx/u9K6lA5w6wcQSIgv2h4JG3ZAFIY1Be9ITTSPuARIxRpzW54s8OvcF6PdonBbDzg==}
+
+  '@types/node@22.15.29':
+    resolution: {integrity: sha512-LNdjOkUDlU1RZb8e1kOIUpN1qQUlzGkEtbVNo53vbrwDg5om6oduhm4SiUaPW5ASTXhAiP0jInWG8Qx9fVlOeQ==}
 
   anymatch@3.1.3:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
@@ -237,6 +240,9 @@ packages:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
 
+  undici-types@6.21.0:
+    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
+
   which@2.0.2:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
     engines: {node: '>= 8'}
@@ -247,11 +253,6 @@ packages:
 
   yaml-to-momoa@0.0.6:
     resolution: {integrity: sha512-H6OxymcTIB5fTCQV7/+ETO9Wh6v1vpBDpmW94XnscKE+jQl6x58us/G6r6z5IiPCi5wuSvJ+0wipUsp0s2/Yyg==}
-
-  yaml@2.7.1:
-    resolution: {integrity: sha512-10ULxpnOCQXxJvBgxsn9ptjq6uviG/htZKk9veJGhlqn3w/DxQ631zFF+nlQXLwmImeS5amR2dl2U8sg6U9jsQ==}
-    engines: {node: '>= 14'}
-    hasBin: true
 
   yaml@2.8.0:
     resolution: {integrity: sha512-4lLa/EcQCB0cJkyts+FpIRx5G/llPxfP6VQU5KByHEhLxY3IJCH0f0Hy1MHI8sClTvsIb8qwRJ6R/ZdlDJ/leQ==}
@@ -277,13 +278,13 @@ snapshots:
 
   '@humanwhocodes/momoa@3.3.8': {}
 
-  '@terrazzo/cli@0.7.3(hono@4.7.9)':
+  '@terrazzo/cli@0.8.0(hono@4.7.9)':
     dependencies:
       '@clack/prompts': 0.9.1
       '@hono/node-server': 1.14.3(hono@4.7.9)
       '@humanwhocodes/momoa': 3.3.8
-      '@terrazzo/parser': 0.7.2
-      '@terrazzo/token-tools': 0.7.3
+      '@terrazzo/parser': 0.8.0
+      '@terrazzo/token-tools': 0.8.0
       '@types/escodegen': 0.0.10
       chokidar: 3.6.0
       detect-package-manager: 3.0.2
@@ -297,21 +298,19 @@ snapshots:
     transitivePeerDependencies:
       - hono
 
-  '@terrazzo/parser@0.7.2':
+  '@terrazzo/parser@0.8.0':
     dependencies:
       '@humanwhocodes/momoa': 3.3.8
-      '@terrazzo/token-tools': 0.7.3
+      '@terrazzo/token-tools': 0.8.0
       '@types/babel__code-frame': 7.0.6
       '@types/culori': 4.0.0
       culori: 4.0.1
-      is-what: 4.1.16
       merge-anything: 5.1.7
       picocolors: 1.1.1
       scule: 1.3.0
       wildcard-match: 5.1.4
-      yaml: 2.8.0
 
-  '@terrazzo/token-tools@0.7.3':
+  '@terrazzo/token-tools@0.8.0':
     dependencies:
       '@humanwhocodes/momoa': 3.3.8
       culori: 4.0.1
@@ -322,6 +321,10 @@ snapshots:
   '@types/culori@4.0.0': {}
 
   '@types/escodegen@0.0.10': {}
+
+  '@types/node@22.15.29':
+    dependencies:
+      undici-types: 6.21.0
 
   anymatch@3.1.3:
     dependencies:
@@ -474,6 +477,8 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
+  undici-types@6.21.0: {}
+
   which@2.0.2:
     dependencies:
       isexe: 2.0.0
@@ -483,8 +488,6 @@ snapshots:
   yaml-to-momoa@0.0.6:
     dependencies:
       '@humanwhocodes/momoa': 3.3.8
-      yaml: 2.7.1
-
-  yaml@2.7.1: {}
+      yaml: 2.8.0
 
   yaml@2.8.0: {}
