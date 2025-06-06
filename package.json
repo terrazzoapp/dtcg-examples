@@ -1,6 +1,6 @@
 {
   "name": "dtcg-examples",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Open source design systems, expressed as DTCG JSON",
   "keywords": [
     "design tokens",
