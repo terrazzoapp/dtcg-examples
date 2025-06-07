@@ -45,9 +45,7 @@
       "$name": "Brown",
       "$value": {
         "colorSpace": "srgb",
-        "components": [
-          0.6352941176470588, 0.5176470588235295, 0.3686274509803922
-        ],
+        "components": [0.6352941176470588, 0.5176470588235295, 0.3686274509803922],
         "alpha": 1,
         "hex": "#a2845e"
       },
@@ -55,33 +53,25 @@
         "mode": {
           "light": {
             "colorSpace": "srgb",
-            "components": [
-              0.6352941176470588, 0.5176470588235295, 0.3686274509803922
-            ],
+            "components": [0.6352941176470588, 0.5176470588235295, 0.3686274509803922],
             "alpha": 1,
             "hex": "#a2845e"
           },
           "dark": {
             "colorSpace": "srgb",
-            "components": [
-              0.6745098039215687, 0.5568627450980392, 0.40784313725490196
-            ],
+            "components": [0.6745098039215687, 0.5568627450980392, 0.40784313725490196],
             "alpha": 1,
             "hex": "#ac8e68"
           },
           "light_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.4980392156862745, 0.396078431372549, 0.27058823529411763
-            ],
+            "components": [0.4980392156862745, 0.396078431372549, 0.27058823529411763],
             "alpha": 1,
             "hex": "#7f6545"
           },
           "dark_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.7098039215686275, 0.5803921568627451, 0.4117647058823529
-            ],
+            "components": [0.7098039215686275, 0.5803921568627451, 0.4117647058823529],
             "alpha": 1,
             "hex": "#b59469"
           }
@@ -92,9 +82,7 @@
       "$name": "Cyan",
       "$value": {
         "colorSpace": "srgb",
-        "components": [
-          0.19607843137254902, 0.6784313725490196, 0.9019607843137255
-        ],
+        "components": [0.19607843137254902, 0.6784313725490196, 0.9019607843137255],
         "alpha": 1,
         "hex": "#32ade6"
       },
@@ -102,9 +90,7 @@
         "mode": {
           "light": {
             "colorSpace": "srgb",
-            "components": [
-              0.19607843137254902, 0.6784313725490196, 0.9019607843137255
-            ],
+            "components": [0.19607843137254902, 0.6784313725490196, 0.9019607843137255],
             "alpha": 1,
             "hex": "#32ade6"
           },
@@ -133,9 +119,7 @@
       "$name": "Gray",
       "$value": {
         "colorSpace": "srgb",
-        "components": [
-          0.5568627450980392, 0.5568627450980392, 0.5764705882352941
-        ],
+        "components": [0.5568627450980392, 0.5568627450980392, 0.5764705882352941],
         "alpha": 1,
         "hex": "#8e8e93"
       },
@@ -143,33 +127,25 @@
         "mode": {
           "light": {
             "colorSpace": "srgb",
-            "components": [
-              0.5568627450980392, 0.5568627450980392, 0.5764705882352941
-            ],
+            "components": [0.5568627450980392, 0.5568627450980392, 0.5764705882352941],
             "alpha": 1,
             "hex": "#8e8e93"
           },
           "dark": {
             "colorSpace": "srgb",
-            "components": [
-              0.5568627450980392, 0.5568627450980392, 0.5764705882352941
-            ],
+            "components": [0.5568627450980392, 0.5568627450980392, 0.5764705882352941],
             "alpha": 1,
             "hex": "#8e8e93"
           },
           "light_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.4235294117647059, 0.4235294117647059, 0.4392156862745098
-            ],
+            "components": [0.4235294117647059, 0.4235294117647059, 0.4392156862745098],
             "alpha": 1,
             "hex": "#6c6c70"
           },
           "dark_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.6823529411764706, 0.6823529411764706, 0.6980392156862745
-            ],
+            "components": [0.6823529411764706, 0.6823529411764706, 0.6980392156862745],
             "alpha": 1,
             "hex": "#aeaeb2"
           }
@@ -180,9 +156,7 @@
       "$name": "Gray (2)",
       "$value": {
         "colorSpace": "srgb",
-        "components": [
-          0.6823529411764706, 0.6823529411764706, 0.6980392156862745
-        ],
+        "components": [0.6823529411764706, 0.6823529411764706, 0.6980392156862745],
         "alpha": 1,
         "hex": "#aeaeb2"
       },
@@ -190,9 +164,7 @@
         "mode": {
           "light": {
             "colorSpace": "srgb",
-            "components": [
-              0.6823529411764706, 0.6823529411764706, 0.6980392156862745
-            ],
+            "components": [0.6823529411764706, 0.6823529411764706, 0.6980392156862745],
             "alpha": 1,
             "hex": "#aeaeb2"
           },
@@ -204,17 +176,13 @@
           },
           "light_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.5568627450980392, 0.5568627450980392, 0.5764705882352941
-            ],
+            "components": [0.5568627450980392, 0.5568627450980392, 0.5764705882352941],
             "alpha": 1,
             "hex": "#8e8e93"
           },
           "dark_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.48627450980392156, 0.48627450980392156, 0.5019607843137255
-            ],
+            "components": [0.48627450980392156, 0.48627450980392156, 0.5019607843137255],
             "alpha": 1,
             "hex": "#7c7c80"
           }
@@ -239,25 +207,19 @@
           },
           "dark": {
             "colorSpace": "srgb",
-            "components": [
-              0.2823529411764706, 0.2823529411764706, 0.2901960784313726
-            ],
+            "components": [0.2823529411764706, 0.2823529411764706, 0.2901960784313726],
             "alpha": 1,
             "hex": "#48484a"
           },
           "light_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.6823529411764706, 0.6823529411764706, 0.6980392156862745
-            ],
+            "components": [0.6823529411764706, 0.6823529411764706, 0.6980392156862745],
             "alpha": 1,
             "hex": "#aeaeb2"
           },
           "dark_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.32941176470588235, 0.32941176470588235, 0.33725490196078434
-            ],
+            "components": [0.32941176470588235, 0.32941176470588235, 0.33725490196078434],
             "alpha": 1,
             "hex": "#545456"
           }
@@ -268,9 +230,7 @@
       "$name": "Gray (4)",
       "$value": {
         "colorSpace": "srgb",
-        "components": [
-          0.8196078431372549, 0.8196078431372549, 0.8392156862745098
-        ],
+        "components": [0.8196078431372549, 0.8196078431372549, 0.8392156862745098],
         "alpha": 1,
         "hex": "#d1d1d6"
       },
@@ -278,33 +238,25 @@
         "mode": {
           "light": {
             "colorSpace": "srgb",
-            "components": [
-              0.8196078431372549, 0.8196078431372549, 0.8392156862745098
-            ],
+            "components": [0.8196078431372549, 0.8196078431372549, 0.8392156862745098],
             "alpha": 1,
             "hex": "#d1d1d6"
           },
           "dark": {
             "colorSpace": "srgb",
-            "components": [
-              0.22745098039215686, 0.22745098039215686, 0.23529411764705882
-            ],
+            "components": [0.22745098039215686, 0.22745098039215686, 0.23529411764705882],
             "alpha": 1,
             "hex": "#3a3a3c"
           },
           "light_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.7372549019607844, 0.7372549019607844, 0.7529411764705882
-            ],
+            "components": [0.7372549019607844, 0.7372549019607844, 0.7529411764705882],
             "alpha": 1,
             "hex": "#bcbcc0"
           },
           "dark_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.26666666666666666, 0.26666666666666666, 0.27450980392156865
-            ],
+            "components": [0.26666666666666666, 0.26666666666666666, 0.27450980392156865],
             "alpha": 1,
             "hex": "#444446"
           }
@@ -315,9 +267,7 @@
       "$name": "Gray (5)",
       "$value": {
         "colorSpace": "srgb",
-        "components": [
-          0.8980392156862745, 0.8980392156862745, 0.9176470588235294
-        ],
+        "components": [0.8980392156862745, 0.8980392156862745, 0.9176470588235294],
         "alpha": 1,
         "hex": "#e5e5ea"
       },
@@ -325,33 +275,25 @@
         "mode": {
           "light": {
             "colorSpace": "srgb",
-            "components": [
-              0.8980392156862745, 0.8980392156862745, 0.9176470588235294
-            ],
+            "components": [0.8980392156862745, 0.8980392156862745, 0.9176470588235294],
             "alpha": 1,
             "hex": "#e5e5ea"
           },
           "dark": {
             "colorSpace": "srgb",
-            "components": [
-              0.17254901960784313, 0.17254901960784313, 0.1803921568627451
-            ],
+            "components": [0.17254901960784313, 0.17254901960784313, 0.1803921568627451],
             "alpha": 1,
             "hex": "#2c2c2e"
           },
           "light_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.8470588235294118, 0.8470588235294118, 0.8627450980392157
-            ],
+            "components": [0.8470588235294118, 0.8470588235294118, 0.8627450980392157],
             "alpha": 1,
             "hex": "#d8d8dc"
           },
           "dark_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.21176470588235294, 0.21176470588235294, 0.2196078431372549
-            ],
+            "components": [0.21176470588235294, 0.21176470588235294, 0.2196078431372549],
             "alpha": 1,
             "hex": "#363638"
           }
@@ -362,9 +304,7 @@
       "$name": "Gray (6)",
       "$value": {
         "colorSpace": "srgb",
-        "components": [
-          0.9490196078431372, 0.9490196078431372, 0.9686274509803922
-        ],
+        "components": [0.9490196078431372, 0.9490196078431372, 0.9686274509803922],
         "alpha": 1,
         "hex": "#f2f2f7"
       },
@@ -372,33 +312,25 @@
         "mode": {
           "light": {
             "colorSpace": "srgb",
-            "components": [
-              0.9490196078431372, 0.9490196078431372, 0.9686274509803922
-            ],
+            "components": [0.9490196078431372, 0.9490196078431372, 0.9686274509803922],
             "alpha": 1,
             "hex": "#f2f2f7"
           },
           "dark": {
             "colorSpace": "srgb",
-            "components": [
-              0.10980392156862745, 0.10980392156862745, 0.11764705882352941
-            ],
+            "components": [0.10980392156862745, 0.10980392156862745, 0.11764705882352941],
             "alpha": 1,
             "hex": "#1c1c1e"
           },
           "light_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.9215686274509803, 0.9215686274509803, 0.9411764705882353
-            ],
+            "components": [0.9215686274509803, 0.9215686274509803, 0.9411764705882353],
             "alpha": 1,
             "hex": "#ebebf0"
           },
           "dark_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.1411764705882353, 0.1411764705882353, 0.14901960784313725
-            ],
+            "components": [0.1411764705882353, 0.1411764705882353, 0.14901960784313725],
             "alpha": 1,
             "hex": "#242426"
           }
@@ -409,9 +341,7 @@
       "$name": "Green",
       "$value": {
         "colorSpace": "srgb",
-        "components": [
-          0.20392156862745098, 0.7803921568627451, 0.34901960784313724
-        ],
+        "components": [0.20392156862745098, 0.7803921568627451, 0.34901960784313724],
         "alpha": 1,
         "hex": "#34c759"
       },
@@ -419,33 +349,25 @@
         "mode": {
           "light": {
             "colorSpace": "srgb",
-            "components": [
-              0.20392156862745098, 0.7803921568627451, 0.34901960784313724
-            ],
+            "components": [0.20392156862745098, 0.7803921568627451, 0.34901960784313724],
             "alpha": 1,
             "hex": "#34c759"
           },
           "dark": {
             "colorSpace": "srgb",
-            "components": [
-              0.18823529411764706, 0.8196078431372549, 0.34509803921568627
-            ],
+            "components": [0.18823529411764706, 0.8196078431372549, 0.34509803921568627],
             "alpha": 1,
             "hex": "#30d158"
           },
           "light_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.1411764705882353, 0.5411764705882353, 0.23921568627450981
-            ],
+            "components": [0.1411764705882353, 0.5411764705882353, 0.23921568627450981],
             "alpha": 1,
             "hex": "#248a3d"
           },
           "dark_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.18823529411764706, 0.8588235294117647, 0.3568627450980392
-            ],
+            "components": [0.18823529411764706, 0.8588235294117647, 0.3568627450980392],
             "alpha": 1,
             "hex": "#30db5b"
           }
@@ -456,9 +378,7 @@
       "$name": "Indigo",
       "$value": {
         "colorSpace": "srgb",
-        "components": [
-          0.34509803921568627, 0.33725490196078434, 0.8392156862745098
-        ],
+        "components": [0.34509803921568627, 0.33725490196078434, 0.8392156862745098],
         "alpha": 1,
         "hex": "#5856d6"
       },
@@ -466,25 +386,19 @@
         "mode": {
           "light": {
             "colorSpace": "srgb",
-            "components": [
-              0.34509803921568627, 0.33725490196078434, 0.8392156862745098
-            ],
+            "components": [0.34509803921568627, 0.33725490196078434, 0.8392156862745098],
             "alpha": 1,
             "hex": "#5856d6"
           },
           "dark": {
             "colorSpace": "srgb",
-            "components": [
-              0.3686274509803922, 0.3607843137254902, 0.9019607843137255
-            ],
+            "components": [0.3686274509803922, 0.3607843137254902, 0.9019607843137255],
             "alpha": 1,
             "hex": "#5e5ce6"
           },
           "light_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.21176470588235294, 0.20392156862745098, 0.6392156862745098
-            ],
+            "components": [0.21176470588235294, 0.20392156862745098, 0.6392156862745098],
             "alpha": 1,
             "hex": "#3634a3"
           },
@@ -521,9 +435,7 @@
           },
           "light_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.047058823529411764, 0.5058823529411764, 0.4823529411764706
-            ],
+            "components": [0.047058823529411764, 0.5058823529411764, 0.4823529411764706],
             "alpha": 1,
             "hex": "#0c817b"
           },
@@ -577,9 +489,7 @@
       "$name": "Purple",
       "$value": {
         "colorSpace": "srgb",
-        "components": [
-          0.6862745098039216, 0.3215686274509804, 0.8705882352941177
-        ],
+        "components": [0.6862745098039216, 0.3215686274509804, 0.8705882352941177],
         "alpha": 1,
         "hex": "#af52de"
       },
@@ -587,25 +497,19 @@
         "mode": {
           "light": {
             "colorSpace": "srgb",
-            "components": [
-              0.6862745098039216, 0.3215686274509804, 0.8705882352941177
-            ],
+            "components": [0.6862745098039216, 0.3215686274509804, 0.8705882352941177],
             "alpha": 1,
             "hex": "#af52de"
           },
           "dark": {
             "colorSpace": "srgb",
-            "components": [
-              0.7490196078431373, 0.35294117647058826, 0.9490196078431372
-            ],
+            "components": [0.7490196078431373, 0.35294117647058826, 0.9490196078431372],
             "alpha": 1,
             "hex": "#bf5af2"
           },
           "light_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.5372549019607843, 0.26666666666666666, 0.6705882352941176
-            ],
+            "components": [0.5372549019607843, 0.26666666666666666, 0.6705882352941176],
             "alpha": 1,
             "hex": "#8944ab"
           },
@@ -642,9 +546,7 @@
           },
           "light_ax": {
             "colorSpace": "srgb",
-            "components": [
-              0.8274509803921568, 0.058823529411764705, 0.27058823529411763
-            ],
+            "components": [0.8274509803921568, 0.058823529411764705, 0.27058823529411763],
             "alpha": 1,
             "hex": "#d30f45"
           },
@@ -698,9 +600,7 @@
       "$name": "Teal",
       "$value": {
         "colorSpace": "srgb",
-        "components": [
-          0.18823529411764706, 0.6901960784313725, 0.7803921568627451
-        ],
+        "components": [0.18823529411764706, 0.6901960784313725, 0.7803921568627451],
         "alpha": 1,
         "hex": "#30b0c7"
       },
@@ -708,17 +608,13 @@
         "mode": {
           "light": {
             "colorSpace": "srgb",
-            "components": [
-              0.18823529411764706, 0.6901960784313725, 0.7803921568627451
-            ],
+            "components": [0.18823529411764706, 0.6901960784313725, 0.7803921568627451],
             "alpha": 1,
             "hex": "#30b0c7"
           },
           "dark": {
             "colorSpace": "srgb",
-            "components": [
-              0.25098039215686274, 0.7843137254901961, 0.8784313725490196
-            ],
+            "components": [0.25098039215686274, 0.7843137254901961, 0.8784313725490196],
             "alpha": 1,
             "hex": "#40c8e0"
           },
@@ -787,57 +683,49 @@
     "style": {
       "$type": "typography",
       "$extensions": {
-        "requiredModes": [
-          "xSmall",
-          "Small",
-          "Medium",
-          "Large",
-          "xLarge",
-          "xxLarge",
-          "xxxLarge"
-        ]
+        "requiredModes": ["xSmall", "Small", "Medium", "Large", "xLarge", "xxLarge", "xxxLarge"]
       },
       "largeTitle": {
         "$value": {
-          "fontSize": { "value": 4, "unit": "px" },
+          "fontSize": { "value": 34, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 1, "unit": "px" }
+          "lineHeight": { "value": 41, "unit": "px" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
-              "fontSize": { "value": 1, "unit": "px" },
-              "lineHeight": { "value": 8, "unit": "px" },
+              "fontSize": { "value": 31, "unit": "px" },
+              "lineHeight": { "value": 38, "unit": "px" },
               "fontWeight": 400
             },
             "Small": {
-              "fontSize": { "value": 2, "unit": "px" },
-              "lineHeight": { "value": 9, "unit": "px" },
+              "fontSize": { "value": 32, "unit": "px" },
+              "lineHeight": { "value": 39, "unit": "px" },
               "fontWeight": 400
             },
             "Medium": {
-              "fontSize": { "value": 3, "unit": "px" },
-              "lineHeight": { "value": 0, "unit": "px" },
+              "fontSize": { "value": 33, "unit": "px" },
+              "lineHeight": { "value": 40, "unit": "px" },
               "fontWeight": 400
             },
             "Large": {
-              "fontSize": { "value": 4, "unit": "px" },
-              "lineHeight": { "value": 1, "unit": "px" },
+              "fontSize": { "value": 34, "unit": "px" },
+              "lineHeight": { "value": 41, "unit": "px" },
               "fontWeight": 400
             },
             "xLarge": {
-              "fontSize": { "value": 6, "unit": "px" },
-              "lineHeight": { "value": 3, "unit": "px" },
+              "fontSize": { "value": 36, "unit": "px" },
+              "lineHeight": { "value": 43, "unit": "px" },
               "fontWeight": 400
             },
             "xxLarge": {
-              "fontSize": { "value": 8, "unit": "px" },
-              "lineHeight": { "value": 6, "unit": "px" },
+              "fontSize": { "value": 38, "unit": "px" },
+              "lineHeight": { "value": 46, "unit": "px" },
               "fontWeight": 400
             },
             "xxxLarge": {
-              "fontSize": { "value": 0, "unit": "px" },
-              "lineHeight": { "value": 8, "unit": "px" },
+              "fontSize": { "value": 40, "unit": "px" },
+              "lineHeight": { "value": 48, "unit": "px" },
               "fontWeight": 400
             }
           }
@@ -845,45 +733,45 @@
       },
       "title1": {
         "$value": {
-          "fontSize": { "value": 8, "unit": "px" },
+          "fontSize": { "value": 28, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 4, "unit": "px" }
+          "lineHeight": { "value": 34, "unit": "px" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
-              "fontSize": { "value": 5, "unit": "px" },
-              "lineHeight": { "value": 1, "unit": "px" },
+              "fontSize": { "value": 25, "unit": "px" },
+              "lineHeight": { "value": 31, "unit": "px" },
               "fontWeight": 400
             },
             "Small": {
-              "fontSize": { "value": 6, "unit": "px" },
-              "lineHeight": { "value": 2, "unit": "px" },
+              "fontSize": { "value": 26, "unit": "px" },
+              "lineHeight": { "value": 32, "unit": "px" },
               "fontWeight": 400
             },
             "Medium": {
-              "fontSize": { "value": 7, "unit": "px" },
-              "lineHeight": { "value": 3, "unit": "px" },
+              "fontSize": { "value": 27, "unit": "px" },
+              "lineHeight": { "value": 33, "unit": "px" },
               "fontWeight": 400
             },
             "Large": {
-              "fontSize": { "value": 8, "unit": "px" },
-              "lineHeight": { "value": 4, "unit": "px" },
+              "fontSize": { "value": 28, "unit": "px" },
+              "lineHeight": { "value": 34, "unit": "px" },
               "fontWeight": 400
             },
             "xLarge": {
-              "fontSize": { "value": 0, "unit": "px" },
-              "lineHeight": { "value": 7, "unit": "px" },
+              "fontSize": { "value": 30, "unit": "px" },
+              "lineHeight": { "value": 37, "unit": "px" },
               "fontWeight": 400
             },
             "xxLarge": {
-              "fontSize": { "value": 2, "unit": "px" },
-              "lineHeight": { "value": 9, "unit": "px" },
+              "fontSize": { "value": 32, "unit": "px" },
+              "lineHeight": { "value": 39, "unit": "px" },
               "fontWeight": 400
             },
             "xxxLarge": {
-              "fontSize": { "value": 2, "unit": "px" },
-              "lineHeight": { "value": 1, "unit": "px" },
+              "fontSize": { "value": 42, "unit": "px" },
+              "lineHeight": { "value": 41, "unit": "px" },
               "fontWeight": 400
             }
           }
@@ -891,45 +779,45 @@
       },
       "title2": {
         "$value": {
-          "fontSize": { "value": 2, "unit": "px" },
+          "fontSize": { "value": 22, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 5, "unit": "px" }
+          "lineHeight": { "value": 25, "unit": "px" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
-              "fontSize": { "value": 9, "unit": "px" },
-              "lineHeight": { "value": 4, "unit": "px" },
+              "fontSize": { "value": 19, "unit": "px" },
+              "lineHeight": { "value": 24, "unit": "px" },
               "fontWeight": 400
             },
             "Small": {
-              "fontSize": { "value": 0, "unit": "px" },
-              "lineHeight": { "value": 5, "unit": "px" },
+              "fontSize": { "value": 20, "unit": "px" },
+              "lineHeight": { "value": 25, "unit": "px" },
               "fontWeight": 400
             },
             "Medium": {
-              "fontSize": { "value": 1, "unit": "px" },
-              "lineHeight": { "value": 6, "unit": "px" },
+              "fontSize": { "value": 21, "unit": "px" },
+              "lineHeight": { "value": 26, "unit": "px" },
               "fontWeight": 400
             },
             "Large": {
-              "fontSize": { "value": 2, "unit": "px" },
-              "lineHeight": { "value": 8, "unit": "px" },
+              "fontSize": { "value": 22, "unit": "px" },
+              "lineHeight": { "value": 28, "unit": "px" },
               "fontWeight": 400
             },
             "xLarge": {
-              "fontSize": { "value": 4, "unit": "px" },
-              "lineHeight": { "value": 0, "unit": "px" },
+              "fontSize": { "value": 24, "unit": "px" },
+              "lineHeight": { "value": 30, "unit": "px" },
               "fontWeight": 400
             },
             "xxLarge": {
-              "fontSize": { "value": 6, "unit": "px" },
-              "lineHeight": { "value": 2, "unit": "px" },
+              "fontSize": { "value": 26, "unit": "px" },
+              "lineHeight": { "value": 32, "unit": "px" },
               "fontWeight": 400
             },
             "xxxLarge": {
-              "fontSize": { "value": 8, "unit": "px" },
-              "lineHeight": { "value": 4, "unit": "px" },
+              "fontSize": { "value": 28, "unit": "px" },
+              "lineHeight": { "value": 34, "unit": "px" },
               "fontWeight": 400
             }
           }
@@ -937,45 +825,45 @@
       },
       "title3": {
         "$value": {
-          "fontSize": { "value": 0, "unit": "px" },
+          "fontSize": { "value": 20, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 5, "unit": "px" }
+          "lineHeight": { "value": 25, "unit": "px" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
-              "fontSize": { "value": 5, "unit": "px" },
-              "lineHeight": { "value": 2, "unit": "px" },
+              "fontSize": { "value": 25, "unit": "px" },
+              "lineHeight": { "value": 22, "unit": "px" },
               "fontWeight": 400
             },
             "Small": {
-              "fontSize": { "value": 6, "unit": "px" },
-              "lineHeight": { "value": 3, "unit": "px" },
+              "fontSize": { "value": 26, "unit": "px" },
+              "lineHeight": { "value": 23, "unit": "px" },
               "fontWeight": 400
             },
             "Medium": {
-              "fontSize": { "value": 7, "unit": "px" },
-              "lineHeight": { "value": 4, "unit": "px" },
+              "fontSize": { "value": 27, "unit": "px" },
+              "lineHeight": { "value": 24, "unit": "px" },
               "fontWeight": 400
             },
             "Large": {
-              "fontSize": { "value": 8, "unit": "px" },
-              "lineHeight": { "value": 5, "unit": "px" },
+              "fontSize": { "value": 28, "unit": "px" },
+              "lineHeight": { "value": 25, "unit": "px" },
               "fontWeight": 400
             },
             "xLarge": {
-              "fontSize": { "value": 0, "unit": "px" },
-              "lineHeight": { "value": 8, "unit": "px" },
+              "fontSize": { "value": 30, "unit": "px" },
+              "lineHeight": { "value": 28, "unit": "px" },
               "fontWeight": 400
             },
             "xxLarge": {
-              "fontSize": { "value": 2, "unit": "px" },
-              "lineHeight": { "value": 0, "unit": "px" },
+              "fontSize": { "value": 32, "unit": "px" },
+              "lineHeight": { "value": 30, "unit": "px" },
               "fontWeight": 400
             },
             "xxxLarge": {
-              "fontSize": { "value": 2, "unit": "px" },
-              "lineHeight": { "value": 2, "unit": "px" },
+              "fontSize": { "value": 32, "unit": "px" },
+              "lineHeight": { "value": 32, "unit": "px" },
               "fontWeight": 400
             }
           }
@@ -983,45 +871,45 @@
       },
       "headline": {
         "$value": {
-          "fontSize": { "value": 7, "unit": "px" },
+          "fontSize": { "value": 17, "unit": "px" },
           "fontWeight": 600,
-          "lineHeight": { "value": 2, "unit": "px" }
+          "lineHeight": { "value": 22, "unit": "px" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
-              "fontSize": { "value": 4, "unit": "px" },
-              "lineHeight": { "value": 9, "unit": "px" },
+              "fontSize": { "value": 14, "unit": "px" },
+              "lineHeight": { "value": 19, "unit": "px" },
               "fontWeight": 600
             },
             "Small": {
-              "fontSize": { "value": 5, "unit": "px" },
-              "lineHeight": { "value": 0, "unit": "px" },
+              "fontSize": { "value": 15, "unit": "px" },
+              "lineHeight": { "value": 20, "unit": "px" },
               "fontWeight": 600
             },
             "Medium": {
-              "fontSize": { "value": 6, "unit": "px" },
-              "lineHeight": { "value": 1, "unit": "px" },
+              "fontSize": { "value": 16, "unit": "px" },
+              "lineHeight": { "value": 21, "unit": "px" },
               "fontWeight": 600
             },
             "Large": {
-              "fontSize": { "value": 7, "unit": "px" },
-              "lineHeight": { "value": 2, "unit": "px" },
+              "fontSize": { "value": 17, "unit": "px" },
+              "lineHeight": { "value": 22, "unit": "px" },
               "fontWeight": 600
             },
             "xLarge": {
-              "fontSize": { "value": 9, "unit": "px" },
-              "lineHeight": { "value": 4, "unit": "px" },
+              "fontSize": { "value": 19, "unit": "px" },
+              "lineHeight": { "value": 24, "unit": "px" },
               "fontWeight": 600
             },
             "xxLarge": {
-              "fontSize": { "value": 1, "unit": "px" },
-              "lineHeight": { "value": 6, "unit": "px" },
+              "fontSize": { "value": 21, "unit": "px" },
+              "lineHeight": { "value": 26, "unit": "px" },
               "fontWeight": 600
             },
             "xxxLarge": {
-              "fontSize": { "value": 3, "unit": "px" },
-              "lineHeight": { "value": 9, "unit": "px" },
+              "fontSize": { "value": 23, "unit": "px" },
+              "lineHeight": { "value": 29, "unit": "px" },
               "fontWeight": 600
             }
           }
@@ -1029,45 +917,45 @@
       },
       "body": {
         "$value": {
-          "fontSize": { "value": 7, "unit": "px" },
+          "fontSize": { "value": 17, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 2, "unit": "px" }
+          "lineHeight": { "value": 22, "unit": "px" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
-              "fontSize": { "value": 4, "unit": "px" },
-              "lineHeight": { "value": 9, "unit": "px" },
+              "fontSize": { "value": 14, "unit": "px" },
+              "lineHeight": { "value": 19, "unit": "px" },
               "fontWeight": 400
             },
             "Small": {
-              "fontSize": { "value": 5, "unit": "px" },
-              "lineHeight": { "value": 0, "unit": "px" },
+              "fontSize": { "value": 15, "unit": "px" },
+              "lineHeight": { "value": 20, "unit": "px" },
               "fontWeight": 400
             },
             "Medium": {
-              "fontSize": { "value": 6, "unit": "px" },
-              "lineHeight": { "value": 1, "unit": "px" },
+              "fontSize": { "value": 16, "unit": "px" },
+              "lineHeight": { "value": 21, "unit": "px" },
               "fontWeight": 400
             },
             "Large": {
-              "fontSize": { "value": 7, "unit": "px" },
-              "lineHeight": { "value": 2, "unit": "px" },
+              "fontSize": { "value": 17, "unit": "px" },
+              "lineHeight": { "value": 22, "unit": "px" },
               "fontWeight": 400
             },
             "xLarge": {
-              "fontSize": { "value": 9, "unit": "px" },
-              "lineHeight": { "value": 4, "unit": "px" },
+              "fontSize": { "value": 19, "unit": "px" },
+              "lineHeight": { "value": 24, "unit": "px" },
               "fontWeight": 400
             },
             "xxLarge": {
-              "fontSize": { "value": 1, "unit": "px" },
-              "lineHeight": { "value": 6, "unit": "px" },
+              "fontSize": { "value": 21, "unit": "px" },
+              "lineHeight": { "value": 26, "unit": "px" },
               "fontWeight": 400
             },
             "xxxLarge": {
-              "fontSize": { "value": 3, "unit": "px" },
-              "lineHeight": { "value": 9, "unit": "px" },
+              "fontSize": { "value": 23, "unit": "px" },
+              "lineHeight": { "value": 29, "unit": "px" },
               "fontWeight": 400
             }
           }
@@ -1075,45 +963,45 @@
       },
       "callout": {
         "$value": {
-          "fontSize": { "value": 6, "unit": "px" },
+          "fontSize": { "value": 16, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 1, "unit": "px" }
+          "lineHeight": { "value": 21, "unit": "px" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
-              "fontSize": { "value": 3, "unit": "px" },
-              "lineHeight": { "value": 8, "unit": "px" },
+              "fontSize": { "value": 13, "unit": "px" },
+              "lineHeight": { "value": 18, "unit": "px" },
               "fontWeight": 400
             },
             "Small": {
-              "fontSize": { "value": 4, "unit": "px" },
-              "lineHeight": { "value": 9, "unit": "px" },
+              "fontSize": { "value": 14, "unit": "px" },
+              "lineHeight": { "value": 19, "unit": "px" },
               "fontWeight": 400
             },
             "Medium": {
-              "fontSize": { "value": 5, "unit": "px" },
-              "lineHeight": { "value": 0, "unit": "px" },
+              "fontSize": { "value": 15, "unit": "px" },
+              "lineHeight": { "value": 20, "unit": "px" },
               "fontWeight": 400
             },
             "Large": {
-              "fontSize": { "value": 6, "unit": "px" },
-              "lineHeight": { "value": 1, "unit": "px" },
+              "fontSize": { "value": 16, "unit": "px" },
+              "lineHeight": { "value": 21, "unit": "px" },
               "fontWeight": 400
             },
             "xLarge": {
-              "fontSize": { "value": 8, "unit": "px" },
-              "lineHeight": { "value": 3, "unit": "px" },
+              "fontSize": { "value": 18, "unit": "px" },
+              "lineHeight": { "value": 23, "unit": "px" },
               "fontWeight": 400
             },
             "xxLarge": {
-              "fontSize": { "value": 0, "unit": "px" },
-              "lineHeight": { "value": 5, "unit": "px" },
+              "fontSize": { "value": 20, "unit": "px" },
+              "lineHeight": { "value": 25, "unit": "px" },
               "fontWeight": 400
             },
             "xxxLarge": {
-              "fontSize": { "value": 2, "unit": "px" },
-              "lineHeight": { "value": 8, "unit": "px" },
+              "fontSize": { "value": 22, "unit": "px" },
+              "lineHeight": { "value": 28, "unit": "px" },
               "fontWeight": 400
             }
           }
@@ -1121,45 +1009,45 @@
       },
       "subhead": {
         "$value": {
-          "fontSize": { "value": 5, "unit": "px" },
+          "fontSize": { "value": 15, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 0, "unit": "px" }
+          "lineHeight": { "value": 20, "unit": "px" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
-              "fontSize": { "value": 2, "unit": "px" },
-              "lineHeight": { "value": 6, "unit": "px" },
+              "fontSize": { "value": 12, "unit": "px" },
+              "lineHeight": { "value": 16, "unit": "px" },
               "fontWeight": 400
             },
             "Small": {
-              "fontSize": { "value": 3, "unit": "px" },
-              "lineHeight": { "value": 8, "unit": "px" },
+              "fontSize": { "value": 13, "unit": "px" },
+              "lineHeight": { "value": 18, "unit": "px" },
               "fontWeight": 400
             },
             "Medium": {
-              "fontSize": { "value": 4, "unit": "px" },
-              "lineHeight": { "value": 9, "unit": "px" },
+              "fontSize": { "value": 14, "unit": "px" },
+              "lineHeight": { "value": 19, "unit": "px" },
               "fontWeight": 400
             },
             "Large": {
-              "fontSize": { "value": 5, "unit": "px" },
-              "lineHeight": { "value": 0, "unit": "px" },
+              "fontSize": { "value": 15, "unit": "px" },
+              "lineHeight": { "value": 20, "unit": "px" },
               "fontWeight": 400
             },
             "xLarge": {
-              "fontSize": { "value": 7, "unit": "px" },
-              "lineHeight": { "value": 2, "unit": "px" },
+              "fontSize": { "value": 17, "unit": "px" },
+              "lineHeight": { "value": 22, "unit": "px" },
               "fontWeight": 400
             },
             "xxLarge": {
-              "fontSize": { "value": 9, "unit": "px" },
-              "lineHeight": { "value": 4, "unit": "px" },
+              "fontSize": { "value": 19, "unit": "px" },
+              "lineHeight": { "value": 24, "unit": "px" },
               "fontWeight": 400
             },
             "xxxLarge": {
-              "fontSize": { "value": 1, "unit": "px" },
-              "lineHeight": { "value": 8, "unit": "px" },
+              "fontSize": { "value": 21, "unit": "px" },
+              "lineHeight": { "value": 28, "unit": "px" },
               "fontWeight": 400
             }
           }
@@ -1167,45 +1055,45 @@
       },
       "footnote": {
         "$value": {
-          "fontSize": { "value": 3, "unit": "px" },
+          "fontSize": { "value": 13, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 8, "unit": "px" }
+          "lineHeight": { "value": 18, "unit": "px" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
-              "fontSize": { "value": 2, "unit": "px" },
-              "lineHeight": { "value": 6, "unit": "px" },
+              "fontSize": { "value": 12, "unit": "px" },
+              "lineHeight": { "value": 16, "unit": "px" },
               "fontWeight": 400
             },
             "Small": {
-              "fontSize": { "value": 2, "unit": "px" },
-              "lineHeight": { "value": 6, "unit": "px" },
+              "fontSize": { "value": 12, "unit": "px" },
+              "lineHeight": { "value": 16, "unit": "px" },
               "fontWeight": 400
             },
             "Medium": {
-              "fontSize": { "value": 2, "unit": "px" },
-              "lineHeight": { "value": 6, "unit": "px" },
+              "fontSize": { "value": 12, "unit": "px" },
+              "lineHeight": { "value": 16, "unit": "px" },
               "fontWeight": 400
             },
             "Large": {
-              "fontSize": { "value": 3, "unit": "px" },
-              "lineHeight": { "value": 8, "unit": "px" },
+              "fontSize": { "value": 13, "unit": "px" },
+              "lineHeight": { "value": 18, "unit": "px" },
               "fontWeight": 400
             },
             "xLarge": {
-              "fontSize": { "value": 5, "unit": "px" },
-              "lineHeight": { "value": 0, "unit": "px" },
+              "fontSize": { "value": 15, "unit": "px" },
+              "lineHeight": { "value": 20, "unit": "px" },
               "fontWeight": 400
             },
             "xxLarge": {
-              "fontSize": { "value": 7, "unit": "px" },
-              "lineHeight": { "value": 2, "unit": "px" },
+              "fontSize": { "value": 17, "unit": "px" },
+              "lineHeight": { "value": 22, "unit": "px" },
               "fontWeight": 400
             },
             "xxxLarge": {
-              "fontSize": { "value": 9, "unit": "px" },
-              "lineHeight": { "value": 4, "unit": "px" },
+              "fontSize": { "value": 19, "unit": "px" },
+              "lineHeight": { "value": 24, "unit": "px" },
               "fontWeight": 400
             }
           }
@@ -1213,91 +1101,91 @@
       },
       "caption1": {
         "$value": {
-          "fontSize": { "value": 2, "unit": "px" },
+          "fontSize": { "value": 12, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 6, "unit": "px" }
+          "lineHeight": { "value": 16, "unit": "px" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
-              "fontSize": { "value": 1, "unit": "px" },
-              "lineHeight": { "value": 3, "unit": "px" },
+              "fontSize": { "value": 11, "unit": "px" },
+              "lineHeight": { "value": 13, "unit": "px" },
               "fontWeight": 400
             },
             "Small": {
-              "fontSize": { "value": 1, "unit": "px" },
-              "lineHeight": { "value": 3, "unit": "px" },
+              "fontSize": { "value": 11, "unit": "px" },
+              "lineHeight": { "value": 13, "unit": "px" },
               "fontWeight": 400
             },
             "Medium": {
-              "fontSize": { "value": 1, "unit": "px" },
-              "lineHeight": { "value": 3, "unit": "px" },
+              "fontSize": { "value": 11, "unit": "px" },
+              "lineHeight": { "value": 13, "unit": "px" },
               "fontWeight": 400
             },
             "Large": {
-              "fontSize": { "value": 2, "unit": "px" },
-              "lineHeight": { "value": 6, "unit": "px" },
+              "fontSize": { "value": 12, "unit": "px" },
+              "lineHeight": { "value": 16, "unit": "px" },
               "fontWeight": 400
             },
             "xLarge": {
-              "fontSize": { "value": 4, "unit": "px" },
-              "lineHeight": { "value": 9, "unit": "px" },
+              "fontSize": { "value": 14, "unit": "px" },
+              "lineHeight": { "value": 19, "unit": "px" },
               "fontWeight": 400
             },
             "xxLarge": {
-              "fontSize": { "value": 6, "unit": "px" },
-              "lineHeight": { "value": 8, "unit": "px" },
+              "fontSize": { "value": 16, "unit": "px" },
+              "lineHeight": { "value": 18, "unit": "px" },
               "fontWeight": 400
             },
             "xxxLarge": {
-              "fontSize": { "value": 3, "unit": "px" },
-              "lineHeight": { "value": 1, "unit": "px" },
+              "fontSize": { "value": 23, "unit": "px" },
+              "lineHeight": { "value": 21, "unit": "px" },
               "fontWeight": 400
             }
           }
         }
       },
-      "caption_2": {
+      "caption2": {
         "$value": {
-          "fontSize": { "value": 1, "unit": "px" },
+          "fontSize": { "value": 11, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 3, "unit": "px" }
+          "lineHeight": { "value": 13, "unit": "px" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
-              "fontSize": { "value": 1, "unit": "px" },
-              "lineHeight": { "value": 3, "unit": "px" },
+              "fontSize": { "value": 11, "unit": "px" },
+              "lineHeight": { "value": 13, "unit": "px" },
               "fontWeight": 400
             },
             "Small": {
-              "fontSize": { "value": 1, "unit": "px" },
-              "lineHeight": { "value": 3, "unit": "px" },
+              "fontSize": { "value": 11, "unit": "px" },
+              "lineHeight": { "value": 13, "unit": "px" },
               "fontWeight": 400
             },
             "Medium": {
-              "fontSize": { "value": 1, "unit": "px" },
-              "lineHeight": { "value": 3, "unit": "px" },
+              "fontSize": { "value": 11, "unit": "px" },
+              "lineHeight": { "value": 13, "unit": "px" },
               "fontWeight": 400
             },
             "Large": {
-              "fontSize": { "value": 1, "unit": "px" },
-              "lineHeight": { "value": 3, "unit": "px" },
+              "fontSize": { "value": 11, "unit": "px" },
+              "lineHeight": { "value": 13, "unit": "px" },
               "fontWeight": 400
             },
             "xLarge": {
-              "fontSize": { "value": 3, "unit": "px" },
-              "lineHeight": { "value": 8, "unit": "px" },
+              "fontSize": { "value": 13, "unit": "px" },
+              "lineHeight": { "value": 18, "unit": "px" },
               "fontWeight": 400
             },
             "xxLarge": {
-              "fontSize": { "value": 5, "unit": "px" },
-              "lineHeight": { "value": 0, "unit": "px" },
+              "fontSize": { "value": 15, "unit": "px" },
+              "lineHeight": { "value": 20, "unit": "px" },
               "fontWeight": 400
             },
             "xxxLarge": {
-              "fontSize": { "value": 7, "unit": "px" },
-              "lineHeight": { "value": 2, "unit": "px" },
+              "fontSize": { "value": 17, "unit": "px" },
+              "lineHeight": { "value": 22, "unit": "px" },
               "fontWeight": 400
             }
           }
