@@ -12,14 +12,14 @@ importers:
         specifier: ^1.9.4
         version: 1.9.4
       '@terrazzo/cli':
-        specifier: ^0.8.0
-        version: 0.8.0(hono@4.7.9)
+        specifier: ^0.8.1
+        version: 0.8.1(hono@4.7.9)
       '@terrazzo/parser':
-        specifier: ^0.8.0
-        version: 0.8.0
+        specifier: ^0.8.1
+        version: 0.8.1
       '@types/node':
-        specifier: ^22.15.29
-        version: 22.15.29
+        specifier: ^22.18.8
+        version: 22.18.8
 
 packages:
 
@@ -82,37 +82,37 @@ packages:
   '@clack/prompts@0.9.1':
     resolution: {integrity: sha512-JIpyaboYZeWYlyP0H+OoPPxd6nqueG/CmN6ixBiNFsIDHREevjIf0n0Ohh5gr5C8pEDknzgvz+pIJ8dMhzWIeg==}
 
-  '@hono/node-server@1.14.3':
-    resolution: {integrity: sha512-KuDMwwghtFYSmIpr4WrKs1VpelTrptvJ+6x6mbUcZnFcc213cumTF5BdqfHyW93B19TNI4Vaev14vOI2a0Ie3w==}
+  '@hono/node-server@1.19.5':
+    resolution: {integrity: sha512-iBuhh+uaaggeAuf+TftcjZyWh2GEgZcVGXkNtskLVoWaXhnJtC5HLHrU8W1KHDoucqO1MswwglmkWLFyiDn4WQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: ^4
 
-  '@humanwhocodes/momoa@3.3.8':
-    resolution: {integrity: sha512-/3PZzor2imi/RLLcnHztkwA79txiVvW145Ve2cp5dxRcH5qOUNJPToasqLFHniTfw4B4lT7jGDdBOPXbXYlIMQ==}
+  '@humanwhocodes/momoa@3.3.9':
+    resolution: {integrity: sha512-LHw6Op4bJb3/3KZgOgwflJx5zY9XOy0NU1NuyUFKGdTwHYmP+PbnQGCYQJ8NVNlulLfQish34b0VuUlLYP3AXA==}
     engines: {node: '>=18'}
 
-  '@terrazzo/cli@0.8.0':
-    resolution: {integrity: sha512-SkbrTECNZXQGav1wT7wTFO6Gki2uoxVYQaw2c8BORtYdwkHvaZ/b+UlUIWZn2I4blej4Xh2KS2HoZ45NatiLwQ==}
+  '@terrazzo/cli@0.8.1':
+    resolution: {integrity: sha512-Oa0mvu3ntJmzUdUZHx0ajV25b2+bBSNrVlSAdG+4mFh6JBvM2cXM6P1rNiCsEY/lmbkc7WoclLt6z3LORAL5gg==}
     hasBin: true
 
-  '@terrazzo/parser@0.8.0':
-    resolution: {integrity: sha512-Bpz+FYLVzQSppeJlnh8hB6DYmluWdQstwfZuAZsqWKgj/x5UhLdr1H9MJpOpdwwC+d2WKS+QqXxueMRcq4Ludw==}
+  '@terrazzo/parser@0.8.1':
+    resolution: {integrity: sha512-ClWE5hl6bhIQ3GOjxb5AY+FJ5aK7Itx5vHR/ik+Esqd7wOz8AhElZBgSzpb7TjEJzwP6gFs+C3QQIQLhygSueA==}
 
-  '@terrazzo/token-tools@0.8.0':
-    resolution: {integrity: sha512-LwCcRoLp59/L9XPyJI/toHDFwxoeyWGqwEfQwAZ/lfZMazlTFS8os8Za0eKZP7Gd5N0bA9raf+zmq8L7A414GA==}
+  '@terrazzo/token-tools@0.8.1':
+    resolution: {integrity: sha512-xVXEVwDW/uZ7MTpXLVg+Nocv6oxh8+pc7WxHTgphkju3Ipb1obEwISMNE36WKLKnPqp8nArOVfKD9YV0D5Qqrg==}
 
   '@types/babel__code-frame@7.0.6':
     resolution: {integrity: sha512-Anitqkl3+KrzcW2k77lRlg/GfLZLWXBuNgbEcIOU6M92yw42vsd3xV/Z/yAHEj8m+KUjL6bWOVOFqX8PFPJ4LA==}
 
-  '@types/culori@4.0.0':
-    resolution: {integrity: sha512-aFljQwjb++sl6TAyEXeHTiK/fk9epZOQ+nMmadjnAvzZFIvNoQ0x8XQYfcOaRTBwmDUPUlghhZCJ66MTcqQAsg==}
+  '@types/culori@4.0.1':
+    resolution: {integrity: sha512-43M51r/22CjhbOXyGT361GZ9vncSVQ39u62x5eJdBQFviI8zWp2X5jzqg7k4M6PVgDQAClpy2bUe2dtwEgEDVQ==}
 
   '@types/escodegen@0.0.10':
     resolution: {integrity: sha512-IVvcNLEFbiL17qiGRGzyfx/u9K6lA5w6wcQSIgv2h4JG3ZAFIY1Be9ITTSPuARIxRpzW54s8OvcF6PdonBbDzg==}
 
-  '@types/node@22.15.29':
-    resolution: {integrity: sha512-LNdjOkUDlU1RZb8e1kOIUpN1qQUlzGkEtbVNo53vbrwDg5om6oduhm4SiUaPW5ASTXhAiP0jInWG8Qx9fVlOeQ==}
+  '@types/node@22.18.8':
+    resolution: {integrity: sha512-pAZSHMiagDR7cARo/cch1f3rXy0AEXwsVsVH09FcyeJVAzCnGgmYis7P3JidtTUjyadhTeSo8TgRPswstghDaw==}
 
   anymatch@3.1.3:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
@@ -134,16 +134,16 @@ packages:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
 
-  culori@4.0.1:
-    resolution: {integrity: sha512-LSnjA6HuIUOlkfKVbzi2OlToZE8OjFi667JWN9qNymXVXzGDmvuP60SSgC+e92sd7B7158f7Fy3Mb6rXS5EDPw==}
+  culori@4.0.2:
+    resolution: {integrity: sha512-1+BhOB8ahCn4O0cep0Sh2l9KCOfOdY+BXJnKMHFFzDEouSr/el18QwXEMRlOj9UY5nCeA8UN3a/82rUWRBeyBw==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
   detect-package-manager@3.0.2:
     resolution: {integrity: sha512-8JFjJHutStYrfWwzfretQoyNGoZVW1Fsrp4JO9spa7h/fBfwgTMEIy4/LBzRDGsxwVPHU0q+T9YvwLDJoOApLQ==}
     engines: {node: '>=12'}
 
-  dotenv@16.5.0:
-    resolution: {integrity: sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg==}
+  dotenv@16.6.1:
+    resolution: {integrity: sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow==}
     engines: {node: '>=12'}
 
   escodegen@2.1.0:
@@ -227,12 +227,12 @@ packages:
   merge-stream@2.0.0:
     resolution: {integrity: sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==}
 
-  meriyah@6.0.6:
-    resolution: {integrity: sha512-jXJ2Hn1sLcge9QypNdZwbl/GqF5Qdc46TJA20g9KFa4ZnxQx74bDlJ3RfdaFhUIU3yN0lAcP99EH/XPPAcYcHA==}
+  meriyah@6.1.4:
+    resolution: {integrity: sha512-Sz8FzjzI0kN13GK/6MVEsVzMZEPvOhnmmI1lU5+/1cGOiK3QUahntrNNtdVeihrO7t9JpoH75iMNXg6R6uWflQ==}
     engines: {node: '>=18.0.0'}
 
-  mime@4.0.7:
-    resolution: {integrity: sha512-2OfDPL+e03E0LrXaGYOtTFIYhiuzep94NSsuhrNULq+stylcJedcHdzHtz0atMUuGwJfFYs0YL5xeC/Ca2x0eQ==}
+  mime@4.1.0:
+    resolution: {integrity: sha512-X5ju04+cAzsojXKes0B/S4tcYtFAJ6tTMuSPBEn9CPGlrWr8Fiw7qYeLT0XyH80HSoAoqWCaz+MWKh22P7G1cw==}
     engines: {node: '>=16'}
     hasBin: true
 
@@ -310,8 +310,8 @@ packages:
   yaml-to-momoa@0.0.6:
     resolution: {integrity: sha512-H6OxymcTIB5fTCQV7/+ETO9Wh6v1vpBDpmW94XnscKE+jQl6x58us/G6r6z5IiPCi5wuSvJ+0wipUsp0s2/Yyg==}
 
-  yaml@2.8.0:
-    resolution: {integrity: sha512-4lLa/EcQCB0cJkyts+FpIRx5G/llPxfP6VQU5KByHEhLxY3IJCH0f0Hy1MHI8sClTvsIb8qwRJ6R/ZdlDJ/leQ==}
+  yaml@2.8.1:
+    resolution: {integrity: sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw==}
     engines: {node: '>= 14.6'}
     hasBin: true
 
@@ -363,57 +363,57 @@ snapshots:
       picocolors: 1.1.1
       sisteransi: 1.0.5
 
-  '@hono/node-server@1.14.3(hono@4.7.9)':
+  '@hono/node-server@1.19.5(hono@4.7.9)':
     dependencies:
       hono: 4.7.9
 
-  '@humanwhocodes/momoa@3.3.8': {}
+  '@humanwhocodes/momoa@3.3.9': {}
 
-  '@terrazzo/cli@0.8.0(hono@4.7.9)':
+  '@terrazzo/cli@0.8.1(hono@4.7.9)':
     dependencies:
       '@clack/prompts': 0.9.1
-      '@hono/node-server': 1.14.3(hono@4.7.9)
-      '@humanwhocodes/momoa': 3.3.8
-      '@terrazzo/parser': 0.8.0
-      '@terrazzo/token-tools': 0.8.0
+      '@hono/node-server': 1.19.5(hono@4.7.9)
+      '@humanwhocodes/momoa': 3.3.9
+      '@terrazzo/parser': 0.8.1
+      '@terrazzo/token-tools': 0.8.1
       '@types/escodegen': 0.0.10
       chokidar: 3.6.0
       detect-package-manager: 3.0.2
-      dotenv: 16.5.0
+      dotenv: 16.6.1
       escodegen: 2.1.0
       merge-anything: 5.1.7
-      meriyah: 6.0.6
-      mime: 4.0.7
+      meriyah: 6.1.4
+      mime: 4.1.0
       picocolors: 1.1.1
       yaml-to-momoa: 0.0.6
     transitivePeerDependencies:
       - hono
 
-  '@terrazzo/parser@0.8.0':
+  '@terrazzo/parser@0.8.1':
     dependencies:
-      '@humanwhocodes/momoa': 3.3.8
-      '@terrazzo/token-tools': 0.8.0
+      '@humanwhocodes/momoa': 3.3.9
+      '@terrazzo/token-tools': 0.8.1
       '@types/babel__code-frame': 7.0.6
-      '@types/culori': 4.0.0
-      culori: 4.0.1
+      '@types/culori': 4.0.1
+      culori: 4.0.2
       merge-anything: 5.1.7
       picocolors: 1.1.1
       scule: 1.3.0
       wildcard-match: 5.1.4
 
-  '@terrazzo/token-tools@0.8.0':
+  '@terrazzo/token-tools@0.8.1':
     dependencies:
-      '@humanwhocodes/momoa': 3.3.8
-      culori: 4.0.1
+      '@humanwhocodes/momoa': 3.3.9
+      culori: 4.0.2
       wildcard-match: 5.1.4
 
   '@types/babel__code-frame@7.0.6': {}
 
-  '@types/culori@4.0.0': {}
+  '@types/culori@4.0.1': {}
 
   '@types/escodegen@0.0.10': {}
 
-  '@types/node@22.15.29':
+  '@types/node@22.18.8':
     dependencies:
       undici-types: 6.21.0
 
@@ -446,13 +446,13 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  culori@4.0.1: {}
+  culori@4.0.2: {}
 
   detect-package-manager@3.0.2:
     dependencies:
       execa: 5.1.1
 
-  dotenv@16.5.0: {}
+  dotenv@16.6.1: {}
 
   escodegen@2.1.0:
     dependencies:
@@ -521,9 +521,9 @@ snapshots:
 
   merge-stream@2.0.0: {}
 
-  meriyah@6.0.6: {}
+  meriyah@6.1.4: {}
 
-  mime@4.0.7: {}
+  mime@4.1.0: {}
 
   mimic-fn@2.1.0: {}
 
@@ -578,7 +578,7 @@ snapshots:
 
   yaml-to-momoa@0.0.6:
     dependencies:
-      '@humanwhocodes/momoa': 3.3.8
-      yaml: 2.8.0
+      '@humanwhocodes/momoa': 3.3.9
+      yaml: 2.8.1
 
-  yaml@2.8.0: {}
+  yaml@2.8.1: {}
