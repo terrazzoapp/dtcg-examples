@@ -1891,10 +1891,11 @@
       "weight": { "$value": "{base.text.weight.medium}" },
       "shorthand": {
         "$value": {
+          "fontFamily": "{fontStack.sansSerif}",
           "fontWeight": "{text.display.weight}",
           "fontSize": "{text.display.size}",
           "lineHeight": "{text.display.lineHeight}",
-          "fontFamily": "{fontStack.sansSerif}"
+          "letterSpacing": { "value": 0, "unit": "em" }
         },
         "$type": "typography",
         "$description": "Hero-style text for brand to product transition pages. Utilize Title (large) styles on narrow viewports."
@@ -1921,10 +1922,11 @@
       "shorthand": {
         "large": {
           "$value": {
+            "fontFamily": "{fontStack.sansSerif}",
             "fontWeight": "{text.title.weight.large}",
             "fontSize": "{text.title.size.large}",
-            "lineHeight": "{text.title.lineHeight.large}",
-            "fontFamily": "{fontStack.sansSerif}"
+            "letterSpacing": { "value": 0, "unit": "em" },
+            "lineHeight": "{text.title.lineHeight.large}"
           },
           "$type": "typography",
           "$description": "Page headings for user-created objects, such as issues or pull requests. Utilize title (medium) styles on narrow viewports."
@@ -1933,6 +1935,7 @@
           "$value": {
             "fontWeight": "{text.title.weight.medium}",
             "fontSize": "{text.title.size.medium}",
+            "letterSpacing": { "value": 0, "unit": "em" },
             "lineHeight": "{text.title.lineHeight.medium}",
             "fontFamily": "{fontStack.sansSerif}"
           },
@@ -1943,6 +1946,7 @@
           "$value": {
             "fontWeight": "{text.title.weight.small}",
             "fontSize": "{text.title.size.small}",
+            "letterSpacing": { "value": 0, "unit": "em" },
             "lineHeight": "{text.title.lineHeight.small}",
             "fontFamily": "{fontStack.sansSerif}"
           },
@@ -1959,6 +1963,7 @@
         "$value": {
           "fontWeight": "{text.subtitle.weight}",
           "fontSize": "{text.subtitle.size}",
+          "letterSpacing": { "value": 0, "unit": "em" },
           "lineHeight": "{text.subtitle.lineHeight}",
           "fontFamily": "{fontStack.sansSerif}"
         },
@@ -1992,6 +1997,7 @@
           "$value": {
             "fontWeight": "{text.body.weight}",
             "fontSize": "{text.body.size.large}",
+            "letterSpacing": { "value": 0, "unit": "em" },
             "lineHeight": "{text.body.lineHeight.large}",
             "fontFamily": "{fontStack.sansSerif}"
           },
@@ -2002,6 +2008,7 @@
           "$value": {
             "fontWeight": "{text.body.weight}",
             "fontSize": "{text.body.size.medium}",
+            "letterSpacing": { "value": 0, "unit": "em" },
             "lineHeight": "{text.body.lineHeight.medium}",
             "fontFamily": "{fontStack.sansSerif}"
           },
@@ -2012,6 +2019,7 @@
           "$value": {
             "fontWeight": "{text.body.weight}",
             "fontSize": "{text.body.size.small}",
+            "letterSpacing": { "value": 0, "unit": "em" },
             "lineHeight": "{text.body.lineHeight.small}",
             "fontFamily": "{fontStack.sansSerif}"
           },
@@ -2028,6 +2036,7 @@
         "$value": {
           "fontWeight": "{text.caption.weight}",
           "fontSize": "{text.caption.size}",
+          "letterSpacing": { "value": 0, "unit": "em" },
           "lineHeight": "{text.caption.lineHeight}",
           "fontFamily": "{fontStack.sansSerif}"
         },
@@ -2043,6 +2052,7 @@
         "$value": {
           "fontWeight": "{text.codeBlock.weight}",
           "fontSize": "{text.codeBlock.size}",
+          "letterSpacing": { "value": 0, "unit": "em" },
           "lineHeight": "{text.codeBlock.lineHeight}",
           "fontFamily": "{fontStack.monospace}"
         },
@@ -2057,7 +2067,9 @@
         "$value": {
           "fontWeight": "{text.codeInline.weight}",
           "fontSize": "{text.codeInline.size}",
-          "fontFamily": "{fontStack.monospace}"
+          "fontFamily": "{fontStack.monospace}",
+          "letterSpacing": { "value": 0, "unit": "em" },
+          "lineHeight": { "value": 0, "unit": "em" }
         },
         "$type": "typography",
         "$description": "Inline code blocks using em units to inherit size from its parent."

@@ -687,506 +687,682 @@
       },
       "largeTitle": {
         "$value": {
+          "fontFamily": "{font.family.sfPro}",
           "fontSize": { "value": 34, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 41, "unit": "px" }
+          "lineHeight": { "value": 41, "unit": "px" },
+          "letterSpacing": { "value": 0, "unit": "em" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 31, "unit": "px" },
               "lineHeight": { "value": 38, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Small": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 32, "unit": "px" },
               "lineHeight": { "value": 39, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Medium": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 33, "unit": "px" },
               "lineHeight": { "value": 40, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Large": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 34, "unit": "px" },
               "lineHeight": { "value": 41, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 36, "unit": "px" },
               "lineHeight": { "value": 43, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 38, "unit": "px" },
               "lineHeight": { "value": 46, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 40, "unit": "px" },
               "lineHeight": { "value": 48, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             }
           }
         }
       },
       "title1": {
         "$value": {
+          "fontFamily": "{font.family.sfPro}",
           "fontSize": { "value": 28, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 34, "unit": "px" }
+          "lineHeight": { "value": 34, "unit": "px" },
+          "letterSpacing": { "value": 0, "unit": "em" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 25, "unit": "px" },
               "lineHeight": { "value": 31, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Small": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 26, "unit": "px" },
               "lineHeight": { "value": 32, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Medium": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 27, "unit": "px" },
               "lineHeight": { "value": 33, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Large": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 28, "unit": "px" },
               "lineHeight": { "value": 34, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 30, "unit": "px" },
               "lineHeight": { "value": 37, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 32, "unit": "px" },
               "lineHeight": { "value": 39, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 42, "unit": "px" },
               "lineHeight": { "value": 41, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             }
           }
         }
       },
       "title2": {
         "$value": {
+          "fontFamily": "{font.family.sfPro}",
           "fontSize": { "value": 22, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 25, "unit": "px" }
+          "lineHeight": { "value": 25, "unit": "px" },
+          "letterSpacing": { "value": 0, "unit": "em" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 19, "unit": "px" },
               "lineHeight": { "value": 24, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Small": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 20, "unit": "px" },
               "lineHeight": { "value": 25, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Medium": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 21, "unit": "px" },
               "lineHeight": { "value": 26, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Large": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 22, "unit": "px" },
               "lineHeight": { "value": 28, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 24, "unit": "px" },
               "lineHeight": { "value": 30, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 26, "unit": "px" },
               "lineHeight": { "value": 32, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 28, "unit": "px" },
               "lineHeight": { "value": 34, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             }
           }
         }
       },
       "title3": {
         "$value": {
+          "fontFamily": "{font.family.sfPro}",
           "fontSize": { "value": 20, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 25, "unit": "px" }
+          "lineHeight": { "value": 25, "unit": "px" },
+          "letterSpacing": { "value": 0, "unit": "em" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 25, "unit": "px" },
               "lineHeight": { "value": 22, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Small": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 26, "unit": "px" },
               "lineHeight": { "value": 23, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Medium": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 27, "unit": "px" },
               "lineHeight": { "value": 24, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Large": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 28, "unit": "px" },
               "lineHeight": { "value": 25, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 30, "unit": "px" },
               "lineHeight": { "value": 28, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 32, "unit": "px" },
               "lineHeight": { "value": 30, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 32, "unit": "px" },
               "lineHeight": { "value": 32, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             }
           }
         }
       },
       "headline": {
         "$value": {
+          "fontFamily": "{font.family.sfPro}",
           "fontSize": { "value": 17, "unit": "px" },
           "fontWeight": 600,
-          "lineHeight": { "value": 22, "unit": "px" }
+          "lineHeight": { "value": 22, "unit": "px" },
+          "letterSpacing": { "value": 0, "unit": "em" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 14, "unit": "px" },
               "lineHeight": { "value": 19, "unit": "px" },
-              "fontWeight": 600
+              "fontWeight": 600,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Small": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 15, "unit": "px" },
               "lineHeight": { "value": 20, "unit": "px" },
-              "fontWeight": 600
+              "fontWeight": 600,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Medium": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 16, "unit": "px" },
               "lineHeight": { "value": 21, "unit": "px" },
-              "fontWeight": 600
+              "fontWeight": 600,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Large": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 17, "unit": "px" },
               "lineHeight": { "value": 22, "unit": "px" },
-              "fontWeight": 600
+              "fontWeight": 600,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 19, "unit": "px" },
               "lineHeight": { "value": 24, "unit": "px" },
-              "fontWeight": 600
+              "fontWeight": 600,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 21, "unit": "px" },
               "lineHeight": { "value": 26, "unit": "px" },
-              "fontWeight": 600
+              "fontWeight": 600,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 23, "unit": "px" },
               "lineHeight": { "value": 29, "unit": "px" },
-              "fontWeight": 600
+              "fontWeight": 600,
+              "letterSpacing": { "value": 0, "unit": "em" }
             }
           }
         }
       },
       "body": {
         "$value": {
+          "fontFamily": "{font.family.sfPro}",
           "fontSize": { "value": 17, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 22, "unit": "px" }
+          "lineHeight": { "value": 22, "unit": "px" },
+          "letterSpacing": { "value": 0, "unit": "em" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 14, "unit": "px" },
               "lineHeight": { "value": 19, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Small": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 15, "unit": "px" },
               "lineHeight": { "value": 20, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Medium": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 16, "unit": "px" },
               "lineHeight": { "value": 21, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Large": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 17, "unit": "px" },
               "lineHeight": { "value": 22, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 19, "unit": "px" },
               "lineHeight": { "value": 24, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 21, "unit": "px" },
               "lineHeight": { "value": 26, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 23, "unit": "px" },
               "lineHeight": { "value": 29, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             }
           }
         }
       },
       "callout": {
         "$value": {
+          "fontFamily": "{font.family.sfPro}",
           "fontSize": { "value": 16, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 21, "unit": "px" }
+          "lineHeight": { "value": 21, "unit": "px" },
+          "letterSpacing": { "value": 0, "unit": "em" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 13, "unit": "px" },
               "lineHeight": { "value": 18, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Small": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 14, "unit": "px" },
               "lineHeight": { "value": 19, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Medium": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 15, "unit": "px" },
               "lineHeight": { "value": 20, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Large": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 16, "unit": "px" },
               "lineHeight": { "value": 21, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 18, "unit": "px" },
               "lineHeight": { "value": 23, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 20, "unit": "px" },
               "lineHeight": { "value": 25, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 22, "unit": "px" },
               "lineHeight": { "value": 28, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             }
           }
         }
       },
       "subhead": {
         "$value": {
+          "fontFamily": "{font.family.sfPro}",
           "fontSize": { "value": 15, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 20, "unit": "px" }
+          "lineHeight": { "value": 20, "unit": "px" },
+          "letterSpacing": { "value": 0, "unit": "em" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 12, "unit": "px" },
               "lineHeight": { "value": 16, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Small": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 13, "unit": "px" },
               "lineHeight": { "value": 18, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Medium": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 14, "unit": "px" },
               "lineHeight": { "value": 19, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Large": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 15, "unit": "px" },
               "lineHeight": { "value": 20, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 17, "unit": "px" },
               "lineHeight": { "value": 22, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 19, "unit": "px" },
               "lineHeight": { "value": 24, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 21, "unit": "px" },
               "lineHeight": { "value": 28, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             }
           }
         }
       },
       "footnote": {
         "$value": {
+          "fontFamily": "{font.family.sfPro}",
           "fontSize": { "value": 13, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 18, "unit": "px" }
+          "lineHeight": { "value": 18, "unit": "px" },
+          "letterSpacing": { "value": 0, "unit": "em" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 12, "unit": "px" },
               "lineHeight": { "value": 16, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Small": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 12, "unit": "px" },
               "lineHeight": { "value": 16, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Medium": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 12, "unit": "px" },
               "lineHeight": { "value": 16, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Large": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 13, "unit": "px" },
               "lineHeight": { "value": 18, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 15, "unit": "px" },
               "lineHeight": { "value": 20, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 17, "unit": "px" },
               "lineHeight": { "value": 22, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 19, "unit": "px" },
               "lineHeight": { "value": 24, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             }
           }
         }
       },
       "caption1": {
         "$value": {
+          "fontFamily": "{font.family.sfPro}",
           "fontSize": { "value": 12, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 16, "unit": "px" }
+          "lineHeight": { "value": 16, "unit": "px" },
+          "letterSpacing": { "value": 0, "unit": "em" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 11, "unit": "px" },
               "lineHeight": { "value": 13, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Small": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 11, "unit": "px" },
               "lineHeight": { "value": 13, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Medium": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 11, "unit": "px" },
               "lineHeight": { "value": 13, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Large": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 12, "unit": "px" },
               "lineHeight": { "value": 16, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 14, "unit": "px" },
               "lineHeight": { "value": 19, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 16, "unit": "px" },
               "lineHeight": { "value": 18, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 23, "unit": "px" },
               "lineHeight": { "value": 21, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             }
           }
         }
       },
       "caption2": {
         "$value": {
+          "fontFamily": "{font.family.sfPro}",
           "fontSize": { "value": 11, "unit": "px" },
           "fontWeight": 400,
-          "lineHeight": { "value": 13, "unit": "px" }
+          "lineHeight": { "value": 13, "unit": "px" },
+          "letterSpacing": { "value": 0, "unit": "em" }
         },
         "$extensions": {
           "mode": {
             "xSmall": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 11, "unit": "px" },
               "lineHeight": { "value": 13, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Small": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 11, "unit": "px" },
               "lineHeight": { "value": 13, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Medium": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 11, "unit": "px" },
               "lineHeight": { "value": 13, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "Large": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 11, "unit": "px" },
               "lineHeight": { "value": 13, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 13, "unit": "px" },
               "lineHeight": { "value": 18, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 15, "unit": "px" },
               "lineHeight": { "value": 20, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             },
             "xxxLarge": {
+              "fontFamily": "{font.family.sfPro}",
               "fontSize": { "value": 17, "unit": "px" },
               "lineHeight": { "value": 22, "unit": "px" },
-              "fontWeight": 400
+              "fontWeight": 400,
+              "letterSpacing": { "value": 0, "unit": "em" }
             }
           }
         }
