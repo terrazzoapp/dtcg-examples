@@ -1,0 +1,36 @@
+{
+  "name": "Apple Human Interface Guidelines",
+  "version": "2025.10",
+  "sets": {
+    "typography": {
+      "sources": [{ "$ref": "./apple-hig/font/design.json" }]
+    }
+  },
+  "modifiers": {
+    "theme": {
+      "contexts": {
+        "light": [{ "$ref": "./apple-hig/color/light.json" }],
+        "light_ax": [{ "$ref": "./apple-hig/color/light_ax.json" }],
+        "dark": [{ "$ref": "./apple-hig/color/dark.json" }],
+        "dark_ax": [{ "$ref": "./apple-hig/color/dark_ax.json" }]
+      },
+      "default": "light"
+    },
+    "size": {
+      "contexts": {
+        "xSmall": [{ "$ref": "./apple-hig/font/textStyle/xSmall.json" }],
+        "small": [{ "$ref": "./apple-hig/font/textStyle/small.json" }],
+        "medium": [{ "$ref": "./apple-hig/font/textStyle/medium.json" }],
+        "large": [{ "$ref": "./apple-hig/font/textStyle/large.json" }],
+        "xLarge": [{ "$ref": "./apple-hig/font/textStyle/xLarge.json" }],
+        "xxLarge": [{ "$ref": "./apple-hig/font/textStyle/xxLarge.json" }],
+        "xxxLarge": [{ "$ref": "./apple-hig/font/textStyle/xxxLarge.json" }]
+      },
+      "default": "medium"
+    }
+  },
+  "resolutionOrder": [
+    { "$ref": "#/modifiers/theme" },
+    { "$ref": "#/modifiers/size" }
+  ]
+}

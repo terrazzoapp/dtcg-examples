@@ -1,0 +1,30 @@
+{
+  "name": "Figma Simple Design System",
+  "version": "2025.10",
+  "sets": {
+    "color": {
+      "sources": [{ "$ref": "./figma-sds/color.json" }]
+    },
+    "size": {
+      "sources": [{ "$ref": "./figma-sds/size.json" }]
+    },
+    "typography": {
+      "sources": [{ "$ref": "./figma-sds/typography.json" }]
+    }
+  },
+  "modifiers": {
+    "theme": {
+      "contexts": {
+        "light": [{ "$ref": "./figma-sds/theme-light.json" }],
+        "dark": [{ "$ref": "./figma-sds/theme-dark.json" }]
+      },
+      "default": "light"
+    }
+  },
+  "resolutionOrder": [
+    { "$ref": "#/sets/color" },
+    { "$ref": "#/modifiers/theme" },
+    { "$ref": "#/sets/size" },
+    { "$ref": "#/sets/typography" }
+  ]
+}

@@ -20,7 +20,7 @@
     "name": "Drew Powers",
     "email": "drew@pow.rs"
   },
-  "packageManager": "pnpm@10.18.0+sha512.e804f889f1cecc40d572db084eec3e4881739f8dec69c0ff10d2d1beff9a4e309383ba27b5b750059d7f4c149535b6cd0d2cb1ed3aeb739239a4284a68f40cfa",
+  "packageManager": "pnpm@10.19.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/terrazzoapp/dtcg-examples"
@@ -38,9 +38,13 @@
     "lint:shopify": "tz check shopify-polaris.json"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
+    "@biomejs/biome": "^2.3.2",
     "@terrazzo/cli": "^0.8.1",
     "@terrazzo/parser": "^0.8.1",
-    "@types/node": "^22.18.8"
+    "@types/node": "^24.9.1",
+    "colorjs.io": "^0.5.2",
+    "degit": "^2.8.4",
+    "json5": "^2.2.3",
+    "tinyglobby": "^0.2.15"
   }
 }
