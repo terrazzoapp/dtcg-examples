@@ -29,8 +29,5 @@
       "default": "medium"
     }
   },
-  "resolutionOrder": [
-    { "$ref": "#/modifiers/theme" },
-    { "$ref": "#/modifiers/size" }
-  ]
+  "resolutionOrder": [{ "$ref": "#/modifiers/theme" }, { "$ref": "#/modifiers/size" }]
 }

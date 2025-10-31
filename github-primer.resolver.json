@@ -23,12 +23,12 @@
         { "$ref": "./github-primer/functional/color/fgColor.json" },
         { "$ref": "./github-primer/functional/color/focus.json" },
         { "$ref": "./github-primer/functional/color/selection.json" },
-        { "$ref": "./github-primer/functional/color/syntax.json" }
-        { "$ref": "./github-primer/functional/shadow/shadow.json" }
-        { "$ref": "./github-primer/functional/size/border.json" }
-        { "$ref": "./github-primer/functional/size/breakpoints.json" }
-        { "$ref": "./github-primer/functional/size/size.json" }
-        { "$ref": "./github-primer/functional/size/viewport.json" }
+        { "$ref": "./github-primer/functional/color/syntax.json" },
+        { "$ref": "./github-primer/functional/shadow/shadow.json" },
+        { "$ref": "./github-primer/functional/size/border.json" },
+        { "$ref": "./github-primer/functional/size/breakpoints.json" },
+        { "$ref": "./github-primer/functional/size/size.json" },
+        { "$ref": "./github-primer/functional/size/viewport.json" },
         { "$ref": "./github-primer/functional/typography/typography.json" }
       ]
     }
@@ -44,9 +44,7 @@
           }
         ],
         "dark": [{ "$ref": "./github-primer/base/color/dark/dark.json" }],
-        "dark-hc": [
-          { "$ref": "./github-primer/base/color/dark/dark.high-contrast.json" }
-        ]
+        "dark-hc": [{ "$ref": "./github-primer/base/color/dark/dark.high-contrast.json" }]
       },
       "default": "light"
     },
@@ -59,9 +57,5 @@
       "default": "default"
     }
   },
-  "resolutionOrder": [
-    { "$ref": "#/sets/base" },
-    { "$ref": "#/modifiers/theme" },
-    { "$ref": "#/modifiers/size" }
-  ]
+  "resolutionOrder": [{ "$ref": "#/sets/base" }, { "$ref": "#/modifiers/theme" }, { "$ref": "#/modifiers/size" }]
 }

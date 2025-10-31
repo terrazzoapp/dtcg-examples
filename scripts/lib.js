@@ -1,24 +1,7 @@
-import {
-  A98RGB,
-  ColorSpace,
-  HSL,
-  HWB,
-  LCH,
-  Lab,
-  OKLCH,
-  OKLab,
-  parse,
-  P3,
-  ProPhoto,
-  REC_2020,
-  XYZ_D50,
-  XYZ_D65,
-  sRGB,
-  sRGB_Linear,
-} from "colorjs.io/fn";
-import json5 from "json5";
 import fs from "node:fs/promises";
 import { fileURLToPath } from "node:url";
+import { A98RGB, ColorSpace, HSL, HWB, Lab, LCH, OKLab, OKLCH, P3, ProPhoto, parse, REC_2020, sRGB, sRGB_Linear, XYZ_D50, XYZ_D65 } from "colorjs.io/fn";
+import json5 from "json5";
 import { glob } from "tinyglobby";
 
 ColorSpace.register(A98RGB);
@@ -54,9 +37,7 @@ export async function normalizeDir(filepath) {
     absolute: true,
     cwd: new URL("../github-primer/", import.meta.url),
   });
-  await Promise.all(
-    files.map(async (file) => normalize(new URL(`file://${file}`))),
-  );
+  await Promise.all(files.map(async (file) => normalize(new URL(`file://${file}`))));
 }
 
 /**
@@ -68,12 +49,7 @@ export async function normalize(filepath) {
 
   let $type;
   function walk(node, path = []) {
-    if (
-      !node ||
-      typeof node === "string" ||
-      typeof node === "number" ||
-      typeof node === "boolean"
-    ) {
+    if (!node || typeof node === "string" || typeof node === "number" || typeof node === "boolean") {
       return;
     }
     if (Array.isArray(node)) {
@@ -98,10 +74,7 @@ export async function normalize(filepath) {
   }
   walk(tokens);
 
-  await fs.writeFile(
-    fileURLToPath(filepath).replace(/\.json5$/, ".json"),
-    JSON.stringify(tokens, undefined, 2),
-  );
+  await fs.writeFile(fileURLToPath(filepath).replace(/\.json5$/, ".json"), JSON.stringify(tokens, undefined, 2));
 }
 
 /**
@@ -112,18 +85,7 @@ export async function normalize(filepath) {
 function normalizeValue($type, $value) {
   switch ($type) {
     case "color": {
-      // non-parseable string
-      if (typeof $value === "string" && $value.startsWith("{")) {
-        return $value;
-      }
-
-      const color = parse($value);
-      return {
-        colorSpace: color.space,
-        components: color.coords,
-        alpha: color.alpha,
-        hex: typeof $value === "string" && isHex($value) ? $value : undefined,
-      };
+      return colorToken($value).$value;
     }
     case "fontFamily": {
       return Array.isArray($value) ? $value : [$value];
@@ -132,6 +94,78 @@ function normalizeValue($type, $value) {
       return $value;
     }
   }
+}
+
+/** @param {string} */
+export function colorToken($value) {
+  if (typeof $value === "string" && $value.startsWith("{")) {
+    return { $type: "color", $value };
+  }
+
+  const color = parse($value);
+  return {
+    $type: "color",
+    $value: {
+      colorSpace: color.space,
+      components: color.coords,
+      alpha: color.alpha,
+      hex: typeof $value === "string" && isHex($value) ? $value : undefined,
+    },
+  };
+}
+
+/** @param {string} */
+export function dimensionToken($value) {
+  if (typeof $value === "number") {
+    return { $type: "dimension", $value: { value: $value, unit: "px" } };
+  }
+  const number = Number.parseFloat($value);
+  return {
+    $type: "dimension",
+    $value: {
+      value: number,
+      unit: $value.replace(number, ""),
+    },
+  };
+}
+
+/** @param {string} */
+export function shadowToken($value) {
+  if (typeof $value !== "string") {
+    throw new Error(`shadowToken: can’t parse ${$value}`);
+  }
+  return {
+    $type: "dimension",
+    $value: $value
+      .split("),")
+      .filter(Boolean)
+      .map((str) => {
+        const color = `${str})`.match(/rgba\([^)]+\)/)?.[0];
+        const parts = `${str})`.replace(color, "").trim().split(" ");
+        return {
+          offsetX: dimensionToken(parts[0] || 0).$value,
+          offsetY: dimensionToken(parts[1] || 0).$value,
+          spread: dimensionToken(parts[2] || 0).$value,
+          blur: dimensionToken(parts[2] || 0).$value,
+          color: colorToken(color || "#000").$value,
+        };
+      }),
+  };
+}
+
+/** @param {object} */
+export function typographyToken({ fontSize, ...$value }) {
+  return {
+    $type: "typography",
+    $value: {
+      fontFamily: ["system-ui", "sans-serif"],
+      fontSize: fontSize ? dimensionToken(fontSize).$value : { value: 1, unit: "rem" },
+      fontWeight: 400,
+      letterSpacing: 0,
+      lineHeight: 1,
+      ...$value,
+    },
+  };
 }
 
 function isHex(value) {

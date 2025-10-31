@@ -39,6 +39,10 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.3.2",
+    "@carbon/colors": "^11.42.0",
+    "@carbon/layout": "^11.43.0",
+    "@carbon/type": "^11.49.0",
+    "@fluentui/theme": "^2.7.0",
     "@terrazzo/cli": "^0.8.1",
     "@terrazzo/parser": "^0.8.1",
     "@types/node": "^24.9.1",

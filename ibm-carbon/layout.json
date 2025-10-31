@@ -1,0 +1,158 @@
+{
+  "layout": {
+    "baseFontSize": 16,
+    "breakpoints": {
+      "sm": {
+        "width": "20rem",
+        "columns": 4,
+        "margin": "0"
+      },
+      "md": {
+        "width": "42rem",
+        "columns": 8,
+        "margin": "1rem"
+      },
+      "lg": {
+        "width": "66rem",
+        "columns": 16,
+        "margin": "1rem"
+      },
+      "xlg": {
+        "width": "82rem",
+        "columns": 16,
+        "margin": "1rem"
+      },
+      "max": {
+        "width": "99rem",
+        "columns": 16,
+        "margin": "1.5rem"
+      }
+    },
+    "container": [
+      "1.5rem",
+      "2rem",
+      "2.5rem",
+      "3rem",
+      "4rem"
+    ],
+    "container01": "1.5rem",
+    "container02": "2rem",
+    "container03": "2.5rem",
+    "container04": "3rem",
+    "container05": "4rem",
+    "fluidSpacing": [
+      0,
+      "2vw",
+      "5vw",
+      "10vw"
+    ],
+    "fluidSpacing01": 0,
+    "fluidSpacing02": "2vw",
+    "fluidSpacing03": "5vw",
+    "fluidSpacing04": "10vw",
+    "iconSize": [
+      "1rem",
+      "1.25rem"
+    ],
+    "iconSize01": "1rem",
+    "iconSize02": "1.25rem",
+    "layout": [
+      "1rem",
+      "1.5rem",
+      "2rem",
+      "3rem",
+      "4rem",
+      "6rem",
+      "10rem"
+    ],
+    "layout01": "1rem",
+    "layout02": "1.5rem",
+    "layout03": "2rem",
+    "layout04": "3rem",
+    "layout05": "4rem",
+    "layout06": "6rem",
+    "layout07": "10rem",
+    "miniUnit": 8,
+    "size2XLarge": "5rem",
+    "sizeLarge": "3rem",
+    "sizeMedium": "2.5rem",
+    "sizeSmall": "2rem",
+    "sizeXLarge": "4rem",
+    "sizeXSmall": "1.5rem",
+    "sizes": {
+      "XSmall": "1.5rem",
+      "Small": "2rem",
+      "Medium": "2.5rem",
+      "Large": "3rem",
+      "XLarge": "4rem",
+      "2XLarge": "5rem"
+    },
+    "spacing": [
+      "0.125rem",
+      "0.25rem",
+      "0.5rem",
+      "0.75rem",
+      "1rem",
+      "1.5rem",
+      "2rem",
+      "2.5rem",
+      "3rem",
+      "4rem",
+      "5rem",
+      "6rem",
+      "10rem"
+    ],
+    "spacing01": "0.125rem",
+    "spacing02": "0.25rem",
+    "spacing03": "0.5rem",
+    "spacing04": "0.75rem",
+    "spacing05": "1rem",
+    "spacing06": "1.5rem",
+    "spacing07": "2rem",
+    "spacing08": "2.5rem",
+    "spacing09": "3rem",
+    "spacing10": "4rem",
+    "spacing11": "5rem",
+    "spacing12": "6rem",
+    "spacing13": "10rem",
+    "unstable_tokens": [
+      "spacing01",
+      "spacing02",
+      "spacing03",
+      "spacing04",
+      "spacing05",
+      "spacing06",
+      "spacing07",
+      "spacing08",
+      "spacing09",
+      "spacing10",
+      "spacing11",
+      "spacing12",
+      "spacing13",
+      "fluidSpacing01",
+      "fluidSpacing02",
+      "fluidSpacing03",
+      "fluidSpacing04",
+      "container01",
+      "container02",
+      "container03",
+      "container04",
+      "container05",
+      "sizeXSmall",
+      "sizeSmall",
+      "sizeMedium",
+      "sizeLarge",
+      "sizeXLarge",
+      "size2XLarge",
+      "iconSize01",
+      "iconSize02",
+      "layout01",
+      "layout02",
+      "layout03",
+      "layout04",
+      "layout05",
+      "layout06",
+      "layout07"
+    ]
+  }
+}

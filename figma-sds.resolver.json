@@ -21,10 +21,5 @@
       "default": "light"
     }
   },
-  "resolutionOrder": [
-    { "$ref": "#/sets/color" },
-    { "$ref": "#/modifiers/theme" },
-    { "$ref": "#/sets/size" },
-    { "$ref": "#/sets/typography" }
-  ]
+  "resolutionOrder": [{ "$ref": "#/sets/color" }, { "$ref": "#/modifiers/theme" }, { "$ref": "#/sets/size" }, { "$ref": "#/sets/typography" }]
 }
