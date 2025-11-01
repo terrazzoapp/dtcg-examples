@@ -12,7 +12,8 @@
           ]
         },
         "org.primer.overrides": {
-          "dark-dimmed": "{base.color.neutral.5}"
+          "dark-dimmed": "{base.color.neutral.5}",
+          "dark-dimmed-high-contrast": "{base.color.neutral.4}"
         }
       }
     },

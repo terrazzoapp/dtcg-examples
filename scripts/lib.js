@@ -74,7 +74,7 @@ export async function normalize(filepath) {
   }
   walk(tokens);
 
-  await fs.writeFile(fileURLToPath(filepath).replace(/\.json5$/, ".json"), JSON.stringify(tokens, undefined, 2));
+  await fs.writeFile(fileURLToPath(filepath).replace(/\.json5$/, ".tokens.json"), JSON.stringify(tokens, undefined, 2));
 }
 
 /**

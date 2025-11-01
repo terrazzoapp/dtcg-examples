@@ -27,17 +27,17 @@ async function main() {
           break;
         }
         case "value": {
-          tokens["base.json"][name] = parseValue(name, token.value, token.ref);
+          tokens["base.tokens.json"][name] = parseValue(name, token.value, token.ref);
           break;
         }
         case "dark":
         case "light": {
-          tokens[`theme-${mode}.json`][name] = parseValue(name, token[mode].value, token.ref);
+          tokens[`theme-${mode}.tokens.json`][name] = parseValue(name, token[mode].value, token.ref);
           break;
         }
         case "desktop":
         case "mobile": {
-          tokens[`size-${mode}.json`][name] = parseValue(name, token[mode].value, token.ref);
+          tokens[`size-${mode}.tokens.json`][name] = parseValue(name, token[mode].value, token.ref);
           break;
         }
         default: {

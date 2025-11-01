@@ -3,14 +3,14 @@
   "version": "2025.10",
   "sets": {
     "base": {
-      "sources": [{ "$ref": "./microsoft-fluent/palette.json" }, { "$ref": "./microsoft-fluent/effects.json" }, { "$ref": "./microsoft-fluent/fonts.json" }, { "$ref": "./microsoft-fluent/spacing.json" }]
+      "sources": [{ "$ref": "./microsoft-fluent/palette.tokens.json" }, { "$ref": "./microsoft-fluent/effects.tokens.json" }, { "$ref": "./microsoft-fluent/fonts.tokens.json" }, { "$ref": "./microsoft-fluent/spacing.tokens.json" }]
     }
   },
   "modifiers": {
     "theme": {
       "contexts": {
-        "default": [{ "$ref": "./microsoft-fluent/theme-default.json" }],
-        "inverted": [{ "$ref": "./microsoft-fluent/theme-inverted.json" }]
+        "default": [{ "$ref": "./microsoft-fluent/theme-default.tokens.json" }],
+        "inverted": [{ "$ref": "./microsoft-fluent/theme-inverted.tokens.json" }]
       }
     }
   },

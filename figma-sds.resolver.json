@@ -3,20 +3,20 @@
   "version": "2025.10",
   "sets": {
     "color": {
-      "sources": [{ "$ref": "./figma-sds/color.json" }]
+      "sources": [{ "$ref": "./figma-sds/color.tokens.json" }]
     },
     "size": {
-      "sources": [{ "$ref": "./figma-sds/size.json" }]
+      "sources": [{ "$ref": "./figma-sds/size.tokens.json" }]
     },
     "typography": {
-      "sources": [{ "$ref": "./figma-sds/typography.json" }]
+      "sources": [{ "$ref": "./figma-sds/typography.tokens.json" }]
     }
   },
   "modifiers": {
     "theme": {
       "contexts": {
-        "light": [{ "$ref": "./figma-sds/theme-light.json" }],
-        "dark": [{ "$ref": "./figma-sds/theme-dark.json" }]
+        "light": [{ "$ref": "./figma-sds/theme-light.tokens.json" }],
+        "dark": [{ "$ref": "./figma-sds/theme-dark.tokens.json" }]
       },
       "default": "light"
     }

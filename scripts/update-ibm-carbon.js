@@ -10,7 +10,7 @@ async function main() {
   const cwd = new URL("../ibm-carbon/", import.meta.url);
   await Promise.all([
     fs.writeFile(
-      new URL("colors.json", cwd),
+      new URL("colors.tokens.json", cwd),
       JSON.stringify(
         {
           color: {
@@ -49,7 +49,7 @@ async function main() {
       ),
     ),
     fs.writeFile(
-      new URL("layout.json", cwd),
+      new URL("layout.tokens.json", cwd),
       JSON.stringify(
         {
           layout: {
@@ -68,10 +68,10 @@ async function main() {
         2,
       ),
     ),
-    fs.writeFile(new URL("typography.json", cwd), JSON.stringify({ type: Object.fromEntries(Object.entries(styles).map(([name, { breakpoints, ...value }]) => [name, typographyToken(value)])), undefined }, undefined, 2)),
+    fs.writeFile(new URL("typography.tokens.json", cwd), JSON.stringify({ type: Object.fromEntries(Object.entries(styles).map(([name, { breakpoints, ...value }]) => [name, typographyToken(value)])), undefined }, undefined, 2)),
     ...["lg", "xlg", "max"].map((size) =>
       fs.writeFile(
-        new URL(`typography-${size}.json`, cwd),
+        new URL(`typography-${size}.tokens.json`, cwd),
         JSON.stringify(
           {
             type: Object.fromEntries(

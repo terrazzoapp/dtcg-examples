@@ -3,16 +3,16 @@
   "version": "2025.10",
   "sets": {
     "base": {
-      "sources": [{ "$ref": "./ibm-carbon/colors.json" }, { "$ref": "./ibm-carbon/layout.json" }, { "$ref": "./ibm-carbon/typography.json" }]
+      "sources": [{ "$ref": "./ibm-carbon/colors.tokens.json" }, { "$ref": "./ibm-carbon/layout.tokens.json" }, { "$ref": "./ibm-carbon/typography.tokens.json" }]
     }
   },
   "modifiers": {
     "breakpoint": {
       "contexts": {
         "md": [],
-        "lg": [{ "$ref": "./ibm-carbon/typography-lg.json" }],
-        "xlg": [{ "$ref": "./ibm-carbon/typography-xlg.json" }],
-        "max": [{ "$ref": "./ibm-carbon/typography-max.json" }]
+        "lg": [{ "$ref": "./ibm-carbon/typography-lg.tokens.json" }],
+        "xlg": [{ "$ref": "./ibm-carbon/typography-xlg.tokens.json" }],
+        "max": [{ "$ref": "./ibm-carbon/typography-max.tokens.json" }]
       }
     }
   },

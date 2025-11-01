@@ -10,22 +10,22 @@ async function main() {
   const inverted = fluent.createTheme({ isInverted: true });
 
   const files = {
-    "palette.json": {
+    "palette.tokens.json": {
       palette: Object.fromEntries(Object.entries(base.palette).map(([name, value]) => [name, value.includes("px") ? shadowToken(value) : colorToken(value)])),
     },
-    "effects.json": {
+    "effects.tokens.json": {
       effects: Object.fromEntries(Object.entries(base.effects).map(([name, value]) => [name, name.includes("elevation") ? shadowToken(value) : dimensionToken(value)])),
     },
-    "fonts.json": {
+    "fonts.tokens.json": {
       fonts: Object.fromEntries(Object.entries(base.fonts).map(([name, value]) => [name, typographyToken(value)])),
     },
-    "spacing.json": {
+    "spacing.tokens.json": {
       spacing: Object.fromEntries(Object.entries(base.spacing).map(([name, value]) => [name, dimensionToken(value)])),
     },
-    "theme-default.json": {
+    "theme-default.tokens.json": {
       semanticColors: Object.fromEntries(Object.entries(base.semanticColors).map(([name, value]) => [name, value.includes("px") ? shadowToken(value) : colorToken(value)])),
     },
-    "theme-inverted.json": {
+    "theme-inverted.tokens.json": {
       semanticColors: Object.fromEntries(Object.entries(inverted.semanticColors).map(([name, value]) => [name, value.includes("px") ? shadowToken(value) : colorToken(value)])),
     },
   };

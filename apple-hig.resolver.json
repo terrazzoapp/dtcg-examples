@@ -3,28 +3,28 @@
   "version": "2025.10",
   "sets": {
     "typography": {
-      "sources": [{ "$ref": "./apple-hig/font/design.json" }]
+      "sources": [{ "$ref": "./apple-hig/font/design.tokens.json" }]
     }
   },
   "modifiers": {
     "theme": {
       "contexts": {
-        "light": [{ "$ref": "./apple-hig/color/light.json" }],
-        "light_ax": [{ "$ref": "./apple-hig/color/light_ax.json" }],
-        "dark": [{ "$ref": "./apple-hig/color/dark.json" }],
-        "dark_ax": [{ "$ref": "./apple-hig/color/dark_ax.json" }]
+        "light": [{ "$ref": "./apple-hig/color/light.tokens.json" }],
+        "light_ax": [{ "$ref": "./apple-hig/color/light_ax.tokens.json" }],
+        "dark": [{ "$ref": "./apple-hig/color/dark.tokens.json" }],
+        "dark_ax": [{ "$ref": "./apple-hig/color/dark_ax.tokens.json" }]
       },
       "default": "light"
     },
     "size": {
       "contexts": {
-        "xSmall": [{ "$ref": "./apple-hig/font/textStyle/xSmall.json" }],
-        "small": [{ "$ref": "./apple-hig/font/textStyle/small.json" }],
-        "medium": [{ "$ref": "./apple-hig/font/textStyle/medium.json" }],
-        "large": [{ "$ref": "./apple-hig/font/textStyle/large.json" }],
-        "xLarge": [{ "$ref": "./apple-hig/font/textStyle/xLarge.json" }],
-        "xxLarge": [{ "$ref": "./apple-hig/font/textStyle/xxLarge.json" }],
-        "xxxLarge": [{ "$ref": "./apple-hig/font/textStyle/xxxLarge.json" }]
+        "xSmall": [{ "$ref": "./apple-hig/font/textStyle/xSmall.tokens.json" }],
+        "small": [{ "$ref": "./apple-hig/font/textStyle/small.tokens.json" }],
+        "medium": [{ "$ref": "./apple-hig/font/textStyle/medium.tokens.json" }],
+        "large": [{ "$ref": "./apple-hig/font/textStyle/large.tokens.json" }],
+        "xLarge": [{ "$ref": "./apple-hig/font/textStyle/xLarge.tokens.json" }],
+        "xxLarge": [{ "$ref": "./apple-hig/font/textStyle/xxLarge.tokens.json" }],
+        "xxxLarge": [{ "$ref": "./apple-hig/font/textStyle/xxxLarge.tokens.json" }]
       },
       "default": "medium"
     }
