@@ -114,7 +114,7 @@ export function colorToken($value) {
   };
 }
 
-/** @param {string} */
+/** @param {number|string} */
 export function dimensionToken($value) {
   if (typeof $value === "number") {
     return { $type: "dimension", $value: { value: $value, unit: "px" } };
@@ -127,6 +127,11 @@ export function dimensionToken($value) {
       unit: $value.replace(number, ""),
     },
   };
+}
+
+/** @param {number|string} */
+export function numberToken($value) {
+  return { $type: "number", $value: typeof $value === "string" ? Number.parseFloat($value) : $value };
 }
 
 /** @param {string} */
