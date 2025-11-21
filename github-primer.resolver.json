@@ -1,6 +1,8 @@
 {
+  "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
   "name": "GitHub Primer",
   "version": "2025.10",
+  "resolutionOrder": [{ "$ref": "#/sets/base" }, { "$ref": "#/sets/functional" }, { "$ref": "#/modifiers/theme" }, { "$ref": "#/modifiers/size" }],
   "sets": {
     "base": {
       "sources": [
@@ -56,6 +58,5 @@
       },
       "default": "default"
     }
-  },
-  "resolutionOrder": [{ "$ref": "#/sets/base" }, { "$ref": "#/modifiers/theme" }, { "$ref": "#/modifiers/size" }]
+  }
 }

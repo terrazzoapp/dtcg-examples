@@ -1,4 +1,5 @@
 {
+  "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
   "name": "Figma Simple Design System",
   "version": "2025.10",
   "sets": {
