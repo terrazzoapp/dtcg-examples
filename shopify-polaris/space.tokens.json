@@ -1,4 +1,5 @@
 {
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "space": {
     "$type": "dimension",
     "none": { "$value": { "value": 0, "unit": "px" } },
