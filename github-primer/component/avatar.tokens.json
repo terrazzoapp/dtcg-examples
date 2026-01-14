@@ -1,4 +1,5 @@
 {
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "avatar": {
     "bgColor": {
       "$value": "{base.color.neutral.0}",
@@ -59,11 +60,22 @@
       "$value": [
         {
           "color": "{base.color.neutral.0}",
-          "alpha": 0.8,
-          "offsetX": "0px",
-          "offsetY": "0px",
-          "blur": "0px",
-          "spread": "2px"
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 0,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 0,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 2,
+            "unit": "px"
+          }
         }
       ],
       "$type": "shadow",

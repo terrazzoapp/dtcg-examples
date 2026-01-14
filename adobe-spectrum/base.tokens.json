@@ -1,4 +1,5 @@
 {
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "accordion-disclosure-indicator-to-text": {
     "$type": "dimension",
     "$value": {
@@ -106,13 +107,14 @@
   "black": {
     "$type": "color",
     "$value": {
+      "colorSpace": "srgb",
       "components": [
         0,
         0,
         0
       ],
       "alpha": 1,
-      "hex": "rgb(0, 0, 0)"
+      "hex": "#000"
     }
   },
   "black-font-weight": {
@@ -1902,13 +1904,14 @@
   "transparent-black-1000": {
     "$type": "color",
     "$value": {
+      "colorSpace": "srgb",
       "components": [
         0,
         0,
         0
       ],
       "alpha": 1,
-      "hex": "rgb(0, 0, 0)"
+      "hex": "#000"
     }
   }
 }

@@ -13,6 +13,7 @@ async function main() {
       new URL("colors.tokens.json", cwd),
       JSON.stringify(
         {
+          $schema: "https://www.designtokens.org/schemas/2025.10/format.json",
           color: {
             black: colorMap(colors.black),
             blackHover: colorToken(hoverColors.blackHover),
@@ -52,6 +53,7 @@ async function main() {
       new URL("layout.tokens.json", cwd),
       JSON.stringify(
         {
+          $schema: "https://www.designtokens.org/schemas/2025.10/format.json",
           layout: {
             baseFontSize: numberToken(layout.baseFontSize),
             breakpoints: Object.fromEntries(Object.entries(layout.breakpoints).map(([key, group]) => [key, { width: dimensionToken(group.width), columns: numberToken(group.columns), margin: dimensionToken(group.margin) }])),
@@ -74,6 +76,7 @@ async function main() {
         new URL(`typography-${size}.tokens.json`, cwd),
         JSON.stringify(
           {
+            $schema: "https://www.designtokens.org/schemas/2025.10/format.json",
             type: Object.fromEntries(
               Object.entries(styles)
                 .filter(([_name, value]) => value.breakpoints?.[size])

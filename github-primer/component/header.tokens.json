@@ -1,4 +1,5 @@
 {
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "header": {
     "bgColor": {
       "$value": "{base.color.neutral.12}",

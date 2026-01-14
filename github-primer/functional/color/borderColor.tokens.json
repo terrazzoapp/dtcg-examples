@@ -1,4 +1,5 @@
 {
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "borderColor": {
     "default": {
       "$value": "{base.color.neutral.6}",

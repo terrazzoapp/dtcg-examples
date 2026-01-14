@@ -1,10 +1,11 @@
 {
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "focus": {
     "outline": {
       "$value": {
         "color": "{focus.outlineColor}",
         "style": "solid",
-        "width": "2px"
+        "width": "{focus.outlineColor}"
       },
       "$type": "border"
     }
@@ -14,7 +15,7 @@
       "$value": {
         "color": "{borderColor.default}",
         "style": "solid",
-        "width": "{borderWidth.default}"
+        "width": "{borderColor.default}"
       },
       "$type": "border"
     },
@@ -22,7 +23,7 @@
       "$value": {
         "color": "{borderColor.muted}",
         "style": "solid",
-        "width": "{borderWidth.default}"
+        "width": "{borderColor.muted}"
       },
       "$type": "border"
     },
@@ -30,7 +31,7 @@
       "$value": {
         "color": "{borderColor.emphasis}",
         "style": "solid",
-        "width": "{borderWidth.default}"
+        "width": "{borderColor.emphasis}"
       },
       "$type": "border"
     },
@@ -38,7 +39,7 @@
       "$value": {
         "color": "{borderColor.disabled}",
         "style": "solid",
-        "width": "{borderWidth.default}"
+        "width": "{borderColor.disabled}"
       },
       "$type": "border"
     },
@@ -46,7 +47,7 @@
       "$value": {
         "color": "{borderColor.transparent}",
         "style": "solid",
-        "width": "{borderWidth.default}"
+        "width": "{borderColor.transparent}"
       },
       "$type": "border"
     },
@@ -55,7 +56,7 @@
         "$value": {
           "color": "{borderColor.neutral.emphasis}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.neutral.emphasis}"
         },
         "$type": "border"
       },
@@ -63,7 +64,7 @@
         "$value": {
           "color": "{borderColor.neutral.muted}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.neutral.muted}"
         },
         "$type": "border"
       }
@@ -73,7 +74,7 @@
         "$value": {
           "color": "{borderColor.accent.emphasis}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.accent.emphasis}"
         },
         "$type": "border"
       },
@@ -81,7 +82,7 @@
         "$value": {
           "color": "{borderColor.accent.muted}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.accent.muted}"
         },
         "$type": "border"
       }
@@ -91,7 +92,7 @@
         "$value": {
           "color": "{borderColor.success.emphasis}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.success.emphasis}"
         },
         "$type": "border"
       },
@@ -99,7 +100,7 @@
         "$value": {
           "color": "{borderColor.success.muted}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.success.muted}"
         },
         "$type": "border"
       }
@@ -119,7 +120,7 @@
         "$value": {
           "color": "{borderColor.danger.emphasis}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.danger.emphasis}"
         },
         "$type": "border"
       },
@@ -127,7 +128,7 @@
         "$value": {
           "color": "{borderColor.danger.muted}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.danger.muted}"
         },
         "$type": "border"
       }
@@ -147,7 +148,7 @@
         "$value": {
           "color": "{borderColor.attention.emphasis}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.attention.emphasis}"
         },
         "$type": "border"
       },
@@ -155,7 +156,7 @@
         "$value": {
           "color": "{borderColor.attention.muted}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.attention.muted}"
         },
         "$type": "border"
       }
@@ -165,7 +166,7 @@
         "$value": {
           "color": "{borderColor.severe.emphasis}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.severe.emphasis}"
         },
         "$type": "border"
       },
@@ -173,7 +174,7 @@
         "$value": {
           "color": "{borderColor.severe.muted}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.severe.muted}"
         },
         "$type": "border"
       }
@@ -183,7 +184,7 @@
         "$value": {
           "color": "{borderColor.done.emphasis}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.done.emphasis}"
         },
         "$type": "border"
       },
@@ -191,7 +192,7 @@
         "$value": {
           "color": "{borderColor.done.muted}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.done.muted}"
         },
         "$type": "border"
       }
@@ -201,7 +202,7 @@
         "$value": {
           "color": "{borderColor.upsell.emphasis}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.upsell.emphasis}"
         },
         "$type": "border"
       },
@@ -209,7 +210,7 @@
         "$value": {
           "color": "{borderColor.upsell.muted}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.upsell.muted}"
         },
         "$type": "border"
       }
@@ -219,7 +220,7 @@
         "$value": {
           "color": "{borderColor.sponsors.emphasis}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.sponsors.emphasis}"
         },
         "$type": "border"
       },
@@ -227,7 +228,7 @@
         "$value": {
           "color": "{borderColor.sponsors.muted}",
           "style": "solid",
-          "width": "{borderWidth.default}"
+          "width": "{borderColor.sponsors.muted}"
         },
         "$type": "border"
       }

@@ -1,4 +1,5 @@
 {
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "reactionButton": {
     "selected": {
       "bgColor": {
@@ -23,6 +24,7 @@
         },
         "hover": {
           "$value": {
+            "colorSpace": "srgb",
             "components": [
               0.792156862745098,
               0.9254901960784314,

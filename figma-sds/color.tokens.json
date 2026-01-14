@@ -1,6 +1,8 @@
 {
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "color": {
     "black": {
+      "50": { "$type": "color" },
       "100": {
         "$type": "color",
         "$value": {

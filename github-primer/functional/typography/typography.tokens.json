@@ -1,4 +1,5 @@
 {
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "fontStack": {
     "system": {
       "$value": [
@@ -76,7 +77,10 @@
         }
       },
       "size": {
-        "$value": "40px",
+        "$value": {
+          "value": 40,
+          "unit": "px"
+        },
         "$type": "dimension",
         "$extensions": {
           "org.primer.figma": {
@@ -128,7 +132,10 @@
     "title": {
       "size": {
         "large": {
-          "$value": "32px",
+          "$value": {
+            "value": 32,
+            "unit": "px"
+          },
           "$type": "dimension",
           "$extensions": {
             "org.primer.figma": {
@@ -140,7 +147,10 @@
           }
         },
         "medium": {
-          "$value": "20px",
+          "$value": {
+            "value": 20,
+            "unit": "px"
+          },
           "$type": "dimension",
           "$extensions": {
             "org.primer.figma": {
@@ -152,7 +162,10 @@
           }
         },
         "small": {
-          "$value": "16px",
+          "$value": {
+            "value": 16,
+            "unit": "px"
+          },
           "$type": "dimension",
           "$extensions": {
             "org.primer.figma": {
@@ -284,7 +297,10 @@
     },
     "subtitle": {
       "size": {
-        "$value": "20px",
+        "$value": {
+          "value": 20,
+          "unit": "px"
+        },
         "$type": "dimension",
         "$extensions": {
           "org.primer.figma": {
@@ -336,7 +352,10 @@
     "body": {
       "size": {
         "large": {
-          "$value": "16px",
+          "$value": {
+            "value": 16,
+            "unit": "px"
+          },
           "$type": "dimension",
           "$extensions": {
             "org.primer.figma": {
@@ -348,7 +367,10 @@
           }
         },
         "medium": {
-          "$value": "14px",
+          "$value": {
+            "value": 14,
+            "unit": "px"
+          },
           "$type": "dimension",
           "$extensions": {
             "org.primer.figma": {
@@ -360,7 +382,10 @@
           }
         },
         "small": {
-          "$value": "12px",
+          "$value": {
+            "value": 12,
+            "unit": "px"
+          },
           "$type": "dimension",
           "$extensions": {
             "org.primer.figma": {
@@ -389,7 +414,7 @@
           }
         },
         "medium": {
-          "$value": 1.4285,
+          "$value": 1.42857,
           "$type": "number",
           "$extensions": {
             "org.primer.data": {
@@ -404,7 +429,7 @@
           }
         },
         "small": {
-          "$value": 1.6666,
+          "$value": 1.66667,
           "$type": "number",
           "$extensions": {
             "org.primer.data": {
@@ -466,7 +491,10 @@
     },
     "caption": {
       "size": {
-        "$value": "12px",
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        },
         "$type": "dimension",
         "$extensions": {
           "org.primer.figma": {
@@ -517,7 +545,10 @@
     },
     "codeBlock": {
       "size": {
-        "$value": "13px",
+        "$value": {
+          "value": 13,
+          "unit": "px"
+        },
         "$type": "dimension",
         "$extensions": {
           "org.primer.figma": {
@@ -568,7 +599,10 @@
     },
     "codeInline": {
       "size": {
-        "$value": "0.9285em",
+        "$value": {
+          "value": 0.9285,
+          "unit": "em"
+        },
         "$type": "dimension",
         "$extensions": {
           "org.primer.figma": {

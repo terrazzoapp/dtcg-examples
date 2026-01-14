@@ -1,7 +1,8 @@
 {
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "effects": {
     "elevation4": {
-      "$type": "dimension",
+      "$type": "shadow",
       "$value": [
         {
           "offsetX": {
@@ -21,13 +22,14 @@
             "unit": "px"
           },
           "color": {
+            "colorSpace": "srgb",
             "components": [
               0,
               0,
               0
             ],
             "alpha": 0.132,
-            "hex": "rgba(0, 0, 0, 0.132)"
+            "hex": "#000"
           }
         },
         {
@@ -48,19 +50,20 @@
             "unit": "px"
           },
           "color": {
+            "colorSpace": "srgb",
             "components": [
               0,
               0,
               0
             ],
             "alpha": 0.108,
-            "hex": "rgba(0, 0, 0, 0.108)"
+            "hex": "#000"
           }
         }
       ]
     },
     "elevation8": {
-      "$type": "dimension",
+      "$type": "shadow",
       "$value": [
         {
           "offsetX": {
@@ -80,13 +83,14 @@
             "unit": "px"
           },
           "color": {
+            "colorSpace": "srgb",
             "components": [
               0,
               0,
               0
             ],
             "alpha": 0.132,
-            "hex": "rgba(0, 0, 0, 0.132)"
+            "hex": "#000"
           }
         },
         {
@@ -107,19 +111,20 @@
             "unit": "px"
           },
           "color": {
+            "colorSpace": "srgb",
             "components": [
               0,
               0,
               0
             ],
             "alpha": 0.108,
-            "hex": "rgba(0, 0, 0, 0.108)"
+            "hex": "#000"
           }
         }
       ]
     },
     "elevation16": {
-      "$type": "dimension",
+      "$type": "shadow",
       "$value": [
         {
           "offsetX": {
@@ -139,13 +144,14 @@
             "unit": "px"
           },
           "color": {
+            "colorSpace": "srgb",
             "components": [
               0,
               0,
               0
             ],
             "alpha": 0.132,
-            "hex": "rgba(0, 0, 0, 0.132)"
+            "hex": "#000"
           }
         },
         {
@@ -166,19 +172,20 @@
             "unit": "px"
           },
           "color": {
+            "colorSpace": "srgb",
             "components": [
               0,
               0,
               0
             ],
             "alpha": 0.108,
-            "hex": "rgba(0, 0, 0, 0.108)"
+            "hex": "#000"
           }
         }
       ]
     },
     "elevation64": {
-      "$type": "dimension",
+      "$type": "shadow",
       "$value": [
         {
           "offsetX": {
@@ -198,13 +205,14 @@
             "unit": "px"
           },
           "color": {
+            "colorSpace": "srgb",
             "components": [
               0,
               0,
               0
             ],
             "alpha": 0.22,
-            "hex": "rgba(0, 0, 0, 0.22)"
+            "hex": "#000"
           }
         },
         {
@@ -225,13 +233,14 @@
             "unit": "px"
           },
           "color": {
+            "colorSpace": "srgb",
             "components": [
               0,
               0,
               0
             ],
             "alpha": 0.18,
-            "hex": "rgba(0, 0, 0, 0.18)"
+            "hex": "#000"
           }
         }
       ]

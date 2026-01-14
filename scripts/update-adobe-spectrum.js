@@ -11,11 +11,11 @@ async function main() {
   const src = await fetch(TOKENS_RAW).then((res) => res.json());
 
   const files = {
-    "base.json": {},
-    "theme-light.json": {},
-    "theme-dark.json": {},
-    "size-desktop.json": {},
-    "size-mobile.json": {},
+    "base.tokens.json": { $schema: "https://www.designtokens.org/schemas/2025.10/format.json" },
+    "theme-light.tokens.json": { $schema: "https://www.designtokens.org/schemas/2025.10/format.json" },
+    "theme-dark.tokens.json": { $schema: "https://www.designtokens.org/schemas/2025.10/format.json" },
+    "size-desktop.tokens.json": { $schema: "https://www.designtokens.org/schemas/2025.10/format.json" },
+    "size-mobile.tokens.json": { $schema: "https://www.designtokens.org/schemas/2025.10/format.json" },
   };
 
   for (const [name, token] of Object.entries(src)) {
@@ -27,17 +27,17 @@ async function main() {
           break;
         }
         case "value": {
-          tokens["base.tokens.json"][name] = parseValue(name, token.value, token.ref);
+          files["base.tokens.json"][name] = parseValue(name, token.value, token.ref);
           break;
         }
         case "dark":
         case "light": {
-          tokens[`theme-${mode}.tokens.json`][name] = parseValue(name, token[mode].value, token.ref);
+          files[`theme-${mode}.tokens.json`][name] = parseValue(name, token[mode].value, token.ref);
           break;
         }
         case "desktop":
         case "mobile": {
-          tokens[`size-${mode}.tokens.json`][name] = parseValue(name, token[mode].value, token.ref);
+          files[`size-${mode}.tokens.json`][name] = parseValue(name, token[mode].value, token.ref);
           break;
         }
         default: {

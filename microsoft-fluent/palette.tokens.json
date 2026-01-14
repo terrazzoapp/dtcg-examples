@@ -1,8 +1,10 @@
 {
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "palette": {
     "themeDarker": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0,
           0.27058823529411763,
@@ -15,6 +17,7 @@
     "themeDark": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0,
           0.35294117647058826,
@@ -27,6 +30,7 @@
     "themeDarkAlt": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.06274509803921569,
           0.43137254901960786,
@@ -39,6 +43,7 @@
     "themePrimary": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0,
           0.47058823529411764,
@@ -51,6 +56,7 @@
     "themeSecondary": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.16862745098039217,
           0.5333333333333333,
@@ -63,6 +69,7 @@
     "themeTertiary": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.44313725490196076,
           0.6862745098039216,
@@ -75,6 +82,7 @@
     "themeLight": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.7803921568627451,
           0.8784313725490196,
@@ -87,6 +95,7 @@
     "themeLighter": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.8705882352941177,
           0.9254901960784314,
@@ -99,6 +108,7 @@
     "themeLighterAlt": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.9372549019607843,
           0.9647058823529412,
@@ -111,30 +121,33 @@
     "black": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0,
           0,
           0
         ],
         "alpha": 1,
-        "hex": "#000000"
+        "hex": "#000"
       }
     },
     "blackTranslucent40": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0,
           0,
           0
         ],
         "alpha": 0.4,
-        "hex": "rgba(0,0,0,.4)"
+        "hex": "#000"
       }
     },
     "neutralDark": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.12549019607843137,
           0.12156862745098039,
@@ -147,6 +160,7 @@
     "neutralPrimary": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.19607843137254902,
           0.19215686274509805,
@@ -159,6 +173,7 @@
     "neutralPrimaryAlt": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.23137254901960785,
           0.22745098039215686,
@@ -171,6 +186,7 @@
     "neutralSecondary": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.3764705882352941,
           0.3686274509803922,
@@ -183,6 +199,7 @@
     "neutralSecondaryAlt": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.5411764705882353,
           0.5333333333333333,
@@ -195,6 +212,7 @@
     "neutralTertiary": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.6313725490196078,
           0.6235294117647059,
@@ -207,6 +225,7 @@
     "neutralTertiaryAlt": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.7843137254901961,
           0.7764705882352941,
@@ -219,6 +238,7 @@
     "neutralQuaternary": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.8235294117647058,
           0.8156862745098039,
@@ -231,6 +251,7 @@
     "neutralQuaternaryAlt": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.8823529411764706,
           0.8745098039215686,
@@ -243,6 +264,7 @@
     "neutralLight": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.9294117647058824,
           0.9215686274509803,
@@ -255,6 +277,7 @@
     "neutralLighter": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.9529411764705882,
           0.9490196078431372,
@@ -267,6 +290,7 @@
     "neutralLighterAlt": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.9803921568627451,
           0.9764705882352941,
@@ -279,6 +303,7 @@
     "accent": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0,
           0.47058823529411764,
@@ -291,30 +316,33 @@
     "white": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           1,
           1,
           1
         ],
         "alpha": 1,
-        "hex": "#ffffff"
+        "hex": "#fff"
       }
     },
     "whiteTranslucent40": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           1,
           1,
           1
         ],
         "alpha": 0.4,
-        "hex": "rgba(255,255,255,.4)"
+        "hex": "#fff"
       }
     },
     "yellowDark": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.8235294117647058,
           0.5725490196078431,
@@ -327,6 +355,7 @@
     "yellow": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           1,
           0.7254901960784313,
@@ -339,6 +368,7 @@
     "yellowLight": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           1,
           0.9450980392156862,
@@ -351,6 +381,7 @@
     "orange": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.8470588235294118,
           0.23137254901960785,
@@ -363,6 +394,7 @@
     "orangeLight": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.9176470588235294,
           0.2627450980392157,
@@ -375,6 +407,7 @@
     "orangeLighter": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           1,
           0.5490196078431373,
@@ -387,6 +420,7 @@
     "redDark": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.6431372549019608,
           0.14901960784313725,
@@ -399,6 +433,7 @@
     "red": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.9098039215686274,
           0.06666666666666667,
@@ -411,6 +446,7 @@
     "magentaDark": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.3607843137254902,
           0,
@@ -423,6 +459,7 @@
     "magenta": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.7058823529411765,
           0,
@@ -435,6 +472,7 @@
     "magentaLight": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.8901960784313725,
           0,
@@ -447,6 +485,7 @@
     "purpleDark": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.19607843137254902,
           0.0784313725490196,
@@ -459,6 +498,7 @@
     "purple": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.3607843137254902,
           0.17647058823529413,
@@ -471,6 +511,7 @@
     "purpleLight": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.7058823529411765,
           0.6274509803921569,
@@ -483,6 +524,7 @@
     "blueDark": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0,
           0.12549019607843137,
@@ -495,6 +537,7 @@
     "blueMid": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0,
           0.09411764705882353,
@@ -507,6 +550,7 @@
     "blue": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0,
           0.47058823529411764,
@@ -519,6 +563,7 @@
     "blueLight": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0,
           0.7372549019607844,
@@ -531,6 +576,7 @@
     "tealDark": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0,
           0.29411764705882354,
@@ -543,6 +589,7 @@
     "teal": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0,
           0.5098039215686274,
@@ -555,6 +602,7 @@
     "tealLight": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0,
           0.6980392156862745,
@@ -567,6 +615,7 @@
     "greenDark": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0,
           0.29411764705882354,
@@ -579,6 +628,7 @@
     "green": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.06274509803921569,
           0.48627450980392156,
@@ -591,6 +641,7 @@
     "greenLight": {
       "$type": "color",
       "$value": {
+        "colorSpace": "srgb",
         "components": [
           0.7294117647058823,
           0.8470588235294118,
