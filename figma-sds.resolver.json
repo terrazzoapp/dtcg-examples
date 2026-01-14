@@ -2,6 +2,7 @@
   "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
   "name": "Figma Simple Design System",
   "version": "2025.10",
+  "resolutionOrder": [{ "$ref": "#/sets/color" }, { "$ref": "#/modifiers/theme" }, { "$ref": "#/sets/size" }, { "$ref": "#/sets/typography" }],
   "sets": {
     "color": {
       "sources": [{ "$ref": "./figma-sds/color.tokens.json" }]
@@ -21,6 +22,5 @@
       },
       "default": "light"
     }
-  },
-  "resolutionOrder": [{ "$ref": "#/sets/color" }, { "$ref": "#/modifiers/theme" }, { "$ref": "#/sets/size" }, { "$ref": "#/sets/typography" }]
+  }
 }

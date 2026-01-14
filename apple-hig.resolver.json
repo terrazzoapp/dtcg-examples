@@ -2,6 +2,7 @@
   "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
   "name": "Apple Human Interface Guidelines",
   "version": "2025.10",
+  "resolutionOrder": [{ "$ref": "#/modifiers/theme" }, { "$ref": "#/modifiers/size" }],
   "sets": {
     "typography": {
       "sources": [{ "$ref": "./apple-hig/font/design.tokens.json" }]
@@ -29,6 +30,5 @@
       },
       "default": "medium"
     }
-  },
-  "resolutionOrder": [{ "$ref": "#/modifiers/theme" }, { "$ref": "#/modifiers/size" }]
+  }
 }

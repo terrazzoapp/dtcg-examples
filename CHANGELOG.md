@@ -1,11 +1,17 @@
+## 1.0.1
+
+### Patch changes
+
+- GitHub Primer: fix bad paths
+
 ## 1.0.0
 
-## Major changes
+### Major changes
 
 - ⚠️ Breaking change: updated all design systems to use DTCG resolvers (2025.10)
 - Moving to a more automated release system with fewer breaking changes
 
-## Patch changes
+### Patch changes
 
 - Adds official DTCG JSON Schemas
 
