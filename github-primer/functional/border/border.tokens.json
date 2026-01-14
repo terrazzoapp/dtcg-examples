@@ -5,7 +5,10 @@
       "$value": {
         "color": "{focus.outlineColor}",
         "style": "solid",
-        "width": "{focus.outlineColor}"
+        "width": {
+          "value": 2,
+          "unit": "px"
+        }
       },
       "$type": "border"
     }
@@ -15,7 +18,7 @@
       "$value": {
         "color": "{borderColor.default}",
         "style": "solid",
-        "width": "{borderColor.default}"
+        "width": "{borderWidth.default}"
       },
       "$type": "border"
     },
@@ -23,7 +26,7 @@
       "$value": {
         "color": "{borderColor.muted}",
         "style": "solid",
-        "width": "{borderColor.muted}"
+        "width": "{borderWidth.default}"
       },
       "$type": "border"
     },
@@ -31,7 +34,7 @@
       "$value": {
         "color": "{borderColor.emphasis}",
         "style": "solid",
-        "width": "{borderColor.emphasis}"
+        "width": "{borderWidth.default}"
       },
       "$type": "border"
     },
@@ -39,7 +42,7 @@
       "$value": {
         "color": "{borderColor.disabled}",
         "style": "solid",
-        "width": "{borderColor.disabled}"
+        "width": "{borderWidth.default}"
       },
       "$type": "border"
     },
@@ -47,7 +50,7 @@
       "$value": {
         "color": "{borderColor.transparent}",
         "style": "solid",
-        "width": "{borderColor.transparent}"
+        "width": "{borderWidth.default}"
       },
       "$type": "border"
     },
@@ -56,7 +59,7 @@
         "$value": {
           "color": "{borderColor.neutral.emphasis}",
           "style": "solid",
-          "width": "{borderColor.neutral.emphasis}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       },
@@ -64,7 +67,7 @@
         "$value": {
           "color": "{borderColor.neutral.muted}",
           "style": "solid",
-          "width": "{borderColor.neutral.muted}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       }
@@ -74,7 +77,7 @@
         "$value": {
           "color": "{borderColor.accent.emphasis}",
           "style": "solid",
-          "width": "{borderColor.accent.emphasis}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       },
@@ -82,7 +85,7 @@
         "$value": {
           "color": "{borderColor.accent.muted}",
           "style": "solid",
-          "width": "{borderColor.accent.muted}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       }
@@ -92,7 +95,7 @@
         "$value": {
           "color": "{borderColor.success.emphasis}",
           "style": "solid",
-          "width": "{borderColor.success.emphasis}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       },
@@ -100,7 +103,7 @@
         "$value": {
           "color": "{borderColor.success.muted}",
           "style": "solid",
-          "width": "{borderColor.success.muted}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       }
@@ -120,7 +123,7 @@
         "$value": {
           "color": "{borderColor.danger.emphasis}",
           "style": "solid",
-          "width": "{borderColor.danger.emphasis}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       },
@@ -128,7 +131,7 @@
         "$value": {
           "color": "{borderColor.danger.muted}",
           "style": "solid",
-          "width": "{borderColor.danger.muted}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       }
@@ -148,7 +151,7 @@
         "$value": {
           "color": "{borderColor.attention.emphasis}",
           "style": "solid",
-          "width": "{borderColor.attention.emphasis}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       },
@@ -156,7 +159,7 @@
         "$value": {
           "color": "{borderColor.attention.muted}",
           "style": "solid",
-          "width": "{borderColor.attention.muted}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       }
@@ -166,7 +169,7 @@
         "$value": {
           "color": "{borderColor.severe.emphasis}",
           "style": "solid",
-          "width": "{borderColor.severe.emphasis}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       },
@@ -174,7 +177,7 @@
         "$value": {
           "color": "{borderColor.severe.muted}",
           "style": "solid",
-          "width": "{borderColor.severe.muted}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       }
@@ -184,7 +187,7 @@
         "$value": {
           "color": "{borderColor.done.emphasis}",
           "style": "solid",
-          "width": "{borderColor.done.emphasis}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       },
@@ -192,7 +195,7 @@
         "$value": {
           "color": "{borderColor.done.muted}",
           "style": "solid",
-          "width": "{borderColor.done.muted}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       }
@@ -202,7 +205,7 @@
         "$value": {
           "color": "{borderColor.upsell.emphasis}",
           "style": "solid",
-          "width": "{borderColor.upsell.emphasis}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       },
@@ -210,7 +213,7 @@
         "$value": {
           "color": "{borderColor.upsell.muted}",
           "style": "solid",
-          "width": "{borderColor.upsell.muted}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       }
@@ -220,7 +223,7 @@
         "$value": {
           "color": "{borderColor.sponsors.emphasis}",
           "style": "solid",
-          "width": "{borderColor.sponsors.emphasis}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       },
@@ -228,7 +231,7 @@
         "$value": {
           "color": "{borderColor.sponsors.muted}",
           "style": "solid",
-          "width": "{borderColor.sponsors.muted}"
+          "width": "{borderWidth.default}"
         },
         "$type": "border"
       }

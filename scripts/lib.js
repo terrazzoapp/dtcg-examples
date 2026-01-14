@@ -197,7 +197,7 @@ export function borderToken($value) {
         : {
             color: colorToken($value.color).$value,
             style: $value.style,
-            width: dimensionToken($value.color).$value,
+            width: dimensionToken($value.width).$value,
           },
   };
 }

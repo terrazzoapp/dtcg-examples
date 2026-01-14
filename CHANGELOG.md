@@ -1,3 +1,9 @@
+## 1.0.2
+
+### Patch changes
+
+- GitHub Primer: fix bad border width values
+
 ## 1.0.1
 
 ### Patch changes
