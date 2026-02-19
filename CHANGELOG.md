@@ -1,3 +1,9 @@
+## 1.0.3
+
+### Patch changes
+
+- GitHub Primer: fix some incorrect dark high-contrast values
+
 ## 1.0.2
 
 ### Patch changes

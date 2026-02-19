@@ -66,15 +66,20 @@
   "modifiers": {
     "theme": {
       "contexts": {
-        "light": [{ "$ref": "./github-primer/base/color/light/light.tokens.json" }],
+        "light": [
+          { "$ref": "./github-primer/base/color/light/light.tokens.json" }
+        ],
         "light-hc": [
           { "$ref": "./github-primer/base/color/light/light.tokens.json" },
-          {
-            "$ref": "./github-primer/base/color/light/light.high-contrast.tokens.json"
-          }
+          { "$ref": "./github-primer/base/color/light/light.high-contrast.tokens.json" }
         ],
-        "dark": [{ "$ref": "./github-primer/base/color/dark/dark.tokens.json" }],
-        "dark-hc": [{ "$ref": "./github-primer/base/color/dark/dark.high-contrast.tokens.json" }]
+        "dark": [
+          { "$ref": "./github-primer/base/color/dark/dark.tokens.json" }
+        ],
+        "dark-hc": [
+          { "$ref": "./github-primer/base/color/dark/dark.tokens.json" },
+          { "$ref": "./github-primer/base/color/dark/dark.high-contrast.tokens.json" }
+        ]
       },
       "default": "light"
     },
