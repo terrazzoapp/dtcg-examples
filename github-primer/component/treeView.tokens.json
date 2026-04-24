@@ -1,0 +1,27 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "treeViewItem": {
+    "leadingVisual": {
+      "iconColor": {
+        "rest": {
+          "$value": "{base.color.blue.3}",
+          "$type": "color",
+          "$extensions": {
+            "org.primer.figma": {
+              "collection": "mode",
+              "group": "component (internal)",
+              "scopes": [
+                "bgColor"
+              ]
+            },
+            "org.primer.overrides": {
+              "dark": {
+                "$value": "{fgColor.muted}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

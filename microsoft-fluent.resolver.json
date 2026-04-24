@@ -1,0 +1,19 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
+  "name": "Microsoft Fluent 2",
+  "version": "2025.10",
+  "resolutionOrder": [{ "$ref": "#/sets/base" }, { "$ref": "#/modifiers/theme" }],
+  "sets": {
+    "base": {
+      "sources": [{ "$ref": "./microsoft-fluent/palette.tokens.json" }, { "$ref": "./microsoft-fluent/effects.tokens.json" }, { "$ref": "./microsoft-fluent/fonts.tokens.json" }, { "$ref": "./microsoft-fluent/spacing.tokens.json" }]
+    }
+  },
+  "modifiers": {
+    "theme": {
+      "contexts": {
+        "default": [{ "$ref": "./microsoft-fluent/theme-default.tokens.json" }],
+        "inverted": [{ "$ref": "./microsoft-fluent/theme-inverted.tokens.json" }]
+      }
+    }
+  }
+}

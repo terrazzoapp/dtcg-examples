@@ -1,0 +1,21 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
+  "name": "IBM Carbon",
+  "version": "2025.10",
+  "resolutionOrder": [{ "$ref": "#/sets/base" }, { "$ref": "#/modifiers/breakpoint" }],
+  "sets": {
+    "base": {
+      "sources": [{ "$ref": "./ibm-carbon/colors.tokens.json" }, { "$ref": "./ibm-carbon/layout.tokens.json" }, { "$ref": "./ibm-carbon/typography.tokens.json" }]
+    }
+  },
+  "modifiers": {
+    "breakpoint": {
+      "contexts": {
+        "md": [],
+        "lg": [{ "$ref": "./ibm-carbon/typography-lg.tokens.json" }],
+        "xlg": [{ "$ref": "./ibm-carbon/typography-xlg.tokens.json" }],
+        "max": [{ "$ref": "./ibm-carbon/typography-max.tokens.json" }]
+      }
+    }
+  }
+}

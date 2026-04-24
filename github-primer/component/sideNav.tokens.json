@@ -1,0 +1,25 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "sideNav": {
+    "bgColor": {
+      "selected": {
+        "$value": "{base.color.neutral.0}",
+        "$type": "color",
+        "$extensions": {
+          "org.primer.figma": {
+            "collection": "mode",
+            "group": "component (internal)",
+            "scopes": [
+              "bgColor"
+            ]
+          },
+          "org.primer.overrides": {
+            "dark": {
+              "$value": "{base.color.neutral.3}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

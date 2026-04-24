@@ -1,0 +1,35 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "avatarStack": {
+    "fade": {
+      "bgColor": {
+        "default": {
+          "$value": "{base.color.neutral.7}",
+          "$type": "color",
+          "$extensions": {
+            "org.primer.figma": {
+              "collection": "mode",
+              "group": "component (internal)",
+              "scopes": [
+                "bgColor"
+              ]
+            }
+          }
+        },
+        "muted": {
+          "$value": "{base.color.neutral.5}",
+          "$type": "color",
+          "$extensions": {
+            "org.primer.figma": {
+              "collection": "mode",
+              "group": "component (internal)",
+              "scopes": [
+                "bgColor"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

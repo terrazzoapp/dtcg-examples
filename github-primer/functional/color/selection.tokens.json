@@ -1,0 +1,25 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "selection": {
+    "bgColor": {
+      "$value": "{bgColor.accent.emphasis}",
+      "$type": "color",
+      "$extensions": {
+        "org.primer.figma": {
+          "collection": "mode",
+          "group": "component",
+          "scopes": [
+            "bgColor"
+          ]
+        },
+        "org.primer.overrides": {
+          "dark": {
+            "$value": "{bgColor.accent.emphasis}",
+            "alpha": 0.7
+          }
+        }
+      },
+      "alpha": 0.2
+    }
+  }
+}

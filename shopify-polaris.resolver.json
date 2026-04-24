@@ -1,0 +1,11 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
+  "name": "Shopify Polaris",
+  "version": "2025.10",
+  "resolutionOrder": [{ "$ref": "#/sets/base" }],
+  "sets": {
+    "base": {
+      "sources": [{ "$ref": "./shopify-polaris/colors.tokens.json" }, { "$ref": "./shopify-polaris/font.tokens.json" }, { "$ref": "./shopify-polaris/space.tokens.json" }]
+    }
+  }
+}
