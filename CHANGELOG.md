@@ -1,3 +1,9 @@
+## 1.1.0
+
+- GitHub Primer: update to v11.10.0
+- Microsoft Fluent: update to v2.7.2
+- IBM Carbon: update to v11.55.0
+
 ## 1.0.3
 
 ### Patch changes

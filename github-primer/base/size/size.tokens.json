@@ -4,7 +4,10 @@
     "size": {
       "2": {
         "$value": {
-          "value": 2,
+          "value": {
+            "value": 2,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -20,7 +23,10 @@
       },
       "4": {
         "$value": {
-          "value": 4,
+          "value": {
+            "value": 4,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -36,7 +42,10 @@
       },
       "6": {
         "$value": {
-          "value": 6,
+          "value": {
+            "value": 6,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -52,7 +61,10 @@
       },
       "8": {
         "$value": {
-          "value": 8,
+          "value": {
+            "value": 8,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -68,7 +80,10 @@
       },
       "12": {
         "$value": {
-          "value": 12,
+          "value": {
+            "value": 12,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -84,7 +99,10 @@
       },
       "16": {
         "$value": {
-          "value": 16,
+          "value": {
+            "value": 16,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -100,7 +118,10 @@
       },
       "20": {
         "$value": {
-          "value": 20,
+          "value": {
+            "value": 20,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -116,7 +137,10 @@
       },
       "24": {
         "$value": {
-          "value": 24,
+          "value": {
+            "value": 24,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -132,7 +156,10 @@
       },
       "28": {
         "$value": {
-          "value": 28,
+          "value": {
+            "value": 28,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -148,7 +175,10 @@
       },
       "32": {
         "$value": {
-          "value": 32,
+          "value": {
+            "value": 32,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -164,7 +194,10 @@
       },
       "36": {
         "$value": {
-          "value": 36,
+          "value": {
+            "value": 36,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -180,7 +213,10 @@
       },
       "40": {
         "$value": {
-          "value": 40,
+          "value": {
+            "value": 40,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -196,7 +232,10 @@
       },
       "44": {
         "$value": {
-          "value": 44,
+          "value": {
+            "value": 44,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -212,7 +251,10 @@
       },
       "48": {
         "$value": {
-          "value": 48,
+          "value": {
+            "value": 48,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -228,7 +270,10 @@
       },
       "64": {
         "$value": {
-          "value": 64,
+          "value": {
+            "value": 64,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -244,7 +289,10 @@
       },
       "80": {
         "$value": {
-          "value": 80,
+          "value": {
+            "value": 80,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -260,7 +308,10 @@
       },
       "96": {
         "$value": {
-          "value": 96,
+          "value": {
+            "value": 96,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -276,7 +327,10 @@
       },
       "112": {
         "$value": {
-          "value": 112,
+          "value": {
+            "value": 112,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -292,7 +346,10 @@
       },
       "128": {
         "$value": {
-          "value": 128,
+          "value": {
+            "value": 128,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -305,6 +362,146 @@
             ]
           }
         }
+      },
+      "negative-2": {
+        "$value": {
+          "value": {
+            "value": -2,
+            "unit": "px"
+          },
+          "unit": "px"
+        },
+        "$type": "dimension"
+      },
+      "negative-4": {
+        "$value": {
+          "value": {
+            "value": -4,
+            "unit": "px"
+          },
+          "unit": "px"
+        },
+        "$type": "dimension"
+      },
+      "negative-6": {
+        "$value": {
+          "value": {
+            "value": -6,
+            "unit": "px"
+          },
+          "unit": "px"
+        },
+        "$type": "dimension"
+      },
+      "negative-8": {
+        "$value": {
+          "value": {
+            "value": -8,
+            "unit": "px"
+          },
+          "unit": "px"
+        },
+        "$type": "dimension"
+      },
+      "negative-12": {
+        "$value": {
+          "value": {
+            "value": -12,
+            "unit": "px"
+          },
+          "unit": "px"
+        },
+        "$type": "dimension"
+      },
+      "negative-16": {
+        "$value": {
+          "value": {
+            "value": -16,
+            "unit": "px"
+          },
+          "unit": "px"
+        },
+        "$type": "dimension"
+      },
+      "negative-20": {
+        "$value": {
+          "value": {
+            "value": -20,
+            "unit": "px"
+          },
+          "unit": "px"
+        },
+        "$type": "dimension"
+      },
+      "negative-24": {
+        "$value": {
+          "value": {
+            "value": -24,
+            "unit": "px"
+          },
+          "unit": "px"
+        },
+        "$type": "dimension"
+      },
+      "negative-28": {
+        "$value": {
+          "value": {
+            "value": -28,
+            "unit": "px"
+          },
+          "unit": "px"
+        },
+        "$type": "dimension"
+      },
+      "negative-32": {
+        "$value": {
+          "value": {
+            "value": -32,
+            "unit": "px"
+          },
+          "unit": "px"
+        },
+        "$type": "dimension"
+      },
+      "negative-36": {
+        "$value": {
+          "value": {
+            "value": -36,
+            "unit": "px"
+          },
+          "unit": "px"
+        },
+        "$type": "dimension"
+      },
+      "negative-40": {
+        "$value": {
+          "value": {
+            "value": -40,
+            "unit": "px"
+          },
+          "unit": "px"
+        },
+        "$type": "dimension"
+      },
+      "negative-44": {
+        "$value": {
+          "value": {
+            "value": -44,
+            "unit": "px"
+          },
+          "unit": "px"
+        },
+        "$type": "dimension"
+      },
+      "negative-48": {
+        "$value": {
+          "value": {
+            "value": -48,
+            "unit": "px"
+          },
+          "unit": "px"
+        },
+        "$type": "dimension"
       }
     }
   }

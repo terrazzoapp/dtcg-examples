@@ -1045,83 +1045,6 @@
       "$type": "shadow",
       "$value": [
         {
-          "offsetX": {
-            "value": 0,
-            "unit": ""
-          },
-          "offsetY": {
-            "value": 1.6,
-            "unit": "px"
-          },
-          "spread": {
-            "value": 3.6,
-            "unit": "px"
-          },
-          "blur": {
-            "value": 3.6,
-            "unit": "px"
-          },
-          "color": {
-            "colorSpace": "srgb",
-            "components": [
-              0,
-              0,
-              0
-            ],
-            "alpha": 0.132,
-            "hex": "#000"
-          }
-        },
-        {
-          "offsetX": {
-            "value": 0,
-            "unit": ""
-          },
-          "offsetY": {
-            "value": 0.3,
-            "unit": "px"
-          },
-          "spread": {
-            "value": 0.9,
-            "unit": "px"
-          },
-          "blur": {
-            "value": 0.9,
-            "unit": "px"
-          },
-          "color": {
-            "colorSpace": "srgb",
-            "components": [
-              0,
-              0,
-              0
-            ],
-            "alpha": 0.108,
-            "hex": "#000"
-          }
-        }
-      ]
-    },
-    "cardShadowHovered": {
-      "$type": "shadow",
-      "$value": [
-        {
-          "offsetX": {
-            "value": 0,
-            "unit": ""
-          },
-          "offsetY": {
-            "value": 0,
-            "unit": ""
-          },
-          "spread": {
-            "value": 1,
-            "unit": "px"
-          },
-          "blur": {
-            "value": 1,
-            "unit": "px"
-          },
           "color": {
             "colorSpace": "srgb",
             "components": [
@@ -1131,6 +1054,55 @@
             ],
             "alpha": 1,
             "hex": "#000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 0,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 0,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      ]
+    },
+    "cardShadowHovered": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 1,
+            "hex": "#000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 0,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 0,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
           }
         }
       ]

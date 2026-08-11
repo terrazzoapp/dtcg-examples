@@ -2,7 +2,13 @@
   "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
   "name": "GitHub Primer",
   "version": "2025.10",
-  "resolutionOrder": [{ "$ref": "#/sets/base" }, { "$ref": "#/sets/functional" }, { "$ref": "#/sets/component" }, { "$ref": "#/modifiers/theme" }, { "$ref": "#/modifiers/size" }],
+  "resolutionOrder": [
+    { "$ref": "#/sets/base" },
+    { "$ref": "#/sets/functional" },
+    { "$ref": "#/sets/component" },
+    { "$ref": "#/modifiers/theme" },
+    { "$ref": "#/modifiers/size" }
+  ],
   "sets": {
     "base": {
       "sources": [
@@ -11,6 +17,7 @@
         { "$ref": "./github-primer/base/motion/easing.tokens.json" },
         { "$ref": "./github-primer/base/motion/timing.tokens.json" },
         { "$ref": "./github-primer/base/size/size.tokens.json" },
+        { "$ref": "./github-primer/base/size/z-index.tokens.json" },
         { "$ref": "./github-primer/base/typography/typography.tokens.json" }
       ]
     },
@@ -23,13 +30,16 @@
         { "$ref": "./github-primer/functional/color/data-vis.tokens.json" },
         { "$ref": "./github-primer/functional/color/display.tokens.json" },
         { "$ref": "./github-primer/functional/color/fgColor.tokens.json" },
-        { "$ref": "./github-primer/functional/color/focus.tokens.json" },
         { "$ref": "./github-primer/functional/color/selection.tokens.json" },
         { "$ref": "./github-primer/functional/color/syntax.tokens.json" },
+        { "$ref": "./github-primer/functional/motion/motion.tokens.json" },
         { "$ref": "./github-primer/functional/shadow/shadow.tokens.json" },
         { "$ref": "./github-primer/functional/size/border.tokens.json" },
         { "$ref": "./github-primer/functional/size/breakpoints.tokens.json" },
+        { "$ref": "./github-primer/functional/size/radius.tokens.json" },
         { "$ref": "./github-primer/functional/size/size.tokens.json" },
+        { "$ref": "./github-primer/functional/size/z-index.tokens.json" },
+        { "$ref": "./github-primer/functional/typography/font-stack.tokens.json" },
         { "$ref": "./github-primer/functional/typography/typography.tokens.json" }
       ]
     },
@@ -43,6 +53,7 @@
         { "$ref": "./github-primer/component/counter.tokens.json" },
         { "$ref": "./github-primer/component/dashboard.tokens.json" },
         { "$ref": "./github-primer/component/diffBlob.tokens.json" },
+        { "$ref": "./github-primer/component/focus.tokens.json" },
         { "$ref": "./github-primer/component/header.tokens.json" },
         { "$ref": "./github-primer/component/headerSerach.tokens.json" },
         { "$ref": "./github-primer/component/highlight.tokens.json" },
@@ -66,16 +77,12 @@
   "modifiers": {
     "theme": {
       "contexts": {
-        "light": [
-          { "$ref": "./github-primer/base/color/light/light.tokens.json" }
-        ],
+        "light": [{ "$ref": "./github-primer/base/color/light/light.tokens.json" }],
         "light-hc": [
           { "$ref": "./github-primer/base/color/light/light.tokens.json" },
           { "$ref": "./github-primer/base/color/light/light.high-contrast.tokens.json" }
         ],
-        "dark": [
-          { "$ref": "./github-primer/base/color/dark/dark.tokens.json" }
-        ],
+        "dark": [{ "$ref": "./github-primer/base/color/dark/dark.tokens.json" }],
         "dark-hc": [
           { "$ref": "./github-primer/base/color/dark/dark.tokens.json" },
           { "$ref": "./github-primer/base/color/dark/dark.high-contrast.tokens.json" }

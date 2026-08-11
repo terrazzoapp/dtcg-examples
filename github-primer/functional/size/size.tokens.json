@@ -1,6 +1,19 @@
 {
   "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
   "control": {
+    "$description": "Size tokens for interactive controls (buttons, inputs, selects). Includes overall size, padding, line height, and gap values for each size variant.",
+    "$extensions": {
+      "org.primer.llm": {
+        "usage": [
+          "button",
+          "input",
+          "select",
+          "form-control",
+          "interactive-element"
+        ],
+        "rules": "Use size variants consistently across related controls. Match control size to context: xsmall/small for dense UIs, medium for standard forms, large/xlarge for prominent CTAs. Use minTarget values to ensure touch accessibility on coarse pointer devices."
+      }
+    },
     "minTarget": {
       "fine": {
         "$value": "{base.size.16}",
@@ -40,21 +53,12 @@
           }
         }
       },
-      "lineBoxHeight": {
-        "$value": "{base.size.20}",
-        "$type": "dimension",
-        "$extensions": {
-          "org.primer.figma": {
-            "collection": "pattern/size",
-            "scopes": [
-              "size"
-            ]
-          }
-        }
-      },
       "paddingBlock": {
         "$value": {
-          "value": 2,
+          "value": {
+            "value": 2,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -131,18 +135,6 @@
           }
         }
       },
-      "lineBoxHeight": {
-        "$value": "{base.size.20}",
-        "$type": "dimension",
-        "$extensions": {
-          "org.primer.figma": {
-            "collection": "pattern/size",
-            "scopes": [
-              "size"
-            ]
-          }
-        }
-      },
       "paddingBlock": {
         "$value": "{base.size.4}",
         "$type": "dimension",
@@ -170,6 +162,18 @@
         },
         "normal": {
           "$value": "{base.size.12}",
+          "$type": "dimension",
+          "$extensions": {
+            "org.primer.figma": {
+              "collection": "pattern/size",
+              "scopes": [
+                "gap"
+              ]
+            }
+          }
+        },
+        "spacious": {
+          "$value": "{base.size.16}",
           "$type": "dimension",
           "$extensions": {
             "org.primer.figma": {
@@ -207,21 +211,12 @@
           }
         }
       },
-      "lineBoxHeight": {
-        "$value": "{base.size.20}",
-        "$type": "dimension",
-        "$extensions": {
-          "org.primer.figma": {
-            "collection": "pattern/size",
-            "scopes": [
-              "size"
-            ]
-          }
-        }
-      },
       "paddingBlock": {
         "$value": {
-          "value": 6,
+          "value": {
+            "value": 6,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -298,21 +293,12 @@
           }
         }
       },
-      "lineBoxHeight": {
-        "$value": "{base.size.20}",
-        "$type": "dimension",
-        "$extensions": {
-          "org.primer.figma": {
-            "collection": "pattern/size",
-            "scopes": [
-              "size"
-            ]
-          }
-        }
-      },
       "paddingBlock": {
         "$value": {
-          "value": 10,
+          "value": {
+            "value": 10,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -326,6 +312,18 @@
         }
       },
       "paddingInline": {
+        "condensed": {
+          "$value": "{base.size.8}",
+          "$type": "dimension",
+          "$extensions": {
+            "org.primer.figma": {
+              "collection": "pattern/size",
+              "scopes": [
+                "gap"
+              ]
+            }
+          }
+        },
         "normal": {
           "$value": "{base.size.12}",
           "$type": "dimension",
@@ -377,21 +375,12 @@
           }
         }
       },
-      "lineBoxHeight": {
-        "$value": "{base.size.20}",
-        "$type": "dimension",
-        "$extensions": {
-          "org.primer.figma": {
-            "collection": "pattern/size",
-            "scopes": [
-              "size"
-            ]
-          }
-        }
-      },
       "paddingBlock": {
         "$value": {
-          "value": 14,
+          "value": {
+            "value": 14,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -405,6 +394,18 @@
         }
       },
       "paddingInline": {
+        "condensed": {
+          "$value": "{base.size.8}",
+          "$type": "dimension",
+          "$extensions": {
+            "org.primer.figma": {
+              "collection": "pattern/size",
+              "scopes": [
+                "gap"
+              ]
+            }
+          }
+        },
         "normal": {
           "$value": "{base.size.12}",
           "$type": "dimension",
@@ -445,10 +446,24 @@
     }
   },
   "spinner": {
+    "$description": "Size and stroke tokens for loading spinner components.",
+    "$extensions": {
+      "org.primer.llm": {
+        "usage": [
+          "loading-spinner",
+          "progress-indicator",
+          "async-loading"
+        ],
+        "rules": "Match spinner size to context: small for inline loading, medium for buttons and cards, large for full-page loading states."
+      }
+    },
     "strokeWidth": {
       "default": {
         "$value": {
-          "value": 2,
+          "value": {
+            "value": 2,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension"
@@ -494,6 +509,18 @@
     }
   },
   "stack": {
+    "$description": "Spacing tokens for Stack layout components including padding and gap values.",
+    "$extensions": {
+      "org.primer.llm": {
+        "usage": [
+          "stack-layout",
+          "vertical-stack",
+          "horizontal-stack",
+          "flex-container"
+        ],
+        "rules": "Use condensed for dense lists, normal for standard layouts, spacious for prominent sections. Stack tokens provide consistent spacing within layout containers."
+      }
+    },
     "padding": {
       "condensed": {
         "$value": "{base.size.8}",
@@ -596,8 +623,32 @@
     }
   },
   "controlStack": {
+    "$description": "Gap tokens for groups of controls (buttons, form elements) arranged in a row or column.",
+    "$extensions": {
+      "org.primer.llm": {
+        "usage": [
+          "button-group",
+          "form-control-group",
+          "action-bar",
+          "toolbar"
+        ],
+        "rules": "Use with groups of related controls. Match gap size to control size (small controls use small gaps). Condensed for tight groupings, spacious for separated actions."
+      }
+    },
     "small": {
       "gap": {
+        "auto": {
+          "$value": "{base.size.8}",
+          "$type": "dimension",
+          "$extensions": {
+            "org.primer.figma": {
+              "collection": "pattern/size",
+              "scopes": [
+                "gap"
+              ]
+            }
+          }
+        },
         "condensed": {
           "$value": "{base.size.8}",
           "$type": "dimension",
@@ -626,6 +677,18 @@
     },
     "medium": {
       "gap": {
+        "auto": {
+          "$value": "{base.size.8}",
+          "$type": "dimension",
+          "$extensions": {
+            "org.primer.figma": {
+              "collection": "pattern/size",
+              "scopes": [
+                "gap"
+              ]
+            }
+          }
+        },
         "condensed": {
           "$value": "{base.size.8}",
           "$type": "dimension",
@@ -694,10 +757,27 @@
     }
   },
   "overlay": {
+    "$description": "Dimension tokens for overlay components like modals, dialogs, popovers, and dropdown menus.",
+    "$extensions": {
+      "org.primer.llm": {
+        "usage": [
+          "modal",
+          "dialog",
+          "popover",
+          "dropdown",
+          "tooltip",
+          "overlay-panel"
+        ],
+        "rules": "Match overlay size to content: xsmall/small for menus and tooltips, medium for dialogs, large/xlarge for complex modals. Use height tokens to constrain scrollable overlays. Always consider viewport size constraints."
+      }
+    },
     "width": {
       "xsmall": {
         "$value": {
-          "value": 192,
+          "value": {
+            "value": 192,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -712,7 +792,10 @@
       },
       "small": {
         "$value": {
-          "value": 320,
+          "value": {
+            "value": 320,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -727,7 +810,10 @@
       },
       "medium": {
         "$value": {
-          "value": 480,
+          "value": {
+            "value": 480,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -742,7 +828,10 @@
       },
       "large": {
         "$value": {
-          "value": 640,
+          "value": {
+            "value": 640,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -757,7 +846,10 @@
       },
       "xlarge": {
         "$value": {
-          "value": 960,
+          "value": {
+            "value": 960,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -774,7 +866,10 @@
     "height": {
       "small": {
         "$value": {
-          "value": 256,
+          "value": {
+            "value": 256,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -789,7 +884,10 @@
       },
       "medium": {
         "$value": {
-          "value": 320,
+          "value": {
+            "value": 320,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -804,7 +902,10 @@
       },
       "large": {
         "$value": {
-          "value": 432,
+          "value": {
+            "value": 432,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -819,7 +920,10 @@
       },
       "xlarge": {
         "$value": {
-          "value": 600,
+          "value": {
+            "value": 600,
+            "unit": "px"
+          },
           "unit": "px"
         },
         "$type": "dimension",
@@ -899,7 +1003,10 @@
     },
     "offset": {
       "$value": {
-        "value": 4,
+        "value": {
+          "value": 4,
+          "unit": "px"
+        },
         "unit": "px"
       },
       "$type": "dimension",

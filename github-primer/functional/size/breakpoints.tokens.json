@@ -3,7 +3,10 @@
   "breakpoint": {
     "xsmall": {
       "$value": {
-        "value": 320,
+        "value": {
+          "value": 320,
+          "unit": "px"
+        },
         "unit": "px"
       },
       "$type": "dimension",
@@ -18,7 +21,10 @@
     },
     "small": {
       "$value": {
-        "value": 544,
+        "value": {
+          "value": 544,
+          "unit": "px"
+        },
         "unit": "px"
       },
       "$type": "dimension",
@@ -33,7 +39,10 @@
     },
     "medium": {
       "$value": {
-        "value": 768,
+        "value": {
+          "value": 768,
+          "unit": "px"
+        },
         "unit": "px"
       },
       "$type": "dimension",
@@ -48,7 +57,10 @@
     },
     "large": {
       "$value": {
-        "value": 1012,
+        "value": {
+          "value": 1012,
+          "unit": "px"
+        },
         "unit": "px"
       },
       "$type": "dimension",
@@ -63,7 +75,10 @@
     },
     "xlarge": {
       "$value": {
-        "value": 1280,
+        "value": {
+          "value": 1280,
+          "unit": "px"
+        },
         "unit": "px"
       },
       "$type": "dimension",
@@ -78,7 +93,10 @@
     },
     "xxlarge": {
       "$value": {
-        "value": 1400,
+        "value": {
+          "value": 1400,
+          "unit": "px"
+        },
         "unit": "px"
       },
       "$type": "dimension",

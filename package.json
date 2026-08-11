@@ -1,29 +1,28 @@
 {
   "name": "dtcg-examples",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Open source design systems, expressed as DTCG JSON",
   "keywords": [
-    "design tokens",
-    "design system",
-    "dtcg",
-    "w3c",
     "carbon",
+    "design system",
+    "design tokens",
+    "dtcg",
     "polaris",
     "primer",
     "sds",
-    "spectrum"
+    "spectrum",
+    "w3c"
   ],
-  "type": "module",
   "license": "MIT",
   "author": {
     "name": "Drew Powers",
     "email": "drew@pow.rs"
   },
-  "packageManager": "pnpm@10.28.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/terrazzoapp/dtcg-examples"
   },
+  "type": "module",
   "scripts": {
     "lint": "pnpm run --parallel \"/^lint:/\"",
     "lint:adobe": "tz check adobe-spectrum.resolver.json",
@@ -35,17 +34,19 @@
     "lint:shopify": "tz check shopify-polaris.resolver.json"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.3.11",
-    "@carbon/colors": "^11.45.0",
-    "@carbon/layout": "^11.46.0",
-    "@carbon/type": "^11.52.0",
+    "@carbon/colors": "^11.55.0",
+    "@carbon/layout": "^11.56.0",
+    "@carbon/type": "^11.64.0",
     "@fluentui/theme": "^2.7.2",
-    "@terrazzo/cli": "^0.8.1",
-    "@terrazzo/parser": "^0.8.1",
-    "@types/node": "^24.10.8",
-    "colorjs.io": "^0.6.0",
-    "degit": "^2.8.4",
+    "@terrazzo/cli": "^2.6.0",
+    "@terrazzo/parser": "^2.6.0",
+    "@types/node": "^26.2.0",
+    "colorjs.io": "^0.7.1",
+    "degit": "^3.6.6",
     "json5": "^2.2.3",
-    "tinyglobby": "^0.2.15"
-  }
+    "oxfmt": "^0.63.0",
+    "oxlint": "^1.78.0",
+    "tinyglobby": "^0.2.17"
+  },
+  "packageManager": "pnpm@10.28.0"
 }

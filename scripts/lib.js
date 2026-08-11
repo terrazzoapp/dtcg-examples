@@ -42,7 +42,7 @@ export async function loadJson(filepath) {
  * Normalize dir
  * @param {URL} dir
  */
-export async function normalizeDir(filepath) {
+export async function normalizeDir() {
   const files = await glob("**/*.{json,json5}", {
     absolute: true,
     cwd: new URL("../github-primer/", import.meta.url),

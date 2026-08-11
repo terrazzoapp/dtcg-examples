@@ -20,6 +20,19 @@
               }
             }
           }
+        },
+        "disabled": {
+          "$value": "{control.fgColor.disabled}",
+          "$type": "color",
+          "$extensions": {
+            "org.primer.figma": {
+              "collection": "mode",
+              "group": "component (internal)",
+              "scopes": [
+                "fgColor"
+              ]
+            }
+          }
         }
       },
       "bgColor": {
@@ -161,19 +174,31 @@
             {
               "color": "{base.color.neutral.13}",
               "offsetX": {
-                "value": 0,
+                "value": {
+                  "value": 0,
+                  "unit": "px"
+                },
                 "unit": "px"
               },
               "offsetY": {
-                "value": 1,
+                "value": {
+                  "value": 1,
+                  "unit": "px"
+                },
                 "unit": "px"
               },
               "blur": {
-                "value": 0,
+                "value": {
+                  "value": 0,
+                  "unit": "px"
+                },
                 "unit": "px"
               },
               "spread": {
-                "value": 0,
+                "value": {
+                  "value": 0,
+                  "unit": "px"
+                },
                 "unit": "px"
               },
               "inset": false
@@ -191,10 +216,22 @@
                   {
                     "color": "{base.color.transparent}",
                     "alpha": 0,
-                    "offsetX": "0px",
-                    "offsetY": "0px",
-                    "blur": "0px",
-                    "spread": "0px",
+                    "offsetX": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "offsetY": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "blur": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "spread": {
+                      "value": 0,
+                      "unit": "px"
+                    },
                     "inset": false
                   }
                 ]
@@ -222,10 +259,26 @@
                 "$value": "{fgColor.white}"
               },
               "dark-dimmed": {
-                "$value": "#ffffff"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    0,
+                    0,
+                    100
+                  ],
+                  "hex": "#ffffff"
+                }
               },
               "dark-dimmed-high-contrast": {
-                "$value": "#ffffff"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    0,
+                    0,
+                    100
+                  ],
+                  "hex": "#ffffff"
+                }
               }
             }
           }
@@ -272,11 +325,40 @@
                 "$value": "{fgColor.white}"
               },
               "dark-dimmed": {
-                "$value": "#ffffff"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    0,
+                    0,
+                    100
+                  ],
+                  "hex": "#ffffff"
+                }
               },
               "dark-dimmed-high-contrast": {
-                "$value": "#ffffff"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    0,
+                    0,
+                    100
+                  ],
+                  "hex": "#ffffff"
+                }
               }
+            }
+          }
+        },
+        "disabled": {
+          "$value": "{button.primary.fgColor.disabled}",
+          "$type": "color",
+          "$extensions": {
+            "org.primer.figma": {
+              "collection": "mode",
+              "group": "component (internal)",
+              "scopes": [
+                "fgColor"
+              ]
             }
           }
         }
@@ -305,13 +387,12 @@
         },
         "hover": {
           "$value": {
-            "colorSpace": "srgb",
+            "colorSpace": "hsl",
             "components": [
-              0.10980392156862745,
-              0.5058823529411764,
-              0.2235294117647059
+              137.2,
+              64.3,
+              30.8
             ],
-            "alpha": 1,
             "hex": "#1c8139"
           },
           "$type": "color",
@@ -325,56 +406,151 @@
             },
             "org.primer.overrides": {
               "dark": {
-                "$value": "#29903B"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    130.5,
+                    55.7,
+                    36.3
+                  ],
+                  "hex": "#29903B"
+                }
               },
               "dark-dimmed": {
-                "$value": "#3b8640"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    124,
+                    38.9,
+                    37.8
+                  ],
+                  "hex": "#3b8640"
+                }
               },
               "dark-dimmed-high-contrast": {
                 "$value": "{base.color.green.6}"
               },
               "dark-tritanopia": {
-                "$value": "#2a7aef"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    215.6,
+                    86,
+                    55.1
+                  ],
+                  "hex": "#2a7aef"
+                }
               },
               "dark-tritanopia-high-contrast": {
-                "$value": "#2a7aef"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    215.6,
+                    86,
+                    55.1
+                  ],
+                  "hex": "#2a7aef"
+                }
               },
               "dark-protanopia-deuteranopia": {
-                "$value": "#2a7aef"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    215.6,
+                    86,
+                    55.1
+                  ],
+                  "hex": "#2a7aef"
+                }
               },
               "dark-protanopia-deuteranopia-high-contrast": {
-                "$value": "#2a7aef"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    215.6,
+                    86,
+                    55.1
+                  ],
+                  "hex": "#2a7aef"
+                }
               },
               "dark-high-contrast": {
-                "$value": "#08792b"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    138.6,
+                    87.6,
+                    25.3
+                  ],
+                  "hex": "#08792b"
+                }
               },
               "light-tritanopia": {
-                "$value": "#0864d1"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    212.5,
+                    92.6,
+                    42.5
+                  ],
+                  "hex": "#0864d1"
+                }
               },
               "light-tritanopia-high-contrast": {
-                "$value": "#0864d1"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    212.5,
+                    92.6,
+                    42.5
+                  ],
+                  "hex": "#0864d1"
+                }
               },
               "light-protanopia-deuteranopia": {
-                "$value": "#0864d1"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    212.5,
+                    92.6,
+                    42.5
+                  ],
+                  "hex": "#0864d1"
+                }
               },
               "light-protanopia-deuteranopia-high-contrast": {
-                "$value": "#0864d1"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    212.5,
+                    92.6,
+                    42.5
+                  ],
+                  "hex": "#0864d1"
+                }
               },
               "light-high-contrast": {
-                "$value": "#04571e"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    138.8,
+                    91.2,
+                    17.8
+                  ],
+                  "hex": "#04571e"
+                }
               }
             }
           }
         },
         "active": {
           "$value": {
-            "colorSpace": "srgb",
+            "colorSpace": "hsl",
             "components": [
-              0.09803921568627451,
-              0.4745098039215686,
-              0.20784313725490197
+              137.5,
+              65.8,
+              28.6
             ],
-            "alpha": 1,
             "hex": "#197935"
           },
           "$type": "color",
@@ -388,56 +564,151 @@
             },
             "org.primer.overrides": {
               "dark": {
-                "$value": "#2E9A40"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    130,
+                    54,
+                    39.2
+                  ],
+                  "hex": "#2E9A40"
+                }
               },
               "dark-dimmed": {
-                "$value": "#428f46"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    123.1,
+                    36.8,
+                    41
+                  ],
+                  "hex": "#428f46"
+                }
               },
               "dark-dimmed-high-contrast": {
                 "$value": "{base.color.green.5}"
               },
               "dark-tritanopia": {
-                "$value": "#3685f3"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    214.9,
+                    88.7,
+                    58.2
+                  ],
+                  "hex": "#3685f3"
+                }
               },
               "dark-tritanopia-high-contrast": {
-                "$value": "#3685f3"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    214.9,
+                    88.7,
+                    58.2
+                  ],
+                  "hex": "#3685f3"
+                }
               },
               "dark-protanopia-deuteranopia": {
-                "$value": "#3685f3"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    214.9,
+                    88.7,
+                    58.2
+                  ],
+                  "hex": "#3685f3"
+                }
               },
               "dark-protanopia-deuteranopia-high-contrast": {
-                "$value": "#3685f3"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    214.9,
+                    88.7,
+                    58.2
+                  ],
+                  "hex": "#3685f3"
+                }
               },
               "dark-high-contrast": {
-                "$value": "#109135"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    137.2,
+                    80.1,
+                    31.6
+                  ],
+                  "hex": "#109135"
+                }
               },
               "light-tritanopia": {
-                "$value": "#075fc8"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    212.6,
+                    93.2,
+                    40.6
+                  ],
+                  "hex": "#075fc8"
+                }
               },
               "light-tritanopia-high-contrast": {
-                "$value": "#075fc8"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    212.6,
+                    93.2,
+                    40.6
+                  ],
+                  "hex": "#075fc8"
+                }
               },
               "light-protanopia-deuteranopia": {
-                "$value": "#075fc8"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    212.6,
+                    93.2,
+                    40.6
+                  ],
+                  "hex": "#075fc8"
+                }
               },
               "light-protanopia-deuteranopia-high-contrast": {
-                "$value": "#075fc8"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    212.6,
+                    93.2,
+                    40.6
+                  ],
+                  "hex": "#075fc8"
+                }
               },
               "light-high-contrast": {
-                "$value": "#03501b"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    138.7,
+                    92.8,
+                    16.3
+                  ],
+                  "hex": "#03501b"
+                }
               }
             }
           }
         },
         "disabled": {
           "$value": {
-            "colorSpace": "srgb",
+            "colorSpace": "hsl",
             "components": [
-              0.5843137254901961,
-              0.8470588235294118,
-              0.6509803921568628
+              135.2,
+              46.2,
+              71.6
             ],
-            "alpha": 1,
             "hex": "#95d8a6"
           },
           "$type": "color",
@@ -451,16 +722,48 @@
             },
             "org.primer.overrides": {
               "dark": {
-                "$value": "#105823"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    135.8,
+                    69.2,
+                    20.4
+                  ],
+                  "hex": "#105823"
+                }
               },
               "dark-dimmed": {
-                "$value": "#105823"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    135.8,
+                    69.2,
+                    20.4
+                  ],
+                  "hex": "#105823"
+                }
               },
               "dark-tritanopia": {
-                "$value": "#5fabfe"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    211.3,
+                    98.8,
+                    68.4
+                  ],
+                  "hex": "#5fabfe"
+                }
               },
               "dark-tritanopia-high-contrast": {
-                "$value": "#5fabfe"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    211.3,
+                    98.8,
+                    68.4
+                  ],
+                  "hex": "#5fabfe"
+                }
               },
               "dark-protanopia-deuteranopia": {
                 "$value": "{base.color.blue.6}"
@@ -469,22 +772,70 @@
                 "$value": "{base.color.blue.6}"
               },
               "dark-high-contrast": {
-                "$value": "#048f2f"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    138.6,
+                    94.6,
+                    28.8
+                  ],
+                  "hex": "#048f2f"
+                }
               },
               "light-tritanopia": {
-                "$value": "#92caff"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    209.2,
+                    100,
+                    78.6
+                  ],
+                  "hex": "#92caff"
+                }
               },
               "light-tritanopia-high-contrast": {
-                "$value": "#92caff"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    209.2,
+                    100,
+                    78.6
+                  ],
+                  "hex": "#92caff"
+                }
               },
               "light-protanopia-deuteranopia": {
-                "$value": "#92caff"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    209.2,
+                    100,
+                    78.6
+                  ],
+                  "hex": "#92caff"
+                }
               },
               "light-protanopia-deuteranopia-high-contrast": {
-                "$value": "#92caff"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    209.2,
+                    100,
+                    78.6
+                  ],
+                  "hex": "#92caff"
+                }
               },
               "light-high-contrast": {
-                "$value": "#85cb97"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    135.4,
+                    40.2,
+                    65.9
+                  ],
+                  "hex": "#85cb97"
+                }
               }
             }
           }
@@ -573,29 +924,85 @@
             },
             "org.primer.overrides": {
               "dark": {
-                "$value": "#105823"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    135.8,
+                    69.2,
+                    20.4
+                  ],
+                  "hex": "#105823"
+                }
               },
               "dark-dimmed": {
-                "$value": "#105823"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    135.8,
+                    69.2,
+                    20.4
+                  ],
+                  "hex": "#105823"
+                }
               },
               "dark-tritanopia": {
-                "$value": "#5fabfe"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    211.3,
+                    98.8,
+                    68.4
+                  ],
+                  "hex": "#5fabfe"
+                }
               },
               "dark-tritanopia-high-contrast": {
-                "$value": "#5fabfe"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    211.3,
+                    98.8,
+                    68.4
+                  ],
+                  "hex": "#5fabfe"
+                }
               },
               "dark-protanopia-deuteranopia": {
-                "$value": "#1158c7"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    216.6,
+                    84.3,
+                    42.4
+                  ],
+                  "hex": "#1158c7"
+                }
               },
               "dark-protanopia-deuteranopia-high-contrast": {
-                "$value": "#1158c7"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    216.6,
+                    84.3,
+                    42.4
+                  ],
+                  "hex": "#1158c7"
+                }
               },
               "dark-high-contrast": {
                 "$value": "{base.color.green.2}",
                 "alpha": 0.4
               },
               "light-high-contrast": {
-                "$value": "#85cb97"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    135.4,
+                    40.2,
+                    65.9
+                  ],
+                  "hex": "#85cb97"
+                }
               }
             }
           }
@@ -607,19 +1014,31 @@
             {
               "color": "{base.color.green.9}",
               "offsetX": {
-                "value": 0,
+                "value": {
+                  "value": 0,
+                  "unit": "px"
+                },
                 "unit": "px"
               },
               "offsetY": {
-                "value": 1,
+                "value": {
+                  "value": 1,
+                  "unit": "px"
+                },
                 "unit": "px"
               },
               "blur": {
-                "value": 0,
+                "value": {
+                  "value": 0,
+                  "unit": "px"
+                },
                 "unit": "px"
               },
               "spread": {
-                "value": 0,
+                "value": {
+                  "value": 0,
+                  "unit": "px"
+                },
                 "unit": "px"
               },
               "inset": true
@@ -637,10 +1056,22 @@
                   {
                     "color": "{base.color.blue.9}",
                     "alpha": 0.3,
-                    "offsetX": "0px",
-                    "offsetY": "1px",
-                    "blur": "0px",
-                    "spread": "0px",
+                    "offsetX": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "offsetY": {
+                      "value": 1,
+                      "unit": "px"
+                    },
+                    "blur": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "spread": {
+                      "value": 0,
+                      "unit": "px"
+                    },
                     "inset": true
                   }
                 ]
@@ -650,10 +1081,22 @@
                   {
                     "color": "{base.color.blue.9}",
                     "alpha": 0.3,
-                    "offsetX": "0px",
-                    "offsetY": "1px",
-                    "blur": "0px",
-                    "spread": "0px",
+                    "offsetX": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "offsetY": {
+                      "value": 1,
+                      "unit": "px"
+                    },
+                    "blur": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "spread": {
+                      "value": 0,
+                      "unit": "px"
+                    },
                     "inset": true
                   }
                 ]
@@ -663,10 +1106,22 @@
                   {
                     "color": "{base.color.transparent}",
                     "alpha": 0,
-                    "offsetX": "0px",
-                    "offsetY": "0px",
-                    "blur": "0px",
-                    "spread": "0px",
+                    "offsetX": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "offsetY": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "blur": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "spread": {
+                      "value": 0,
+                      "unit": "px"
+                    },
                     "inset": false
                   }
                 ]
@@ -1083,7 +1538,16 @@
                 "alpha": 0.5
               },
               "dark-dimmed": {
-                "$value": "#478be680"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    214.3,
+                    76.1,
+                    59
+                  ],
+                  "hex": "#478be6"
+                },
+                "alpha": 0.502
               }
             }
           },
@@ -1125,20 +1589,27 @@
                 "$value": "{control.bgColor.hover}"
               },
               "dark-tritanopia": {
-                "$value": "#262c36"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    217.5,
+                    17.4,
+                    18
+                  ],
+                  "hex": "#262c36"
+                }
               }
             }
           }
         },
         "active": {
           "$value": {
-            "colorSpace": "srgb",
+            "colorSpace": "hsl",
             "components": [
-              0.027450980392156862,
-              0.3411764705882353,
-              0.7294117647058823
+              213.2,
+              92.7,
+              37.8
             ],
-            "alpha": 1,
             "hex": "#0757ba"
           },
           "$type": "color",
@@ -1155,19 +1626,59 @@
                 "$value": "{base.color.blue.7}"
               },
               "dark-tritanopia": {
-                "$value": "#0d419d"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    218.3,
+                    84.7,
+                    33.3
+                  ],
+                  "hex": "#0d419d"
+                }
               },
               "dark-tritanopia-high-contrast": {
-                "$value": "#0d419d"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    218.3,
+                    84.7,
+                    33.3
+                  ],
+                  "hex": "#0d419d"
+                }
               },
               "light-high-contrast": {
-                "$value": "#033f9d"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    216.6,
+                    96.3,
+                    31.4
+                  ],
+                  "hex": "#033f9d"
+                }
               },
               "light-tritanopia-high-contrast": {
-                "$value": "#033f9d"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    216.6,
+                    96.3,
+                    31.4
+                  ],
+                  "hex": "#033f9d"
+                }
               },
               "light-protanopia-deuteranopia-high-contrast": {
-                "$value": "#033f9d"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    216.6,
+                    96.3,
+                    31.4
+                  ],
+                  "hex": "#033f9d"
+                }
               }
             }
           }
@@ -1188,7 +1699,15 @@
                 "$value": "{control.bgColor.disabled}"
               },
               "dark-tritanopia": {
-                "$value": "#212830"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    212,
+                    18.5,
+                    15.9
+                  ],
+                  "hex": "#212830"
+                }
               }
             }
           }
@@ -1242,19 +1761,31 @@
             {
               "color": "{base.color.blue.9}",
               "offsetX": {
-                "value": 0,
+                "value": {
+                  "value": 0,
+                  "unit": "px"
+                },
                 "unit": "px"
               },
               "offsetY": {
-                "value": 1,
+                "value": {
+                  "value": 1,
+                  "unit": "px"
+                },
                 "unit": "px"
               },
               "blur": {
-                "value": 0,
+                "value": {
+                  "value": 0,
+                  "unit": "px"
+                },
                 "unit": "px"
               },
               "spread": {
-                "value": 0,
+                "value": {
+                  "value": 0,
+                  "unit": "px"
+                },
                 "unit": "px"
               },
               "inset": true
@@ -1272,10 +1803,22 @@
                   {
                     "color": "{base.color.transparent}",
                     "alpha": 0,
-                    "offsetX": "0px",
-                    "offsetY": "0px",
-                    "blur": "0px",
-                    "spread": "0px",
+                    "offsetX": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "offsetY": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "blur": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "spread": {
+                      "value": 0,
+                      "unit": "px"
+                    },
                     "inset": false
                   }
                 ]
@@ -1300,10 +1843,26 @@
             },
             "org.primer.overrides": {
               "dark": {
-                "$value": "#FA5E55"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    3.3,
+                    94.3,
+                    65.7
+                  ],
+                  "hex": "#FA5E55"
+                }
               },
               "dark-dimmed": {
-                "$value": "#ea5c53"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    3.6,
+                    78.2,
+                    62.2
+                  ],
+                  "hex": "#ea5c53"
+                }
               },
               "dark-dimmed-high-contrast": {
                 "$value": "{base.color.red.1}"
@@ -1339,10 +1898,26 @@
                 "$value": "{base.color.neutral.13}"
               },
               "dark-dimmed-high-contrast": {
-                "$value": "#ffffff"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    0,
+                    0,
+                    100
+                  ],
+                  "hex": "#ffffff"
+                }
               },
               "dark-dimmed": {
-                "$value": "#ffffff"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    0,
+                    0,
+                    100
+                  ],
+                  "hex": "#ffffff"
+                }
               }
             }
           }
@@ -1363,10 +1938,26 @@
                 "$value": "{base.color.neutral.13}"
               },
               "dark-dimmed-high-contrast": {
-                "$value": "#ffffff"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    0,
+                    0,
+                    100
+                  ],
+                  "hex": "#ffffff"
+                }
               },
               "dark-dimmed": {
-                "$value": "#ffffff"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    0,
+                    0,
+                    100
+                  ],
+                  "hex": "#ffffff"
+                }
               }
             }
           }
@@ -1422,8 +2013,29 @@
                 "$value": "{base.color.neutral.13}"
               },
               "dark-dimmed-high-contrast": {
-                "$value": "#ffffff"
+                "$value": {
+                  "colorSpace": "hsl",
+                  "components": [
+                    0,
+                    0,
+                    100
+                  ],
+                  "hex": "#ffffff"
+                }
               }
+            }
+          }
+        },
+        "disabled": {
+          "$value": "{button.danger.fgColor.disabled}",
+          "$type": "color",
+          "$extensions": {
+            "org.primer.figma": {
+              "collection": "mode",
+              "group": "component (internal)",
+              "scopes": [
+                "fgColor"
+              ]
             }
           }
         }
@@ -1635,19 +2247,31 @@
             {
               "color": "{base.color.red.9}",
               "offsetX": {
-                "value": 0,
+                "value": {
+                  "value": 0,
+                  "unit": "px"
+                },
                 "unit": "px"
               },
               "offsetY": {
-                "value": 1,
+                "value": {
+                  "value": 1,
+                  "unit": "px"
+                },
                 "unit": "px"
               },
               "blur": {
-                "value": 0,
+                "value": {
+                  "value": 0,
+                  "unit": "px"
+                },
                 "unit": "px"
               },
               "spread": {
-                "value": 0,
+                "value": {
+                  "value": 0,
+                  "unit": "px"
+                },
                 "unit": "px"
               },
               "inset": true
@@ -1665,10 +2289,22 @@
                   {
                     "color": "{base.color.orange.9}",
                     "alpha": 0.2,
-                    "offsetX": "0px",
-                    "offsetY": "1px",
-                    "blur": "0px",
-                    "spread": "0px",
+                    "offsetX": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "offsetY": {
+                      "value": 1,
+                      "unit": "px"
+                    },
+                    "blur": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "spread": {
+                      "value": 0,
+                      "unit": "px"
+                    },
                     "inset": true
                   }
                 ]
@@ -1678,10 +2314,22 @@
                   {
                     "color": "{base.color.transparent}",
                     "alpha": 0,
-                    "offsetX": "0px",
-                    "offsetY": "0px",
-                    "blur": "0px",
-                    "spread": "0px",
+                    "offsetX": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "offsetY": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "blur": {
+                      "value": 0,
+                      "unit": "px"
+                    },
+                    "spread": {
+                      "value": 0,
+                      "unit": "px"
+                    },
                     "inset": false
                   }
                 ]
@@ -1692,6 +2340,7 @@
       }
     },
     "inactive": {
+      "$description": "Single-state button variant for non-interactive/inactive buttons (e.g. unselected segmented control tabs). Does not have rest/hover/active/disabled interaction states — \"inactive\" is the state.",
       "fgColor": {
         "$value": "{base.color.neutral.9}",
         "$type": "color",
@@ -1760,6 +2409,7 @@
       }
     },
     "star": {
+      "$description": "Star icon color for the starred/filled state of the star button. Single-state token — does not have rest/hover/active/disabled interaction states.",
       "iconColor": {
         "$value": "{base.color.yellow.2}",
         "$type": "color",
@@ -2076,13 +2726,12 @@
       "fgColor": {
         "rest": {
           "$value": {
-            "colorSpace": "srgb",
+            "colorSpace": "hsl",
             "components": [
-              0.7607843137254902,
-              0.10980392156862745,
-              0.17254901960784313
+              354.2,
+              74.8,
+              43.5
             ],
-            "alpha": 1,
             "hex": "#c21c2c"
           },
           "$type": "color",
@@ -2697,6 +3346,7 @@
       }
     },
     "inactive": {
+      "$description": "Keybinding hint colors for inactive button state. Single-state — does not have rest/hover/active/disabled interaction states.",
       "bgColor": {
         "$value": "{base.color.neutral.2}",
         "$type": "color",
