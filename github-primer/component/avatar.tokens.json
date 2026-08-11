@@ -61,31 +61,19 @@
         {
           "color": "{base.color.neutral.0}",
           "offsetX": {
-            "value": {
-              "value": 0,
-              "unit": "px"
-            },
+            "value": 0,
             "unit": "px"
           },
           "offsetY": {
-            "value": {
-              "value": 0,
-              "unit": "px"
-            },
+            "value": 0,
             "unit": "px"
           },
           "blur": {
-            "value": {
-              "value": 0,
-              "unit": "px"
-            },
+            "value": 0,
             "unit": "px"
           },
           "spread": {
-            "value": {
-              "value": 2,
-              "unit": "px"
-            },
+            "value": 2,
             "unit": "px"
           }
         }

@@ -1,3 +1,7 @@
+## 1.1.3
+
+- Fix GitHub Primer `duration` and `dimension` tokens
+
 ## 1.1.2
 
 - Microsoft Fluent: fix `semanticColors.cardShadow` and `semanticColors.cardShadowHovered`

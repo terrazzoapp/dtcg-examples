@@ -5,11 +5,8 @@
       "size": {
         "xs": {
           "$value": {
-            "value": {
-              "value": 0.75,
-              "unit": "rem"
-            },
-            "unit": "px"
+            "value": 0.75,
+            "unit": "rem"
           },
           "$type": "dimension",
           "$description": "12px - Smallest text size for captions and compact UI elements.",
@@ -24,11 +21,8 @@
         },
         "sm": {
           "$value": {
-            "value": {
-              "value": 0.875,
-              "unit": "rem"
-            },
-            "unit": "px"
+            "value": 0.875,
+            "unit": "rem"
           },
           "$type": "dimension",
           "$description": "14px - Default body text size for UI.",
@@ -43,11 +37,8 @@
         },
         "md": {
           "$value": {
-            "value": {
-              "value": 1,
-              "unit": "rem"
-            },
-            "unit": "px"
+            "value": 1,
+            "unit": "rem"
           },
           "$type": "dimension",
           "$description": "16px - Large body text and small titles.",
@@ -62,11 +53,8 @@
         },
         "lg": {
           "$value": {
-            "value": {
-              "value": 1.25,
-              "unit": "rem"
-            },
-            "unit": "px"
+            "value": 1.25,
+            "unit": "rem"
           },
           "$type": "dimension",
           "$description": "20px - Medium titles and subtitles.",
@@ -81,11 +69,8 @@
         },
         "xl": {
           "$value": {
-            "value": {
-              "value": 2,
-              "unit": "rem"
-            },
-            "unit": "px"
+            "value": 2,
+            "unit": "rem"
           },
           "$type": "dimension",
           "$description": "32px - Large titles and page headings.",
@@ -100,11 +85,8 @@
         },
         "2xl": {
           "$value": {
-            "value": {
-              "value": 2.5,
-              "unit": "rem"
-            },
-            "unit": "px"
+            "value": 2.5,
+            "unit": "rem"
           },
           "$type": "dimension",
           "$description": "40px - Display text for hero sections.",

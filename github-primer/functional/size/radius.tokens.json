@@ -3,10 +3,7 @@
   "borderRadius": {
     "small": {
       "$value": {
-        "value": {
-          "value": 3,
-          "unit": "px"
-        },
+        "value": 3,
         "unit": "px"
       },
       "$description": "Scale token: 3px radius for compact UI elements or small component variants.",
@@ -34,10 +31,7 @@
     },
     "medium": {
       "$value": {
-        "value": {
-          "value": 6,
-          "unit": "px"
-        },
+        "value": 6,
         "unit": "px"
       },
       "$description": "Scale token: 6px radius in the border-radius scale. Use when selecting a specific radius intentionally.",
@@ -67,10 +61,7 @@
     },
     "large": {
       "$value": {
-        "value": {
-          "value": 12,
-          "unit": "px"
-        },
+        "value": 12,
         "unit": "px"
       },
       "$description": "Scale token: 12px radius for larger surfaces or softer container treatments.",
@@ -97,10 +88,7 @@
     },
     "full": {
       "$value": {
-        "value": {
-          "value": 9999,
-          "unit": "px"
-        },
+        "value": 9999,
         "unit": "px"
       },
       "$type": "dimension",

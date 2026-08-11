@@ -34,10 +34,7 @@
     },
     "thin": {
       "$value": {
-        "value": {
-          "value": 1,
-          "unit": "px"
-        },
+        "value": 1,
         "unit": "px"
       },
       "$description": "Scale token: 1px border width. Use when selecting an explicit size from the border-width scale.",
@@ -54,10 +51,7 @@
     },
     "thick": {
       "$value": {
-        "value": {
-          "value": 2,
-          "unit": "px"
-        },
+        "value": 2,
         "unit": "px"
       },
       "$description": "Scale token: 2px border width for emphasis or focus states.",
@@ -82,10 +76,7 @@
     },
     "thicker": {
       "$value": {
-        "value": {
-          "value": 4,
-          "unit": "px"
-        },
+        "value": 4,
         "unit": "px"
       },
       "$description": "Scale token: 4px border width for strong emphasis.",

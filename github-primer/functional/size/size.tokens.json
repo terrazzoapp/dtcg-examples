@@ -55,10 +55,7 @@
       },
       "paddingBlock": {
         "$value": {
-          "value": {
-            "value": 2,
-            "unit": "px"
-          },
+          "value": 2,
           "unit": "px"
         },
         "$type": "dimension",
@@ -213,10 +210,7 @@
       },
       "paddingBlock": {
         "$value": {
-          "value": {
-            "value": 6,
-            "unit": "px"
-          },
+          "value": 6,
           "unit": "px"
         },
         "$type": "dimension",
@@ -295,10 +289,7 @@
       },
       "paddingBlock": {
         "$value": {
-          "value": {
-            "value": 10,
-            "unit": "px"
-          },
+          "value": 10,
           "unit": "px"
         },
         "$type": "dimension",
@@ -377,10 +368,7 @@
       },
       "paddingBlock": {
         "$value": {
-          "value": {
-            "value": 14,
-            "unit": "px"
-          },
+          "value": 14,
           "unit": "px"
         },
         "$type": "dimension",
@@ -460,10 +448,7 @@
     "strokeWidth": {
       "default": {
         "$value": {
-          "value": {
-            "value": 2,
-            "unit": "px"
-          },
+          "value": 2,
           "unit": "px"
         },
         "$type": "dimension"
@@ -774,10 +759,7 @@
     "width": {
       "xsmall": {
         "$value": {
-          "value": {
-            "value": 192,
-            "unit": "px"
-          },
+          "value": 192,
           "unit": "px"
         },
         "$type": "dimension",
@@ -792,10 +774,7 @@
       },
       "small": {
         "$value": {
-          "value": {
-            "value": 320,
-            "unit": "px"
-          },
+          "value": 320,
           "unit": "px"
         },
         "$type": "dimension",
@@ -810,10 +789,7 @@
       },
       "medium": {
         "$value": {
-          "value": {
-            "value": 480,
-            "unit": "px"
-          },
+          "value": 480,
           "unit": "px"
         },
         "$type": "dimension",
@@ -828,10 +804,7 @@
       },
       "large": {
         "$value": {
-          "value": {
-            "value": 640,
-            "unit": "px"
-          },
+          "value": 640,
           "unit": "px"
         },
         "$type": "dimension",
@@ -846,10 +819,7 @@
       },
       "xlarge": {
         "$value": {
-          "value": {
-            "value": 960,
-            "unit": "px"
-          },
+          "value": 960,
           "unit": "px"
         },
         "$type": "dimension",
@@ -866,10 +836,7 @@
     "height": {
       "small": {
         "$value": {
-          "value": {
-            "value": 256,
-            "unit": "px"
-          },
+          "value": 256,
           "unit": "px"
         },
         "$type": "dimension",
@@ -884,10 +851,7 @@
       },
       "medium": {
         "$value": {
-          "value": {
-            "value": 320,
-            "unit": "px"
-          },
+          "value": 320,
           "unit": "px"
         },
         "$type": "dimension",
@@ -902,10 +866,7 @@
       },
       "large": {
         "$value": {
-          "value": {
-            "value": 432,
-            "unit": "px"
-          },
+          "value": 432,
           "unit": "px"
         },
         "$type": "dimension",
@@ -920,10 +881,7 @@
       },
       "xlarge": {
         "$value": {
-          "value": {
-            "value": 600,
-            "unit": "px"
-          },
+          "value": 600,
           "unit": "px"
         },
         "$type": "dimension",
@@ -1003,10 +961,7 @@
     },
     "offset": {
       "$value": {
-        "value": {
-          "value": 4,
-          "unit": "px"
-        },
+        "value": 4,
         "unit": "px"
       },
       "$type": "dimension",

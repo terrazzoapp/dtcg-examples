@@ -544,10 +544,7 @@
     "codeBlock": {
       "size": {
         "$value": {
-          "value": {
-            "value": 13,
-            "unit": "px"
-          },
+          "value": 13,
           "unit": "px"
         },
         "$type": "dimension",
@@ -612,11 +609,8 @@
     "codeInline": {
       "size": {
         "$value": {
-          "value": {
-            "value": 0.9285,
-            "unit": "em"
-          },
-          "unit": "px"
+          "value": 0.9285,
+          "unit": "em"
         },
         "$type": "dimension",
         "$extensions": {

@@ -45,10 +45,7 @@
     },
     "outline-width": {
       "$value": {
-        "value": {
-          "value": 2,
-          "unit": "px"
-        },
+        "value": 2,
         "unit": "px"
       },
       "$type": "dimension",
@@ -73,10 +70,7 @@
     },
     "outline-offset": {
       "$value": {
-        "value": {
-          "value": -2,
-          "unit": "px"
-        },
+        "value": -2,
         "unit": "px"
       },
       "$type": "dimension",

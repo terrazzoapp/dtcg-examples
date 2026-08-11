@@ -1,6 +1,24 @@
 import fs from "node:fs/promises";
 import { fileURLToPath } from "node:url";
-import { A98RGB, ColorSpace, HSL, HWB, Lab, LCH, OKLab, OKLCH, P3, ProPhoto, parse, REC_2020, serialize, sRGB, sRGB_Linear, XYZ_D50, XYZ_D65 } from "colorjs.io/fn";
+import {
+  A98RGB,
+  ColorSpace,
+  HSL,
+  HWB,
+  Lab,
+  LCH,
+  OKLab,
+  OKLCH,
+  P3,
+  ProPhoto,
+  parse,
+  REC_2020,
+  serialize,
+  sRGB,
+  sRGB_Linear,
+  XYZ_D50,
+  XYZ_D65,
+} from "colorjs.io/fn";
 import json5 from "json5";
 import { glob } from "tinyglobby";
 
@@ -59,7 +77,12 @@ export async function normalize(filepath) {
 
   let $type;
   function walk(node, path = []) {
-    if (!node || typeof node === "string" || typeof node === "number" || typeof node === "boolean") {
+    if (
+      !node ||
+      typeof node === "string" ||
+      typeof node === "number" ||
+      typeof node === "boolean"
+    ) {
       return;
     }
     if (Array.isArray(node)) {
@@ -84,7 +107,10 @@ export async function normalize(filepath) {
   }
   walk(tokens);
 
-  await fs.writeFile(fileURLToPath(filepath).replace(/\.json5$/, ".tokens.json"), JSON.stringify(tokens, undefined, 2));
+  await fs.writeFile(
+    fileURLToPath(filepath).replace(/\.json5$/, ".tokens.json"),
+    JSON.stringify(tokens, undefined, 2),
+  );
 }
 
 /**
@@ -165,8 +191,10 @@ export function dimensionToken($value) {
         unit: $value.replace(number, ""),
       },
     };
+  } else if (typeof $value === "number") {
+    return { $type: "dimension", $value: { value: $value ?? 0, unit: "px" } };
   }
-  return { $type: "dimension", $value: { value: $value ?? 0, unit: "px" } };
+  return { $type: "dimension", $value };
 }
 
 /** @param {number|string} */
@@ -183,8 +211,10 @@ export function durationToken($value) {
         unit: $value.replace(number, ""),
       },
     };
+  } else if (typeof $value === "number") {
+    return { $type: "duration", $value: { value: $value ?? 0, unit: "ms" } };
   }
-  return { $type: "duration", $value: { value: $value ?? 0, unit: "ms" } };
+  return { $type: "duration", $value };
 }
 
 /** @param {any} */
@@ -204,7 +234,10 @@ export function borderToken($value) {
 
 /** @param {number|string} */
 export function numberToken($value) {
-  return { $type: "number", $value: typeof $value === "string" ? Number.parseFloat($value) : $value };
+  return {
+    $type: "number",
+    $value: typeof $value === "string" ? Number.parseFloat($value) : $value,
+  };
 }
 
 /** @param {any} */

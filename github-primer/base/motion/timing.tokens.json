@@ -4,120 +4,84 @@
     "duration": {
       "0": {
         "$value": {
-          "value": {
-            "value": 0,
-            "unit": "ms"
-          },
+          "value": 0,
           "unit": "ms"
         },
         "$type": "duration"
       },
       "50": {
         "$value": {
-          "value": {
-            "value": 50,
-            "unit": "ms"
-          },
+          "value": 50,
           "unit": "ms"
         },
         "$type": "duration"
       },
       "100": {
         "$value": {
-          "value": {
-            "value": 100,
-            "unit": "ms"
-          },
+          "value": 100,
           "unit": "ms"
         },
         "$type": "duration"
       },
       "200": {
         "$value": {
-          "value": {
-            "value": 200,
-            "unit": "ms"
-          },
+          "value": 200,
           "unit": "ms"
         },
         "$type": "duration"
       },
       "300": {
         "$value": {
-          "value": {
-            "value": 300,
-            "unit": "ms"
-          },
+          "value": 300,
           "unit": "ms"
         },
         "$type": "duration"
       },
       "400": {
         "$value": {
-          "value": {
-            "value": 400,
-            "unit": "ms"
-          },
+          "value": 400,
           "unit": "ms"
         },
         "$type": "duration"
       },
       "500": {
         "$value": {
-          "value": {
-            "value": 500,
-            "unit": "ms"
-          },
+          "value": 500,
           "unit": "ms"
         },
         "$type": "duration"
       },
       "600": {
         "$value": {
-          "value": {
-            "value": 600,
-            "unit": "ms"
-          },
+          "value": 600,
           "unit": "ms"
         },
         "$type": "duration"
       },
       "700": {
         "$value": {
-          "value": {
-            "value": 700,
-            "unit": "ms"
-          },
+          "value": 700,
           "unit": "ms"
         },
         "$type": "duration"
       },
       "800": {
         "$value": {
-          "value": {
-            "value": 800,
-            "unit": "ms"
-          },
+          "value": 800,
           "unit": "ms"
         },
         "$type": "duration"
       },
       "900": {
         "$value": {
-          "value": {
-            "value": 900,
-            "unit": "ms"
-          },
+          "value": 900,
           "unit": "ms"
         },
         "$type": "duration"
       },
       "1000": {
         "$value": {
-          "value": {
-            "value": 1000,
-            "unit": "ms"
-          },
+          "value": 1000,
           "unit": "ms"
         },
         "$type": "duration"
