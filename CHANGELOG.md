@@ -1,3 +1,7 @@
+## 1.1.1
+
+- Microsoft Fluent: fix bad elevation shadow values
+
 ## 1.1.0
 
 - GitHub Primer: update to v11.10.0
