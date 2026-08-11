@@ -1,3 +1,7 @@
+## 1.1.2
+
+- Microsoft Fluent: fix `semanticColors.cardShadow` and `semanticColors.cardShadowHovered`
+
 ## 1.1.1
 
 - Microsoft Fluent: fix bad elevation shadow values
